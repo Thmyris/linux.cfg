@@ -104,8 +104,8 @@ xfce4-shreenshooter --region -> Ctrl + ]
 xfce4-screenshooter --window -> Ctrl + [
 
 15) GIT INIT
-git config --global user.name "Ahmet Albayrak"
 git config --global user.email thmyris@windowslive.com
+git config --global user.name "Ahmet Albayrak"
 
 
 
