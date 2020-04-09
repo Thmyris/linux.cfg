@@ -1,0 +1,2 @@
+youtube-dl --mark-watched --no-geo-bypass --yes-playlist -o '/media/thmyris/DEPO/ARSIV/ALL VIDEOS/youtube-downloads/%(playlist)s/%(uploader)s/%(title)s.%(ext)s' -v -f 'bestvideo[height<=1080][ext=mp4]+bestaudio/best[fps<=60]/best' 'https://www.youtube.com/playlist?list=PLOAPDD0hsSx1q5GHsVyDXvOLPEFO5HggD'
+read -p "Press [Enter] key to continue..."

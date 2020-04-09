@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Iris mini
+GenericName=Software for eye protection, health and productivity
+Exec=/tmp/.mount_akuJcj/iris-mini
+Icon=/home/thmyris/.local/share/icons/hicolor/512x512/apps/iris-mini.png
+Terminal=false
+Categories=Utility;Sports;Accessibility;
