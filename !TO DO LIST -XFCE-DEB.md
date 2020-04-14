@@ -1,5 +1,5 @@
 
-
+is there any way to stop cherrytree from "modernizing" punctuations like " and '. It's messing up code.
 find a proper video player, or, wine mpc-hc
 install flux or alternative
 
@@ -143,7 +143,7 @@ alias cs='cd;ls'
 ```
 
 22) xclip alias
-alias xclip = ‘xclip -selection clipboard’
+alias xclip = 'xclip -selection clipboard'
 
 23) automount win drive
 sudo /sbin/blkid
@@ -248,7 +248,11 @@ just adding "thunar" also works for xfce
 add a shortcut to CTRL+ALT+A -> bash -c 'sleep 0.3 &&xset dpms force off'
 or force standby
 
-31)
+31) tmux settings
+put these into cfg
+`
+
+`
 
 
 
