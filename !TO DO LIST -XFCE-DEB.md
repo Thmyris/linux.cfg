@@ -204,7 +204,11 @@ sudo systemctl reenable snapd.service #permanant
 
 `NOTE: some people say disabling the service isnt perma, so you have to mask it instead: sudo systemctl mask snapd.service`
 
-
+snap apparmor sometimes suicides so:
+systemctl status apparmor
+# "Yup, dead apparmor"
+systemctl restart apparmor
+snap restart lxd
 
 26) install snap
 from local .deb
