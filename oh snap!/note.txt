@@ -1,2 +1,0 @@
-snap servers are permenantly blocked by ip
-enable when you wanna download something, disable again immediately.

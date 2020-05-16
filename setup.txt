@@ -1,0 +1,115 @@
+# Name: setup.txt for kali linux 2020.1b
+# Author: Thmyris
+# Last update: 13.05.2020
+# About: The steps in this file requires manual clicking around which is annoying but setting it up for automation is x10 more annoying so we are good for 10 atleast formats.
+# Note: see setup.sh for things that need are automated.
+-------------------------------------------------
+0) 
+settings    -> panel    -> solid color black
+                        -> unlock panel, move down, lock panel
+                        -> untick don't reserve space on borders (fix fullscreen windows seeping under the start menu)
+                        -> row size (pixels) = 28
+                        -> items    -> show desktop to bottom
+                                    -> clock above it
+                                    -> remove log out and lock screen
+                                    -> remove kazam, TerminalEmulator, directory
+            -> windows Manager Tweaks   -> Cycle through windows in a list 
+                                        -> untick Use mouse wheel on title bar to roll up the window
+                                        -> tick Notify of urgency...
+                                        -> untick Wrap workspaces depending...
+                                        -> show shadows under popup windows
+            window manager  -> Advanced -> tick:Wrap workspaces...mouse pointer
+                                        -> increase edge resist to half
+                                        -> tick: when resizing
+            -> appearance -> custom dpi setting: 110
+            -> desktop -> tick: single click to activate items
+            -> file manager preferences -> Date: Custom: %d/%m/%Y %H:%M:%S
+                                        -> Open new thunar instances as tabs
+touchpad setings -> TICK:reverse scroll direction
+-------------------------------------------------
+1) cfg kate
+kate settings   -> appearance 	-> Show indentation lines
+                    -> Show word count
+                    -> Show line count
+                    -> Scrollbar minimap width 40
+                -> Fonts&Colors	-> Import custom File in /cfg: Vim (dark).kateschema
+                -> Editing    	-> Copy/Cut the curr...                                        
+-------------------------------------------------
+8) keyboard shortcuts
+__settings -> window manager__
+a. exo-open --launch TerminalEmulator -> Win+T
+b. show desktop: Win+D
+c. close window: F4
+#This is different from start menu finder
+__keyboard app__
+a. exo-open –-launch FileManager -> Win+E
+#just adding "thunar" also works for xfce
+b. xfce4-shreenshooter --region -> Ctrl + [
+c. xfce4-screenshooter --region --clipboard -> Ctrl + ]
+d. xfce4-appfinder: Win+F
+e. xfce4-appfinder --collapsed: win+R
+# In an ideal world, appfinder would be super & I'd unbind whiskermenu, but for now that doesnt seem possible.
+f. add a shortcut to CTRL+ALT+A -> bash -c 'sleep 0.3 &&xset dpms force off' or force standby
+-------------------------------------------------
+13) volume control
+microphone @ %50 is good.
+port: microphone(unplugged)
+-------------------------------------------------
+28) xfce power manager
+laptop lid -> switch off display for both settings
+security -> automatically lock session -> NEVA
+-------------------------------------------------
+25) disable snap auto update
+That said, there are a few workarounds to fool the snap tool from auto updating. Simply run the following commands on ALL your LXD servers:
+
+snap set system proxy.http="http://127.0.0.1:1111"
+snap set system proxy.https="http://127.0.0.1:1111"
+
+–or–
+
+You can run these IPTables commands:
+sudo /sbin/iptables -F #WARNING: -F cleans iptables
+sudo /sbin/iptables -A OUTPUT -d api.snapcraft.io -j DROP
+#make persistent for reboots
+sudo /sbin/iptables-save > /etc/iptables.up.rules #save the rules
+sudo bash -c 'echo "#!/bin/sh"  >> /etc/network/if-pre-up.d/iptables'
+sudo bash -c 'echo "/sbin/iptables-restore < /etc/iptables.up.rules"  >> /etc/network/if-pre-up.d/iptables'
+sudo chmod +x /etc/network/if-pre-up.d/iptables
+
+-or-
+
+as you can see from installsnap.log the services didnt start.
+the funny thing is they never start, not on reboot either
+so you can just roll with it and enable the service whenever you wanna use it and disable it afterwards
+maybe you can even alias the snap download + snap install commands to run a .sh to temporarily enable the service, run the command end disable it in the end.
+pretty funny stuff
+these are all you need:
+
+ENABLE:
+sudo systemctl start snapd.service
+sudo systemctl start snapd.socket
+sudo systemctl start snapd.seeded.service
+DISABLE:
+sudo systemctl stop snapd.service
+sudo systemctl stop snapd.socket
+sudo systemctl stop snapd.seeded.service
+perma:
+sudo systemctl disable snapd.service #permanant(do disable the service beforehand)
+sudo systemctl reenable snapd.service #permanant
+
+`NOTE: some people say disabling the service isnt perma, so you have to mask it instead: sudo systemctl mask snapd.service`
+
+snap apparmor sometimes suicides so:
+systemctl status apparmor
+# "Yup, dead apparmor"
+systemctl restart apparmor
+snap restart lxd
+-------------------------------------------------
+-2) terminal cfg
+Application Transparency -> %0
+Color scheme: Tango
+$TERM=xterm-256color
+History=10000
+font: inconsolata medium 16   #honestly fira code was better but qterminal wouldnt recognize :(
+-------------------------------------------------
+42) set vivaldi up, sync etc.

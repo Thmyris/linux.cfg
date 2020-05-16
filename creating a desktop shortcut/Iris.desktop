@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Iris
-GenericName=Software for eye protection, health and productivity
-Exec=/home/thmyris/Downloads/Iris-0.9.9-Linux-64bit/Iris
-Icon=/home/thmyris/.local/share/icons/hicolor/512x512/apps/Iris.png
-Terminal=false
-Categories=Utility;Sports;Accessibility;
