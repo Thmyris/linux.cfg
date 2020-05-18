@@ -55,6 +55,8 @@ sudo apt install -y ./deb/qbittorrent_4.1.5-1+deb10u1_amd64.deb
 sudo apt install -y ./deb/wget2_1.99.1-2.1_amd64.deb
 sudo apt install -y ./deb/vlc_3.0.10-1_amd64.deb
 sudo apt install -y ./deb/gdebi_0.9.5.7+nmu3_all.deb
+sudo apt install -y ./deb/tree_1.8.0-1+b1_amd64.deb
+sudo apt install -y ./deb/steghide_0.5.1-14_amd64.deb
 echo "done"
 
 echo "starting optional deb installations"

@@ -29,9 +29,9 @@ touchpad setings -> TICK:reverse scroll direction
 -------------------------------------------------
 1) cfg kate
 kate settings   -> appearance 	-> Show indentation lines
-                    -> Show word count
-                    -> Show line count
-                    -> Scrollbar minimap width 40
+                                -> Show word count
+                                -> Show line count
+                                -> Scrollbar minimap width 40
                 -> Fonts&Colors	-> Import custom File in /cfg: Vim (dark).kateschema
                 -> Editing    	-> Copy/Cut the curr...                                        
 -------------------------------------------------
@@ -104,6 +104,9 @@ systemctl status apparmor
 # "Yup, dead apparmor"
 systemctl restart apparmor
 snap restart lxd
+
+#NOTE: snapd.service, can sometimes just not load lol:
+systemctl restart snapd.service
 -------------------------------------------------
 -2) terminal cfg
 Application Transparency -> %0
