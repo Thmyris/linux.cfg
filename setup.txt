@@ -50,6 +50,12 @@ d. xfce4-appfinder: Win+F
 e. xfce4-appfinder --collapsed: win+R
 # In an ideal world, appfinder would be super & I'd unbind whiskermenu, but for now that doesnt seem possible.
 f. add a shortcut to CTRL+ALT+A -> bash -c 'sleep 0.3 &&xset dpms force off' or force standby
+g. ksysguard -> Ctrl+Shift+ESC
+e. light -U 10 -> Ctrl+F1
+   light -A 10 -> Ctrl+F2
+
+-------------------------------------------------
+9) keyboard -> layout -> add -> Turkish, Change Key -> Win+Space
 -------------------------------------------------
 13) volume control
 microphone @ %50 is good.

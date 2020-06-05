@@ -109,7 +109,7 @@ echo "copying dotfiles"
 #dotfiles:
 #.tmux.conf
 #.bash_aliases
-#.config/cherrytree
+#.config
 cp -r dotfiles/. ~/.
 echo "done"
 

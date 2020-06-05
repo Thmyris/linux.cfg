@@ -1,0 +1,902 @@
+2020-05-21 20:24:07: "Database was open successfully"
+2020-05-21 20:24:07: "Checking for database schema update..."
+2020-05-21 20:24:07: "Current database version", "0"
+2020-05-21 20:24:07: "Converting database to version 1"
+2020-05-21 20:24:07: "Converting database to version 2"
+2020-05-21 20:24:07: "Converting database to version 3"
+2020-05-21 20:24:07: "Converting database to version 4"
+2020-05-21 20:24:07: "Converting database to version 5"
+2020-05-21 20:24:07: "Converting database to version 6"
+2020-05-21 20:24:07: "Converting database to version 7"
+2020-05-21 20:24:07: "Converting database to version 8"
+2020-05-21 20:24:07: "Converting database to version 9"
+2020-05-21 20:24:07: "Converting database to version 10"
+2020-05-21 20:24:07: "Converting database to version 11"
+2020-05-21 20:24:07: "Converting database to version 12"
+2020-05-21 20:24:07: "Converting database to version 13"
+2020-05-21 20:24:07: "Converting database to version 14"
+2020-05-21 20:24:07: "Converting database to version 15"
+2020-05-21 20:24:07: "Converting database to version 16"
+2020-05-21 20:24:07: "Converting database to version 17"
+2020-05-21 20:24:07: "Converting database to version 18"
+2020-05-21 20:24:07: "Converting database to version 19"
+2020-05-21 20:24:07: "Converting database to version 20"
+2020-05-21 20:24:07: "Converting database to version 21"
+2020-05-21 20:24:07: "Converting database to version 22"
+2020-05-21 20:24:07: "Converting database to version 23"
+2020-05-21 20:24:07: "Converting database to version 24"
+2020-05-21 20:24:08: "Converting database to version 25"
+2020-05-21 20:24:08: "Converting database to version 26"
+2020-05-21 20:24:08: "Converting database to version 27"
+2020-05-21 20:24:08: "Converting database to version 28"
+2020-05-21 20:24:08: "Initializing tables..."
+2020-05-21 20:24:09: "Saving settings..."
+2020-05-21 20:24:09: "Settings have been saved."
+2020-05-21 20:24:10: "Saving settings..."
+2020-05-21 20:24:10: "Settings have been saved."
+2020-05-21 20:24:12: "Saving settings..."
+2020-05-21 20:24:12: "Settings have been saved."
+2020-05-21 20:24:18: "Saving settings..."
+2020-05-21 20:24:18: "Settings have been saved."
+2020-05-21 20:24:25: "Saving settings..."
+2020-05-21 20:24:25: "Settings have been saved."
+2020-05-21 20:24:38: "Saving settings..."
+2020-05-21 20:24:38: "Settings have been saved."
+2020-05-21 20:24:40: "Saving settings..."
+2020-05-21 20:24:40: "Settings have been saved."
+2020-05-21 23:32:47: "Database was open successfully"
+2020-05-21 23:32:47: "Checking for database schema update..."
+2020-05-21 23:32:47: "Current database version", "28"
+2020-05-21 23:32:49: "Saving settings..."
+2020-05-21 23:32:50: "Settings have been saved."
+2020-05-21 23:53:48: "Saving settings..."
+2020-05-21 23:53:49: "Settings have been saved."
+2020-05-21 23:54:19: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "4. Tips 💡
+
+# Tips 💡
+
+The first few notes should have given you an overview of the main functionalities of Joplin, but there's more it can do. See below for some of these features and how to get more help using the app:
+
+## Web clipper
+
+![](:/924c1711130b4fe59f14f25d71c00ef4)
+
+The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. To start using it, open the Joplin desktop application, go to the Web Clipper Options and follow the instructions.
+
+More info on the official website: https://joplinapp.org/clipper/
+
+## Attachments
+
+Any kind of file can be attached to a note. In Markdown, links to these files are represented as an ID. In the note viewer, these files, if they are images, will be displayed or, if they are other files (PDF, text files, etc.) they will be displayed as links. Clicking on this link will open the file in the default application.
+
+Images can be attached either by clicking on "Attach file" or by pasting (with `Ctrl+V` or `Cmd+V`) an image directly in the editor, or by drag and dropping an image.
+
+More info about attachments: https://joplinapp.org#attachments--resources
+
+## Search
+
+Joplin supports advanced search queries, which are fully documented on the official website: https://joplinapp.org#searching
+
+## Alarms
+
+An alarm can be associated with any to-do. It will be triggered at the given time by displaying a notification. To use this feature, see the documentation: https://joplinapp.org#notifications
+
+## Markdown advanced tips
+
+Joplin uses and renders [Github-flavoured Markdown](https://joplinapp.org/markdown/) with a few variations and additions.
+
+For example, tables are supported:
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+You can also create lists of checkboxes. These checkboxes can be ticked directly in the viewer, or by adding an "x" inside:
+
+- [ ] Milk
+- [ ] Eggs
+- [x] Beer
+
+Math expressions can be added using the [KaTeX notation](https://khan.github.io/KaTeX/):
+
+$$
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+$$
+
+Various other tricks are possible, such as using HTML, or customising the CSS. See the Markdown documentation for more info - https://joplinapp.org#markdown
+
+## Community and further help
+
+- For general discussion about Joplin, user support, software development questions, and to discuss new features, go to the [Joplin Forum](https://discourse.joplinapp.org/). It is possible to login with your GitHub account.
+- The latest news are posted [on the Patreon page](https://www.patreon.com/joplin).
+- For bug reports and feature requests, go to the [GitHub Issue Tracker](https://github.com/laurent22/joplin/issues).
+
+## Donations
+
+Donations to Joplin support the development of the project. Developing quality applications mostly takes time, but there are also some expenses, such as digital certificates to sign the applications, app store fees, hosting, etc. Most of all, your donation will make it possible to keep up the current development standard.
+
+Please see the [donation page](https://joplinapp.org/donate/) for information on how to support the development of Joplin."
+2020-05-21 23:54:19: "replaceResourceInternalToExternalLinks result", "4. Tips 💡
+
+# Tips 💡
+
+The first few notes should have given you an overview of the main functionalities of Joplin, but there's more it can do. See below for some of these features and how to get more help using the app:
+
+## Web clipper
+
+![](resources/924c1711130b4fe59f14f25d71c00ef4.png)
+
+The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. To start using it, open the Joplin desktop application, go to the Web Clipper Options and follow the instructions.
+
+More info on the official website: https://joplinapp.org/clipper/
+
+## Attachments
+
+Any kind of file can be attached to a note. In Markdown, links to these files are represented as an ID. In the note viewer, these files, if they are images, will be displayed or, if they are other files (PDF, text files, etc.) they will be displayed as links. Clicking on this link will open the file in the default application.
+
+Images can be attached either by clicking on "Attach file" or by pasting (with `Ctrl+V` or `Cmd+V`) an image directly in the editor, or by drag and dropping an image.
+
+More info about attachments: https://joplinapp.org#attachments--resources
+
+## Search
+
+Joplin supports advanced search queries, which are fully documented on the official website: https://joplinapp.org#searching
+
+## Alarms
+
+An alarm can be associated with any to-do. It will be triggered at the given time by displaying a notification. To use this feature, see the documentation: https://joplinapp.org#notifications
+
+## Markdown advanced tips
+
+Joplin uses and renders [Github-flavoured Markdown](https://joplinapp.org/markdown/) with a few variations and additions.
+
+For example, tables are supported:
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+You can also create lists of checkboxes. These checkboxes can be ticked directly in the viewer, or by adding an "x" inside:
+
+- [ ] Milk
+- [ ] Eggs
+- [x] Beer
+
+Math expressions can be added using the [KaTeX notation](https://khan.github.io/KaTeX/):
+
+$$
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+$$
+
+Various other tricks are possible, such as using HTML, or customising the CSS. See the Markdown documentation for more info - https://joplinapp.org#markdown
+
+## Community and further help
+
+- For general discussion about Joplin, user support, software development questions, and to discuss new features, go to the [Joplin Forum](https://discourse.joplinapp.org/). It is possible to login with your GitHub account.
+- The latest news are posted [on the Patreon page](https://www.patreon.com/joplin).
+- For bug reports and feature requests, go to the [GitHub Issue Tracker](https://github.com/laurent22/joplin/issues).
+
+## Donations
+
+Donations to Joplin support the development of the project. Developing quality applications mostly takes time, but there are also some expenses, such as digital certificates to sign the applications, app store fees, hosting, etc. Most of all, your donation will make it possible to keep up the current development standard.
+
+Please see the [donation page](https://joplinapp.org/donate/) for information on how to support the development of Joplin."
+2020-05-22 03:40:00: "Database was open successfully"
+2020-05-22 03:40:00: "Checking for database schema update..."
+2020-05-22 03:40:00: "Current database version", "28"
+2020-05-22 03:40:02: "Saving settings..."
+2020-05-22 03:40:02: "Settings have been saved."
+2020-05-22 03:40:28: "Saving settings..."
+2020-05-22 03:40:28: "Settings have been saved."
+2020-05-22 03:40:31: "Saving settings..."
+2020-05-22 03:40:31: "Settings have been saved."
+2020-05-22 03:40:41: "Saving settings..."
+2020-05-22 03:40:41: "Settings have been saved."
+2020-05-22 03:40:56: "Saving settings..."
+2020-05-22 03:40:56: "Settings have been saved."
+2020-05-22 03:41:17: "Saving settings..."
+2020-05-22 03:41:17: "Settings have been saved."
+2020-05-22 03:41:28: "Saving settings..."
+2020-05-22 03:41:28: "Settings have been saved."
+2020-05-22 03:42:12: "Saving settings..."
+2020-05-22 03:42:12: "Settings have been saved."
+2020-05-22 03:42:35: "Saving settings..."
+2020-05-22 03:42:35: "Settings have been saved."
+2020-05-22 03:42:37: "Saving settings..."
+2020-05-22 03:42:37: "Settings have been saved."
+2020-05-22 03:42:38: "Saving settings..."
+2020-05-22 03:42:38: "Settings have been saved."
+2020-05-22 03:42:55: "Saving settings..."
+2020-05-22 03:42:55: "Settings have been saved."
+2020-05-22 03:43:08: "Saving settings..."
+2020-05-22 03:43:08: "Settings have been saved."
+2020-05-22 03:43:11: "Saving settings..."
+2020-05-22 03:43:11: "Settings have been saved."
+2020-05-22 03:43:15: "Saving settings..."
+2020-05-22 03:43:15: "Settings have been saved."
+2020-05-22 03:43:17: "Fetching geolocation..."
+2020-05-22 03:43:18: "Saving settings..."
+2020-05-22 03:43:18: "Settings have been saved."
+2020-05-22 03:43:18: "Got lat/long"
+2020-05-22 03:43:18: "Updating lat/long of note ac0a92551a2243e4b07343d52d48d527"
+2020-05-22 03:43:23: "Saving settings..."
+2020-05-22 03:43:23: "Settings have been saved."
+2020-05-22 03:43:28: "Saving settings..."
+2020-05-22 03:43:28: "Settings have been saved."
+2020-05-22 03:43:37: "Saving settings..."
+2020-05-22 03:43:37: "Settings have been saved."
+2020-05-22 03:43:39: "Saving settings..."
+2020-05-22 03:43:39: "Settings have been saved."
+2020-05-22 03:43:40: "Saving settings..."
+2020-05-22 03:43:40: "Settings have been saved."
+2020-05-22 03:43:40: "Saving settings..."
+2020-05-22 03:43:40: "Settings have been saved."
+2020-05-22 03:43:44: "Saving settings..."
+2020-05-22 03:43:44: "Settings have been saved."
+2020-05-22 03:44:37: "Saving settings..."
+2020-05-22 03:44:37: "Settings have been saved."
+2020-05-22 03:44:42: "Saving settings..."
+2020-05-22 03:44:42: "Settings have been saved."
+2020-05-22 03:44:43: "Saving settings..."
+2020-05-22 03:44:43: "Settings have been saved."
+2020-05-22 03:44:44: "Saving settings..."
+2020-05-22 03:44:44: "Settings have been saved."
+2020-05-22 03:45:11: "Saving settings..."
+2020-05-22 03:45:11: "Settings have been saved."
+2020-05-22 03:46:08: "Saving settings..."
+2020-05-22 03:46:08: "Settings have been saved."
+2020-05-22 03:46:10: "Saving settings..."
+2020-05-22 03:46:10: "Settings have been saved."
+2020-05-22 03:46:17: "Saving settings..."
+2020-05-22 03:46:17: "Settings have been saved."
+2020-05-22 03:46:19: "Saving settings..."
+2020-05-22 03:46:19: "Settings have been saved."
+2020-05-22 03:46:24: "Saving settings..."
+2020-05-22 03:46:24: "Settings have been saved."
+2020-05-22 03:46:27: "Saving settings..."
+2020-05-22 03:46:27: "Settings have been saved."
+2020-05-22 03:46:30: "Saving settings..."
+2020-05-22 03:46:31: "Settings have been saved."
+2020-05-22 03:46:31: "Saving settings..."
+2020-05-22 03:46:31: "Settings have been saved."
+2020-05-22 03:46:33: "Saving settings..."
+2020-05-22 03:46:33: "Settings have been saved."
+2020-05-22 03:46:35: "Saving settings..."
+2020-05-22 03:46:35: "Settings have been saved."
+2020-05-22 03:46:36: "Saving settings..."
+2020-05-22 03:46:36: "Settings have been saved."
+2020-05-22 03:46:39: "Updating lat/long of note a1d9703ba054443cb572fd4ab4c6a80f"
+2020-05-22 03:46:42: "Saving settings..."
+2020-05-22 03:46:42: "Settings have been saved."
+2020-05-22 03:46:42: "Saving settings..."
+2020-05-22 03:46:42: "Settings have been saved."
+2020-05-22 03:46:44: "Saving settings..."
+2020-05-22 03:46:44: "Settings have been saved."
+2020-05-22 03:46:45: "Saving settings..."
+2020-05-22 03:46:45: "Settings have been saved."
+2020-05-22 03:46:46: "Saving settings..."
+2020-05-22 03:46:47: "Settings have been saved."
+2020-05-22 03:50:01: "Saving settings..."
+2020-05-22 03:50:01: "Settings have been saved."
+2020-05-22 03:53:57: "Saving settings..."
+2020-05-22 03:53:57: "Settings have been saved."
+2020-05-22 03:54:08: "Saving settings..."
+2020-05-22 03:54:08: "Settings have been saved."
+2020-05-22 03:54:10: "Saving settings..."
+2020-05-22 03:54:10: "Settings have been saved."
+2020-05-22 03:54:21: "Saving settings..."
+2020-05-22 03:54:21: "Settings have been saved."
+2020-05-22 03:54:31: "Saving settings..."
+2020-05-22 03:54:31: "Settings have been saved."
+2020-05-22 03:54:34: "Fetching geolocation..."
+2020-05-22 03:54:34: "Got lat/long"
+2020-05-22 03:54:34: "Updating lat/long of note b7c94dedbcfe4bc19989f82e11912065"
+2020-05-22 03:54:38: "Saving settings..."
+2020-05-22 03:54:38: "Settings have been saved."
+2020-05-22 03:54:49: "Saving settings..."
+2020-05-22 03:54:49: "Settings have been saved."
+2020-05-22 03:54:50: "Saving settings..."
+2020-05-22 03:54:50: "Settings have been saved."
+2020-05-22 03:54:52: "Saving settings..."
+2020-05-22 03:54:52: "Settings have been saved."
+2020-05-22 03:54:57: "Saving settings..."
+2020-05-22 03:54:57: "Settings have been saved."
+2020-05-22 03:54:59: "Saving settings..."
+2020-05-22 03:54:59: "Settings have been saved."
+2020-05-22 03:55:00: "Saving settings..."
+2020-05-22 03:55:00: "Settings have been saved."
+2020-05-22 03:55:01: "Saving settings..."
+2020-05-22 03:55:01: "Settings have been saved."
+2020-05-22 03:55:10: "Saving settings..."
+2020-05-22 03:55:10: "Settings have been saved."
+2020-05-22 03:55:35: "Saving settings..."
+2020-05-22 03:55:35: "Settings have been saved."
+2020-05-22 03:55:39: "Saving settings..."
+2020-05-22 03:55:39: "Settings have been saved."
+2020-05-22 03:55:42: "Saving settings..."
+2020-05-22 03:55:42: "Settings have been saved."
+2020-05-22 03:55:43: "Saving settings..."
+2020-05-22 03:55:43: "Settings have been saved."
+2020-05-22 03:57:42: "Saving settings..."
+2020-05-22 03:57:42: "Settings have been saved."
+2020-05-22 03:57:44: "Saving settings..."
+2020-05-22 03:57:44: "Settings have been saved."
+2020-05-22 03:57:53: "Saving settings..."
+2020-05-22 03:57:53: "Settings have been saved."
+2020-05-22 03:58:09: "Saving settings..."
+2020-05-22 03:58:09: "Settings have been saved."
+2020-05-22 03:58:10: "Saving settings..."
+2020-05-22 03:58:10: "Settings have been saved."
+2020-05-22 03:58:11: "Saving settings..."
+2020-05-22 03:58:11: "Settings have been saved."
+2020-05-22 03:58:40: "Saving settings..."
+2020-05-22 03:58:41: "Settings have been saved."
+2020-05-22 03:58:42: "Saving settings..."
+2020-05-22 03:58:42: "Settings have been saved."
+2020-05-22 03:58:42: "Saving settings..."
+2020-05-22 03:58:42: "Settings have been saved."
+2020-05-22 03:58:43: "Saving settings..."
+2020-05-22 03:58:43: "Settings have been saved."
+2020-05-22 03:58:44: "Saving settings..."
+2020-05-22 03:58:44: "Settings have been saved."
+2020-05-22 03:58:45: "Saving settings..."
+2020-05-22 03:58:45: "Settings have been saved."
+2020-05-22 03:58:46: "Saving settings..."
+2020-05-22 03:58:46: "Settings have been saved."
+2020-05-22 03:58:48: "Saving settings..."
+2020-05-22 03:58:48: "Settings have been saved."
+2020-05-22 03:58:53: "Saving settings..."
+2020-05-22 03:58:53: "Settings have been saved."
+2020-05-22 03:58:55: "Saving settings..."
+2020-05-22 03:58:55: "Settings have been saved."
+2020-05-22 03:58:55: "Saving settings..."
+2020-05-22 03:58:55: "Settings have been saved."
+2020-05-22 03:58:56: "Saving settings..."
+2020-05-22 03:58:56: "Settings have been saved."
+2020-05-22 03:58:58: "Saving settings..."
+2020-05-22 03:58:58: "Settings have been saved."
+2020-05-22 03:58:58: "Saving settings..."
+2020-05-22 03:58:59: "Settings have been saved."
+2020-05-22 03:59:03: "Saving settings..."
+2020-05-22 03:59:03: "Settings have been saved."
+2020-05-22 03:59:04: "Saving settings..."
+2020-05-22 03:59:04: "Settings have been saved."
+2020-05-22 03:59:06: "Saving settings..."
+2020-05-22 03:59:06: "Settings have been saved."
+2020-05-22 03:59:08: "Saving settings..."
+2020-05-22 03:59:08: "Settings have been saved."
+2020-05-22 03:59:10: "Saving settings..."
+2020-05-22 03:59:10: "Settings have been saved."
+2020-05-22 03:59:10: "Saving settings..."
+2020-05-22 03:59:10: "Settings have been saved."
+2020-05-22 03:59:11: "Saving settings..."
+2020-05-22 03:59:11: "Settings have been saved."
+2020-05-22 03:59:12: "Saving settings..."
+2020-05-22 03:59:12: "Settings have been saved."
+2020-05-22 03:59:13: "Saving settings..."
+2020-05-22 03:59:13: "Settings have been saved."
+2020-05-22 03:59:14: "Saving settings..."
+2020-05-22 03:59:14: "Settings have been saved."
+2020-05-22 03:59:16: "Saving settings..."
+2020-05-22 03:59:16: "Settings have been saved."
+2020-05-22 03:59:17: "Saving settings..."
+2020-05-22 03:59:17: "Settings have been saved."
+2020-05-22 03:59:19: "Saving settings..."
+2020-05-22 03:59:19: "Settings have been saved."
+2020-05-22 03:59:20: "Saving settings..."
+2020-05-22 03:59:20: "Settings have been saved."
+2020-05-22 03:59:20: "Saving settings..."
+2020-05-22 03:59:20: "Settings have been saved."
+2020-05-22 03:59:21: "Saving settings..."
+2020-05-22 03:59:21: "Settings have been saved."
+2020-05-22 03:59:22: "Saving settings..."
+2020-05-22 03:59:22: "Settings have been saved."
+2020-05-22 03:59:23: "Saving settings..."
+2020-05-22 03:59:23: "Settings have been saved."
+2020-05-22 03:59:24: "Saving settings..."
+2020-05-22 03:59:24: "Settings have been saved."
+2020-05-22 03:59:24: "Saving settings..."
+2020-05-22 03:59:24: "Settings have been saved."
+2020-05-22 03:59:25: "Saving settings..."
+2020-05-22 03:59:25: "Settings have been saved."
+2020-05-22 03:59:27: "Saving settings..."
+2020-05-22 03:59:27: "Settings have been saved."
+2020-05-22 03:59:28: "Saving settings..."
+2020-05-22 03:59:28: "Settings have been saved."
+2020-05-22 03:59:28: "Saving settings..."
+2020-05-22 03:59:29: "Settings have been saved."
+2020-05-22 03:59:29: "Saving settings..."
+2020-05-22 03:59:29: "Settings have been saved."
+2020-05-22 03:59:30: "Saving settings..."
+2020-05-22 03:59:30: "Settings have been saved."
+2020-05-22 03:59:31: "Saving settings..."
+2020-05-22 03:59:31: "Settings have been saved."
+2020-05-22 04:00:01: "Saving settings..."
+2020-05-22 04:00:01: "Settings have been saved."
+2020-05-22 04:00:20: "Saving settings..."
+2020-05-22 04:00:20: "Settings have been saved."
+2020-05-22 04:00:21: "Saving settings..."
+2020-05-22 04:00:21: "Settings have been saved."
+2020-05-22 04:01:45: "Saving settings..."
+2020-05-22 04:01:45: "Settings have been saved."
+2020-05-22 04:02:42: "Updating lat/long of note 17dc07ab77884e149004bb02e02e7fc2"
+2020-05-22 04:02:48: "Saving settings..."
+2020-05-22 04:02:48: "Settings have been saved."
+2020-05-22 04:02:58: "Saving settings..."
+2020-05-22 04:02:59: "Settings have been saved."
+2020-05-22 04:03:12: "Saving settings..."
+2020-05-22 04:03:12: "Settings have been saved."
+2020-05-22 04:03:24: "Saving settings..."
+2020-05-22 04:03:24: "Settings have been saved."
+2020-05-22 04:03:35: "Saving settings..."
+2020-05-22 04:03:35: "Settings have been saved."
+2020-05-22 04:03:47: "Saving settings..."
+2020-05-22 04:03:47: "Settings have been saved."
+2020-05-22 04:03:59: "Saving settings..."
+2020-05-22 04:03:59: "Settings have been saved."
+2020-05-22 04:10:02: "Saving settings..."
+2020-05-22 04:10:02: "Settings have been saved."
+2020-05-22 04:27:30: "Saving settings..."
+2020-05-22 04:27:30: "Settings have been saved."
+2020-05-22 04:27:40: "Saving settings..."
+2020-05-22 04:27:40: "Settings have been saved."
+2020-05-22 04:27:58: "Saving settings..."
+2020-05-22 04:27:59: "Settings have been saved."
+2020-05-22 04:28:00: "Saving settings..."
+2020-05-22 04:28:00: "Settings have been saved."
+2020-05-22 04:28:01: "Saving settings..."
+2020-05-22 04:28:01: "Settings have been saved."
+2020-05-22 04:28:36: "Saving settings..."
+2020-05-22 04:28:36: "Settings have been saved."
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "bvbnvbn
+
+bvbnvbn
+vbnn
+"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks result", "bvbnvbn
+
+bvbnvbn
+vbnn
+"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "noooouu
+
+noooouu
+:(
+
+```
+if x=2:
+	y=3
+	
+
+```"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks result", "noooouu
+
+noooouu
+:(
+
+```
+if x=2:
+	y=3
+	
+
+```"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "5. Privacy
+
+# Privacy
+
+Joplin values your privacy and security by giving you complete control over your information and digital footprint.
+
+Joplin applications do not send any data to any service without your authorisation. Any data that Joplin saves, such as notes or images, are saved to your own device and you are free to delete this data at any time.
+
+Joplin has many modern features, some of which use third-party services. You can disable any or all of these features in the application settings. These features are:
+
+|Feature | Description | Default|
+|--------|-------------|--------|
+|Auto-update|Joplin periodically connects to GitHub to check for new releases.|Enabled|
+|Geo-location|Joplin saves geo-location information in note properties when you create a note.|Enabled|
+|Synchronisation|Joplin supports synchronisation of your notes across multiple devices. If you choose to synchronise with a third-party, such as OneDrive, the notes will be sent to your OneDrive account, in which case the third-party privacy policy applies.|Disabled|
+
+Joplin is developed as an open-source application and the source code is freely available online to inspect.
+
+For any question about Joplin privacy, please leave a message on the [Joplin Forum](https://discourse.joplinapp.org/).
+"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks result", "5. Privacy
+
+# Privacy
+
+Joplin values your privacy and security by giving you complete control over your information and digital footprint.
+
+Joplin applications do not send any data to any service without your authorisation. Any data that Joplin saves, such as notes or images, are saved to your own device and you are free to delete this data at any time.
+
+Joplin has many modern features, some of which use third-party services. You can disable any or all of these features in the application settings. These features are:
+
+|Feature | Description | Default|
+|--------|-------------|--------|
+|Auto-update|Joplin periodically connects to GitHub to check for new releases.|Enabled|
+|Geo-location|Joplin saves geo-location information in note properties when you create a note.|Enabled|
+|Synchronisation|Joplin supports synchronisation of your notes across multiple devices. If you choose to synchronise with a third-party, such as OneDrive, the notes will be sent to your OneDrive account, in which case the third-party privacy policy applies.|Disabled|
+
+Joplin is developed as an open-source application and the source code is freely available online to inspect.
+
+For any question about Joplin privacy, please leave a message on the [Joplin Forum](https://discourse.joplinapp.org/).
+"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "4. Tips 💡
+
+# Tips 💡
+
+The first few notes should have given you an overview of the main functionalities of Joplin, but there's more it can do. See below for some of these features and how to get more help using the app:
+
+## Web clipper
+
+![](../_resources/924c1711130b4fe59f14f25d71c00ef4.png)
+
+The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. To start using it, open the Joplin desktop application, go to the Web Clipper Options and follow the instructions.
+
+More info on the official website: https://joplinapp.org/clipper/
+
+## Attachments
+
+Any kind of file can be attached to a note. In Markdown, links to these files are represented as an ID. In the note viewer, these files, if they are images, will be displayed or, if they are other files (PDF, text files, etc.) they will be displayed as links. Clicking on this link will open the file in the default application.
+
+Images can be attached either by clicking on "Attach file" or by pasting (with `Ctrl+V` or `Cmd+V`) an image directly in the editor, or by drag and dropping an image.
+
+More info about attachments: https://joplinapp.org#attachments--resources
+
+## Search
+
+Joplin supports advanced search queries, which are fully documented on the official website: https://joplinapp.org#searching
+
+## Alarms
+
+An alarm can be associated with any to-do. It will be triggered at the given time by displaying a notification. To use this feature, see the documentation: https://joplinapp.org#notifications
+
+## Markdown advanced tips
+
+Joplin uses and renders [Github-flavoured Markdown](https://joplinapp.org/markdown/) with a few variations and additions.
+
+For example, tables are supported:
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+You can also create lists of checkboxes. These checkboxes can be ticked directly in the viewer, or by adding an "x" inside:
+
+- [ ] Milk
+- [ ] Eggs
+- [x] Beer
+
+Math expressions can be added using the [KaTeX notation](https://khan.github.io/KaTeX/):
+
+$$
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+$$
+
+Various other tricks are possible, such as using HTML, or customising the CSS. See the Markdown documentation for more info - https://joplinapp.org#markdown
+
+## Community and further help
+
+- For general discussion about Joplin, user support, software development questions, and to discuss new features, go to the [Joplin Forum](https://discourse.joplinapp.org/). It is possible to login with your GitHub account.
+- The latest news are posted [on the Patreon page](https://www.patreon.com/joplin).
+- For bug reports and feature requests, go to the [GitHub Issue Tracker](https://github.com/laurent22/joplin/issues).
+
+## Donations
+
+Donations to Joplin support the development of the project. Developing quality applications mostly takes time, but there are also some expenses, such as digital certificates to sign the applications, app store fees, hosting, etc. Most of all, your donation will make it possible to keep up the current development standard.
+
+Please see the [donation page](https://joplinapp.org/donate/) for information on how to support the development of Joplin."
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks result", "4. Tips 💡
+
+# Tips 💡
+
+The first few notes should have given you an overview of the main functionalities of Joplin, but there's more it can do. See below for some of these features and how to get more help using the app:
+
+## Web clipper
+
+![](../_resources/924c1711130b4fe59f14f25d71c00ef4.png)
+
+The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. To start using it, open the Joplin desktop application, go to the Web Clipper Options and follow the instructions.
+
+More info on the official website: https://joplinapp.org/clipper/
+
+## Attachments
+
+Any kind of file can be attached to a note. In Markdown, links to these files are represented as an ID. In the note viewer, these files, if they are images, will be displayed or, if they are other files (PDF, text files, etc.) they will be displayed as links. Clicking on this link will open the file in the default application.
+
+Images can be attached either by clicking on "Attach file" or by pasting (with `Ctrl+V` or `Cmd+V`) an image directly in the editor, or by drag and dropping an image.
+
+More info about attachments: https://joplinapp.org#attachments--resources
+
+## Search
+
+Joplin supports advanced search queries, which are fully documented on the official website: https://joplinapp.org#searching
+
+## Alarms
+
+An alarm can be associated with any to-do. It will be triggered at the given time by displaying a notification. To use this feature, see the documentation: https://joplinapp.org#notifications
+
+## Markdown advanced tips
+
+Joplin uses and renders [Github-flavoured Markdown](https://joplinapp.org/markdown/) with a few variations and additions.
+
+For example, tables are supported:
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+You can also create lists of checkboxes. These checkboxes can be ticked directly in the viewer, or by adding an "x" inside:
+
+- [ ] Milk
+- [ ] Eggs
+- [x] Beer
+
+Math expressions can be added using the [KaTeX notation](https://khan.github.io/KaTeX/):
+
+$$
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+$$
+
+Various other tricks are possible, such as using HTML, or customising the CSS. See the Markdown documentation for more info - https://joplinapp.org#markdown
+
+## Community and further help
+
+- For general discussion about Joplin, user support, software development questions, and to discuss new features, go to the [Joplin Forum](https://discourse.joplinapp.org/). It is possible to login with your GitHub account.
+- The latest news are posted [on the Patreon page](https://www.patreon.com/joplin).
+- For bug reports and feature requests, go to the [GitHub Issue Tracker](https://github.com/laurent22/joplin/issues).
+
+## Donations
+
+Donations to Joplin support the development of the project. Developing quality applications mostly takes time, but there are also some expenses, such as digital certificates to sign the applications, app store fees, hosting, etc. Most of all, your donation will make it possible to keep up the current development standard.
+
+Please see the [donation page](https://joplinapp.org/donate/) for information on how to support the development of Joplin."
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "3. Synchronising your notes 🔄
+
+# Synchronising your notes 🔄
+
+One of the goals of Joplin was to avoid being tied to any particular company or service, whether it is Evernote, Google or Microsoft. As such the synchronisation is designed without any hard dependency to any particular service. You basically choose the service you prefer among those supported, setup the configuration, and the app will be able to sync between your computers or mobile devices.
+
+The supported cloud services are the following:
+
+## Setting up Dropbox synchronisation
+
+Select "Dropbox" as the synchronisation target in the config screen (it is selected by default). Then, to initiate the synchronisation process, click on the "Synchronise" button in the sidebar and follow the instructions.
+
+## Setting up Nextcloud synchronisation
+
+Nextcloud is a self-hosted, private cloud solution. It can store documents, images and videos but also calendars, passwords and countless other things and can sync them to your laptop or phone. As you can host your own Nextcloud server, you own both the data on your device and infrastructure used for synchronisation. As such it is a good fit for Joplin.
+
+To set it up, go to the config screen and select Nextcloud as the synchronisation target. Then input the WebDAV URL (to get it, go to your Nextcloud page, click on Settings in the bottom left corner of the page and copy the URL). Note that it has to be the **full URL**, so for example if you want the notes to be under `/Joplin`, the URL would be something like `https://example.com/remote.php/webdav/Joplin` (note that "/Joplin" part). And **make sure to create the "/Joplin" directory in Nextcloud**. Finally set the username and password. If it does not work, please [see this explanation](https://github.com/laurent22/joplin/issues/61#issuecomment-373282608) for more details.
+
+## Setting up OneDrive or WebDAV synchronisation
+
+OneDrive and WebDAV are also supported as synchronisation services. Please see [the export documentation](https://github.com/laurent22/joplin#exporting) for more information.
+
+## Using End-To-End Encryption
+
+Joplin supports end-to-end encryption (E2EE) on all the applications. E2EE is a system where only the owner of the data can read it. It prevents potential eavesdroppers - including telecom providers, internet providers, and even the developers of Joplin from being able to access the data. Please see the [End-To-End Encryption Tutorial](https://joplinapp.org/e2ee/) for more information about this feature and how to enable it."
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks result", "3. Synchronising your notes 🔄
+
+# Synchronising your notes 🔄
+
+One of the goals of Joplin was to avoid being tied to any particular company or service, whether it is Evernote, Google or Microsoft. As such the synchronisation is designed without any hard dependency to any particular service. You basically choose the service you prefer among those supported, setup the configuration, and the app will be able to sync between your computers or mobile devices.
+
+The supported cloud services are the following:
+
+## Setting up Dropbox synchronisation
+
+Select "Dropbox" as the synchronisation target in the config screen (it is selected by default). Then, to initiate the synchronisation process, click on the "Synchronise" button in the sidebar and follow the instructions.
+
+## Setting up Nextcloud synchronisation
+
+Nextcloud is a self-hosted, private cloud solution. It can store documents, images and videos but also calendars, passwords and countless other things and can sync them to your laptop or phone. As you can host your own Nextcloud server, you own both the data on your device and infrastructure used for synchronisation. As such it is a good fit for Joplin.
+
+To set it up, go to the config screen and select Nextcloud as the synchronisation target. Then input the WebDAV URL (to get it, go to your Nextcloud page, click on Settings in the bottom left corner of the page and copy the URL). Note that it has to be the **full URL**, so for example if you want the notes to be under `/Joplin`, the URL would be something like `https://example.com/remote.php/webdav/Joplin` (note that "/Joplin" part). And **make sure to create the "/Joplin" directory in Nextcloud**. Finally set the username and password. If it does not work, please [see this explanation](https://github.com/laurent22/joplin/issues/61#issuecomment-373282608) for more details.
+
+## Setting up OneDrive or WebDAV synchronisation
+
+OneDrive and WebDAV are also supported as synchronisation services. Please see [the export documentation](https://github.com/laurent22/joplin#exporting) for more information.
+
+## Using End-To-End Encryption
+
+Joplin supports end-to-end encryption (E2EE) on all the applications. E2EE is a system where only the owner of the data can read it. It prevents potential eavesdroppers - including telecom providers, internet providers, and even the developers of Joplin from being able to access the data. Please see the [End-To-End Encryption Tutorial](https://joplinapp.org/e2ee/) for more information about this feature and how to enable it."
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "2. Importing and exporting notes ↔️
+
+# Importing and exporting notes ↔️
+
+## Importing from Evernote
+
+Joplin was designed as a replacement for Evernote and so can import complete Evernote notebooks, as well as notes, tags, images, attached files and note metadata (such as author, geo-location, etc.) via ENEX files.
+
+To import Evernote data, first export your Evernote notebooks to ENEX files as described [here](https://help.evernote.com/hc/en-us/articles/209005557-How-to-back-up-export-and-restore-import-notes-and-notebooks). Then, on **desktop**, do the following: Open File > Import > ENEX and select your file. The notes will be imported into a new separate notebook. If needed they can then be moved to a different notebook, or the notebook can be renamed, etc. Read [more about Evernote import](https://joplinapp.org/#importing-from-evernote).
+
+# Importing from other apps
+
+Joplin can also import notes from [many other apps](https://github.com/laurent22/joplin#importing-from-other-applications) as well as [from Markdown or text files](https://github.com/laurent22/joplin#importing-from-markdown-files).
+
+# Exporting notes
+
+Joplin can export to the JEX format (Joplin Export file), which is an archive that can contain multiple notes, notebooks, etc. This is a format mostly designed for backup purposes. You may also export to other formats such as plain Markdown files, to JSON or to PDF. Find out [more about exporting notes](https://github.com/laurent22/joplin#exporting) on the official website."
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks result", "2. Importing and exporting notes ↔️
+
+# Importing and exporting notes ↔️
+
+## Importing from Evernote
+
+Joplin was designed as a replacement for Evernote and so can import complete Evernote notebooks, as well as notes, tags, images, attached files and note metadata (such as author, geo-location, etc.) via ENEX files.
+
+To import Evernote data, first export your Evernote notebooks to ENEX files as described [here](https://help.evernote.com/hc/en-us/articles/209005557-How-to-back-up-export-and-restore-import-notes-and-notebooks). Then, on **desktop**, do the following: Open File > Import > ENEX and select your file. The notes will be imported into a new separate notebook. If needed they can then be moved to a different notebook, or the notebook can be renamed, etc. Read [more about Evernote import](https://joplinapp.org/#importing-from-evernote).
+
+# Importing from other apps
+
+Joplin can also import notes from [many other apps](https://github.com/laurent22/joplin#importing-from-other-applications) as well as [from Markdown or text files](https://github.com/laurent22/joplin#importing-from-markdown-files).
+
+# Exporting notes
+
+Joplin can export to the JEX format (Joplin Export file), which is an archive that can contain multiple notes, notebooks, etc. This is a format mostly designed for backup purposes. You may also export to other formats such as plain Markdown files, to JSON or to PDF. Find out [more about exporting notes](https://github.com/laurent22/joplin#exporting) on the official website."
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "1. Welcome to Joplin! 🗒️
+
+# Welcome to Joplin! 🗒️
+
+Joplin is a free, open source note taking and to-do application, which helps you write and organise your notes, and synchronise them between your devices. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in [Markdown format](https://joplinapp.org/#markdown). Joplin is available as a **💻 desktop**, **📱 mobile** and **🔡 terminal** application.
+
+The notes in this notebook give an overview of what Joplin can do and how to use it. In general, the three applications share roughly the same functionalities; any differences will be clearly indicated.
+
+![](../_resources/8976bd9cb11f490785b1604cefe1d292.png)
+
+## Joplin is divided into three parts
+
+Joplin has three main columns:
+
+- **Sidebar** contains the list of your notebooks and tags, as well as the synchronisation status.
+- **Note List** contains the current list of notes - either the notes in the currently selected notebook, the notes in the currently selected tag, or search results.
+- **Note Editor** is the place where you write your notes in Markdown, with a viewer showing what the note will look like. You may also use an [external editor](https://joplinapp.org/#external-text-editor) to edit notes. For example, if you like WYSIWYG editors, you can use something like Typora as an external editor and it will display the note as well as any embedded images.
+
+## Writing notes in Markdown
+
+Markdown is a lightweight markup language with plain text formatting syntax. Joplin supports a [Github-flavoured Markdown syntax](https://joplinapp.org/markdown/) with a few variations and additions.
+
+In general, while Markdown is a markup language, it is meant to be human readable, even without being rendered. This is a simple example (you can see how it looks in the viewer panel):
+
+* * *
+
+# Heading
+
+## Sub-heading
+
+Paragraphs are separated by a blank line. Text attributes _italic_, **bold** and `monospace` are supported. You can create bullet lists:
+
+* apples
+* oranges
+* pears
+
+Or numbered lists:
+
+1. wash
+2. rinse
+3. repeat
+
+This is a [link](https://joplinapp.org) and, finally, below is a horizontal rule:
+
+* * *
+
+A lot more is possible including adding code samples, math formulae or checkbox lists - see the [Markdown documentation](https://joplinapp.org/#markdown) for more information.
+
+## Organising your notes
+
+### With notebooks 📔
+
+Joplin notes are organised into a tree of notebooks and sub-notebooks.
+
+- On **desktop**, you can create a notebook by clicking on New Notebook, then you can drag and drop them into other notebooks to organise them as you wish.
+- On **mobile**, press the "+" icon and select "New notebook".
+- On **terminal**, press `:mn`
+
+![](../_resources/ae16b2690dd74527b6c080362efeb86e.png)
+
+### With tags 🏷️
+
+The second way to organise your notes is using tags:
+
+- On **desktop**, right-click on any note in the Note List, and select "Edit tags". You can then add the tags, separating them by commas.
+- On **mobile**, open the note and press the "⋮" button and select "Tags".
+- On **terminal**, type `:help tag` for the available commands.
+"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks result", "1. Welcome to Joplin! 🗒️
+
+# Welcome to Joplin! 🗒️
+
+Joplin is a free, open source note taking and to-do application, which helps you write and organise your notes, and synchronise them between your devices. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in [Markdown format](https://joplinapp.org/#markdown). Joplin is available as a **💻 desktop**, **📱 mobile** and **🔡 terminal** application.
+
+The notes in this notebook give an overview of what Joplin can do and how to use it. In general, the three applications share roughly the same functionalities; any differences will be clearly indicated.
+
+![](../_resources/8976bd9cb11f490785b1604cefe1d292.png)
+
+## Joplin is divided into three parts
+
+Joplin has three main columns:
+
+- **Sidebar** contains the list of your notebooks and tags, as well as the synchronisation status.
+- **Note List** contains the current list of notes - either the notes in the currently selected notebook, the notes in the currently selected tag, or search results.
+- **Note Editor** is the place where you write your notes in Markdown, with a viewer showing what the note will look like. You may also use an [external editor](https://joplinapp.org/#external-text-editor) to edit notes. For example, if you like WYSIWYG editors, you can use something like Typora as an external editor and it will display the note as well as any embedded images.
+
+## Writing notes in Markdown
+
+Markdown is a lightweight markup language with plain text formatting syntax. Joplin supports a [Github-flavoured Markdown syntax](https://joplinapp.org/markdown/) with a few variations and additions.
+
+In general, while Markdown is a markup language, it is meant to be human readable, even without being rendered. This is a simple example (you can see how it looks in the viewer panel):
+
+* * *
+
+# Heading
+
+## Sub-heading
+
+Paragraphs are separated by a blank line. Text attributes _italic_, **bold** and `monospace` are supported. You can create bullet lists:
+
+* apples
+* oranges
+* pears
+
+Or numbered lists:
+
+1. wash
+2. rinse
+3. repeat
+
+This is a [link](https://joplinapp.org) and, finally, below is a horizontal rule:
+
+* * *
+
+A lot more is possible including adding code samples, math formulae or checkbox lists - see the [Markdown documentation](https://joplinapp.org/#markdown) for more information.
+
+## Organising your notes
+
+### With notebooks 📔
+
+Joplin notes are organised into a tree of notebooks and sub-notebooks.
+
+- On **desktop**, you can create a notebook by clicking on New Notebook, then you can drag and drop them into other notebooks to organise them as you wish.
+- On **mobile**, press the "+" icon and select "New notebook".
+- On **terminal**, press `:mn`
+
+![](../_resources/ae16b2690dd74527b6c080362efeb86e.png)
+
+### With tags 🏷️
+
+The second way to organise your notes is using tags:
+
+- On **desktop**, right-click on any note in the Note List, and select "Edit tags". You can then add the tags, separating them by commas.
+- On **mobile**, open the note and press the "⋮" button and select "Tags".
+- On **terminal**, type `:help tag` for the available commands.
+"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks", "options:", "{"useAbsolutePaths":false}", "body:", "sadasddasasd
+
+sadasddasasd
+asdasd
+
+"
+2020-05-22 04:29:14: "replaceResourceInternalToExternalLinks result", "sadasddasasd
+
+sadasddasasd
+asdasd
+
+"
+2020-05-22 04:30:02: "Saving settings..."
+2020-05-22 04:30:02: "Settings have been saved."

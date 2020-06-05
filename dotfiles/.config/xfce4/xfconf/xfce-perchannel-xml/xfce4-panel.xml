@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=960;y=1064"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="3"/>
+        <value type="int" value="8"/>
+        <value type="int" value="11"/>
+        <value type="int" value="10"/>
+        <value type="int" value="9"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="16"/>
+        <value type="int" value="15"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
+        <value type="int" value="14"/>
+        <value type="int" value="4"/>
+      </property>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="leave-opacity" type="uint" value="100"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-4" type="string" value="showdesktop"/>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-10" type="string" value="pager"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="tasklist">
+      <property name="show-handle" type="bool" value="false"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="clock">
+      <property name="digital-format" type="string" value="%a %d %b, %R"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-15" type="string" value="systray">
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="size-max" type="uint" value="22"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="veracrypt"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="statusnotifier">
+      <property name="known-items" type="array">
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="Joplin1"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="kazam"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1169;chromium.instance1175;chromium.instance1185;chromium.instance1190;chromium.instance1201;chromium.instance1203;chromium.instance1211;chromium.instance1222;chromium.instance1223;chromium.instance1252;chromium.instance1298;chromium.instance1316;chromium.instance1367;chromium.instance1394;chromium.instance1419;chromium.instance1429;chromium.instance1504;chromium.instance15133;chromium.instance1553;chromium.instance15553;chromium.instance17663;chromium.instance18134;chromium.instance18733;chromium.instance19005;chromium.instance22334;chromium.instance2440;chromium.instance24951;chromium.instance26752;chromium.instance3660;chromium.instance3974;chromium.instance5765;chromium.instance5975;chromium.instance8020;chromium.instance9445;vlc"/>
+    </property>
+    <property name="plugin-18" type="string" value="notification-plugin"/>
+    <property name="plugin-19" type="string" value="power-manager-plugin"/>
+    <property name="plugin-20" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="paste-on-activate" type="uint" value="0"/>
+        <property name="popup-at-pointer" type="bool" value="false"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="add-primary-clipboard" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>
