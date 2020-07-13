@@ -12,7 +12,6 @@
 - Completely automated the git-lfs bypass (spending hours on this is faster than making a .deb file for git-lfs from source bcs kali doesn't have one). Hence added 
 - Wrote the necessary code to automate installing .deb files without manual file name / version control in setup.sh, but too tired to implement rn.
 - Colorized setup.sh's output
-- Added SELF_DESTRUCT
 
 ##### v2(small revamp for 2nd re-format):
 - Added verbosity
