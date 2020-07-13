@@ -10,7 +10,7 @@
 #### Changelog:
 ##### v3(big revamp for 3rd re-format):
 - Completely automated the git-lfs bypass (spending hours on this is faster than making a .deb file for git-lfs from source bcs kali doesn't have one). Hence added package-n-upload.sh
-- Wrote the necessary code to automate installing .deb files without manual file name / version checking in setup.sh, but too tired to implement rn.
+- Wrote the code to automate installing .deb files without manual file name / version checking in setup.sh, but too tired to implement rn.
 - Colorized setup.sh's output
 
 ##### v2(small revamp for 2nd re-format):
