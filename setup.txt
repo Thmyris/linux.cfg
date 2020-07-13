@@ -1,8 +1,8 @@
 # Name: setup.txt for kali linux 2020.1b
 # Author: Thmyris
-# Last update: 13.05.2020
-# About: The steps in this file requires manual clicking around which is annoying but setting it up for automation is x10 more annoying so we are good for 10 atleast formats.
-# Note: see setup.sh for things that need are automated.
+# Last update: 12.07.2020
+# About: The steps in this file requires manual clicking around which is annoying but setting it up for automation is x10 more annoying so we are good for atleast 10 re-formats :D
+# Note: see setup.sh for things that are automated.
 -------------------------------------------------
 0) 
 settings    -> panel    -> solid color black
@@ -32,7 +32,7 @@ kate settings   -> appearance 	-> Show indentation lines
                                 -> Show word count
                                 -> Show line count
                                 -> Scrollbar minimap width 40
-                -> Fonts&Colors	-> Import custom File in /cfg: Vim (dark).kateschema
+                -> Fonts&Colors	-> Import custom File in /dotfiles: Vim (dark).kateschema
                 -> Editing    	-> Copy/Cut the curr...                                        
 -------------------------------------------------
 8) keyboard shortcuts

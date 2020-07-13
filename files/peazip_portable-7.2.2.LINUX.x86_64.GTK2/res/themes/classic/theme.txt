@@ -1,0 +1,14 @@
+﻿Classic
+Giorgio Tani
+LGPLv3
+themes\classic\
+100
+$00FF9933
+clWindow
+clForm
+clAppWorspace
+clWindowText
+0
+21
+1
+0

@@ -1,44 +1,24 @@
 #!/bin/bash
 # Name: setup.sh for kali linux 2020.1b
 # Author: Thmyris
-# Last update: 16.05.2020
+# Last update: 13.07.2020
 # About: This script requires sudo on several occasions and may require human intervention like pressing enter for tee. Internet connection is required to install package dependencies.
 # Note: see setup.txt for things that need to be done manually.
 
 #--------------------------------------------
 echo "Internet connection is required"
-echo >&2 "Dont forget to check 'automounting win drive' & '#optional deb installs', then comment out this line. You also DON'T want to be root (while running this for a regular user), just in case."; exit 1;
+echo >&2 "Have you ran beforesetup.sh already? Dont forget to check 'automounting win drive' & '#optional deb installs', then comment out this line. You also DON'T want to be the user 'root' (while running this for a regular user)."; exit 1;
 #--------------------------------------------
 
-# Fix -1)get rid of g604 maccel
-# https://wiki.archlinux.org/index.php/Mouse_acceleration#Mouse_acceleration_with_libinput
-# If your distro uses X11, to completely disable any sort of acceleration/deceleration, create the following file:
-# 
-# /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-# 
-# Section "InputClass"
-#  Identifier "<something to identify this snippet>"
-#  MatchDriver "libinput"
-#  MatchProduct "<substring of the device name>"
-#  Option "AccelSpeed" "<e.g. 0.3>"
-# EndSection
-# 
-# Then restart pc(without saving session), or restart X.
-# Then you can use xfce's "acceleration"(no its no actually maccel) to #change pointer speed.
-# If this somehow doesn't work, its probably because of the automated #setup's permissions.
-# code:
-sudo tee /etc/X11/xorg.conf.d/50-mouse-acceleration.conf > /dev/null <<EOT
-Section "InputClass"
-    Identifier "My Mouse"
-    MatchIsPointer "yes"
-    Option "AccelerationProfile" "-1"
-    Option "AccelerationScheme" "none"
-    Option "AccelSpeed" "-1"
-EndSection
-EOT
+# Colors! (bash variables to control the output appearance)
+bold=$(tput bold)
+red_bg=$(tput setab 1)
+normal=$(tput sgr0) # Put this to reset back to normal output, if you don't last change will apply down the script forever.
+# Copy this fella:
+# echo "${bold}${red_bg}TEST${normal}"
 
-echo "starting deb installations"
 #deb installs, internet connection required for dependencies
+echo "${bold}${red_bg}starting deb installations${normal}"
 sudo apt install -y ./deb/kate_4%3a20.04.0-1_amd64.deb
 sudo apt install -y ./deb/ksysguard_4%3a5.17.5-3_amd64.deb
 sudo apt install -y ./deb/xinput_1.6.3-1_amd64.deb
@@ -57,16 +37,49 @@ sudo apt install -y ./deb/vlc_3.0.10-1_amd64.deb
 sudo apt install -y ./deb/gdebi_0.9.5.7+nmu3_all.deb
 sudo apt install -y ./deb/tree_1.8.0-1+b1_amd64.deb
 sudo apt install -y ./deb/steghide_0.5.1-14_amd64.deb
-echo "done"
+sudo apt install -y ./deb/cherrytree_0.39.4-0_all.deb
+sudo apt install -y ./deb/krita_1%3a4.2.9+dfsg-1+b1_amd64.deb
+sudo apt install -y ./deb/veracrypt-1.24-Update4-Debian-10-amd64.deb
+echo "${bold}${red_bg}done${normal}"
+# Oh no ppl know the versions of the programs I use, how insecure!
 
-echo "starting optional deb installations"
-#optional deb installs
-sudo apt install ./deb/snapd_2.42.1-1_amd64.deb
-sudo apt install ./deb/libreoffice_1%3a6.4.1-1_amd64_online_installer.deb
-echo "done"
+#optional deb installs (comment out unwanted packages)
+echo "${bold}${red_bg}starting optional deb installations${normal}"
+sudo apt install -y ./deb/snapd_2.42.1-1_amd64.deb
+sudo apt install -y ./deb/libreoffice_1%3a6.4.1-1_amd64_online_installer.deb
+echo "${bold}${red_bg}done${normal}"
 
-# 27) add to $PATH
+
+# Fix -1)get rid of g604 maccel
+# https://wiki.archlinux.org/index.php/Mouse_acceleration#Mouse_acceleration_with_libinput
+# If your distro uses X11, to completely disable any sort of acceleration/deceleration, create the following file:
 # 
+# /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+# 
+# Section "InputClass"
+#  Identifier "<something to identify this snippet>"
+#  MatchDriver "libinput"
+#  MatchProduct "<substring of the device name>"
+#  Option "AccelSpeed" "<e.g. 0.3>"
+# EndSection
+# 
+# Then restart pc(without saving session), or restart X.
+# Then you can use xfce's "acceleration"(no its no actually maccel) to #change pointer speed.
+# If this somehow doesn't work, its probably because of the automated #setup's permissions.
+# code:
+echo "${bold}${red_bg}applying maccel fix for g604${normal}"
+sudo tee /etc/X11/xorg.conf.d/50-mouse-acceleration.conf > /dev/null <<EOT
+Section "InputClass"
+    Identifier "My Mouse"
+    MatchIsPointer "yes"
+    Option "AccelerationProfile" "-1"
+    Option "AccelerationScheme" "none"
+    Option "AccelSpeed" "-1"
+EndSection
+EOT
+echo "${bold}${red_bg}done${normal}"
+
+# add to $PATH note:
 # The following command adds a path to your current path:
 # 
 # export PATH="$PATH:/my/custom/path"
@@ -89,40 +102,44 @@ echo "done"
 #     Things like paths should go into .profile if you want them to work outside of the interactive sessions. (say when you press Alt+F2 in GNOME)
 
 #snap path addition
+echo "${bold}${red_bg}adding snap to path${normal}"
 tee -a ~/.profile > /dev/null <<EOT
 export PATH="$PATH:/snap/bin"
 EOT
+echo "${bold}${red_bg}done${normal}"
 
 #youtube-dl, dependency: ffmpeg(installed above)
+echo "${bold}${red_bg}setting up youtube-dl${normal}"
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
-
+echo "${bold}${red_bg}done${normal}"
 
 # enable bash_aliases
+echo "${bold}${red_bg}add bash_aliases in .bashrc${normal}"
 grep -qxF 'if [ -f ~/.bash_aliases ]; then' ~/.bashrc || tee -a ~/.bashrc > /dev/null <<EOT
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
 EOT
+echo "${bold}${red_bg}done${normal}"
 
-echo "copying dotfiles"
-#dotfiles:
-#.tmux.conf
-#.bash_aliases
-#.config
+#dotfiles
+echo "${bold}${red_bg}copying dotfiles${normal}"
 cp -r dotfiles/. ~/.
-echo "done"
+echo "${bold}${red_bg}done${normal}"
 
-echo "copying /files"
+#files
+echo "${bold}${red_bg}copying /files${normal}"
 cp -r files ~/.
-echo "done"
+echo "${bold}${red_bg}done${normal}"
 
-echo "copying fonts"
+#fonts
+echo "${bold}${red_bg}copying fonts${normal}"
 sudo cp -r font/truetype/. /usr/share/fonts/truetype/
 sudo cp -r font/opentype/.  /usr/share/fonts/opentype/
-echo "done"
+echo "${bold}${red_bg}done${normal}"
 
-echo "automounting win drive"
+# automounting windows:
 # sudo /sbin/blkid
 # or
 # sudo /sbin/fstab -l
@@ -131,27 +148,28 @@ echo "automounting win drive"
 # ile UUID'leri bulunur. UUID formatta olusturulan partition idsidir.
 # 
 # Eger disk hic cikarilip takilmayacaksa sda sdb kullanilabilir:
+echo "${bold}${red_bg}automounting win drive${normal}"
 sudo mkdir /media/WIN
-sudo bash -c 'echo "#This is for automounting local windows"  >> /etc/fstab'
+sudo bash -c 'echo "#This is for automounting local dual boot windows"  >> /etc/fstab'
 sudo bash -c 'echo "/dev/sda4 /media/WIN ntfs nls-utf8,umask=000,uid=1000,gid=1000,allow_other,rw 0 0"  >> /etc/fstab'
+#NOTE: don't mount into /media/<userid> that folder seems to be write protected for user, yet any new drive you add while linux is on gets mounted there with write privelages. IDK. It can also be that windows marked the entire partition as protected because i powered the pc off while its booting 2-3 times in a row. A quick chkdsk fixed this.
+echo "${bold}${red_bg}done${normal}"
 
-#NOTE: don't mount into /media/<userid> that folder seems to be write protected for user, yet any new drive you add while linux is on gets mounted there with write privelages. IDK. It can also be that windows marked the entire partition as protected because i powered the pc off while its booting 2-3 times in a row. A quick chkdsk fixed this
-echo "done"
-
-echo "installing pip for python3"
 #install pip
+echo "${bold}${red_bg}installing pip for python3${normal}"
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 rm get-pip.py
-echo "done"
+echo "${bold}${red_bg}done${normal}"
 
 
-echo "git cfg"
-#15) GIT
+# GIT
+echo "${bold}${red_bg}git cfg${normal}"
 git config --global user.email thmyris@windowslive.com
 git config --global user.name "Ahmet Faruk Albayrak"
-echo "done"
+# TODO: This is missing the ssh key part but im not uploading my key to github anyway lmao, maybe in the future, encrypted
 
+echo "${bold}${red_bg}done${normal}"
 
-echo "ALL DONE! Don't forget to restart your pc! Have an awesome year!"
-echo "You can run aftersetup.sh now"
+echo "${bold}${red_bg}ALL DONE! Don't forget to restart your pc! Have an awesome year!${normal}"
+echo "${bold}${red_bg}You can run aftersetup.sh now...${normal}"

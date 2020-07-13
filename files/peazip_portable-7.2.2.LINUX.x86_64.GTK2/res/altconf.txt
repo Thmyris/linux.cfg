@@ -1,0 +1,2 @@
+﻿[alternative configuration's path: specify a location for conf.txt and bookmarks.txt, using either absolute or relative path (use " and ' if needed); write "same" or let blank to not use an alternative configuration path]
+same
