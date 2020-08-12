@@ -7,6 +7,7 @@ from email.mime.text import MIMEText
 
 MY_ADDRESS = 'badbatbot@zohomail.com'
 PASSWORD = 'j16D7$vf7J@z8&6Om#a8&%mxuzZphi'
+# PS: I don't care if this e-mail is stolen. Don't bother.
 
 def get_contacts():
     """
