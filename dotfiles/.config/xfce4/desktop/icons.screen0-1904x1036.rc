@@ -1,88 +1,40 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/thmyris/Desktop/_resources]
-row=5
-col=4
-
-[/home/thmyris/Desktop/vivaldi setup.txt]
-row=4
-col=1
-
-[/home/thmyris/Desktop/arsive]
-row=1
-col=1
-
-[/home/thmyris/Desktop/.quote.kate-swp]
-row=8
-col=1
-
-[/home/thmyris/Desktop/nerde kalmistik]
-row=2
-col=1
-
-[/home/thmyris/Desktop/kedimailcreds]
+[/home/thmyris/Desktop/replace screenshot keybindings and update linux.cfg]
 row=0
-col=2
-
-[/home/thmyris/Desktop/old downloads]
-row=6
 col=1
-
-[/home/thmyris/Desktop/multitouch trackpad gestures]
-row=5
-col=1
-
-[/home/thmyris/Desktop/font i like]
-row=8
-col=0
-
-[/home/thmyris/Desktop/Building Secure and Reliable Systems by Google.pdf]
-row=7
-col=0
-
-[/home/thmyris/Desktop/someones aliases]
-row=6
-col=0
-
-[/home/thmyris/Desktop/soru-cevaplari bilmek yetmez.txt]
-row=4
-col=0
-
-[/home/thmyris/Desktop/Welcome! (Desktop)]
-row=6
-col=4
 
 [/home/thmyris/Desktop/someones git cfg]
+row=6
+col=0
+
+[/home/thmyris/Desktop/EdlVLs6WkAEApXJ.jpeg]
+row=7
+col=0
+
+[/home/thmyris/Desktop/sorun cikaran hepsiburada sifresi]
 row=5
 col=0
 
-[/home/thmyris/Desktop/Note taking apps]
+[28B45E63B45E3392]
 row=1
-col=2
+col=0
 
-[/home/thmyris/Desktop/quote]
-row=7
-col=1
-
-[/home/thmyris/Desktop/install & cfgure git lfs manually]
+[711B565D43525BB7]
 row=3
 col=1
 
-[/home/thmyris/Desktop/egzersiz]
-row=3
-col=6
+[EAC4F434C4F4051B]
+row=4
+col=0
 
-[/home/thmyris/Desktop/new stuff to add to linux.cfg]
-row=0
-col=1
-
-[0062D9AE62D9A8A4]
-row=0
+[3F3D-12DF]
+row=8
 col=0
 
 [Wastebasket]
-row=1
+row=3
 col=0
 
 [/]
@@ -90,6 +42,6 @@ row=2
 col=0
 
 [/home/thmyris]
-row=3
+row=0
 col=0
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Name: package-n-upload.sh for kali linux 2020.1b
 # Author: Thmyris
-# Last update: 13.07.2020
+# Last update: 12.08.2020
 # About: This script automatically detects big files and packages them for github and optionally pushes all changes to the Thmyris/linux.cfg repository.
 
 # put filenames bigger than 95MB into bigfiles
@@ -40,6 +40,6 @@ fi
 
 git add .
 git status
-read -p "Press enter to continue. If not, please 'git reset'."
+read -p "Press enter continue. If not, please 'git reset'."
 git commit -m "++"
 git push origin master

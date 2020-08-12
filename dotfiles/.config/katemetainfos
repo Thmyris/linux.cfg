@@ -1,63 +1,87 @@
 Bookmarks=
-Checksum=eb03857bcac63de2813535ab1f59684dacc91b44
+Checksum=d252aac4c77793dc656b7f67599e9828eaa6ea2a
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,2,23,56
+Time=2020,7,17,14,58,41
 URL=
 
-[file:///etc/default/console-setup]
+[file:///etc/anacrontab]
 Bookmarks=
-Checksum=dc3ea7f2368fce1fa406747e218887520aa09dbd
+Checksum=bb0b0d019a13d827e87620f50f6f523adbd73c1c
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,4,14,30
-URL=file:///etc/default/console-setup
+Time=2020,7,31,5,12,42
+URL=file:///etc/anacrontab
 
-[file:///etc/profile.d/bash_completion.sh]
+[file:///etc/cron.d/anacron]
 Bookmarks=
-Checksum=031ba94617b398e2ef93a417ae60b3f222d242f6
+Checksum=ce75db88286bfa409c31f6fe94069d0fc629f96a
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
+Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,2,4,31
-URL=file:///etc/profile.d/bash_completion.sh
+Time=2020,7,31,5,12,55
+URL=file:///etc/cron.d/anacron
 
-[file:///etc/profile.d/kali.sh]
+[file:///etc/cron.d/john]
 Bookmarks=
-Checksum=85d936416c4b041a7b16655857caae00b630d232
+Checksum=7cfe459875e0648b5ff13c647b61ee036d13aad5
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
+Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,2,4,24
-URL=file:///etc/profile.d/kali.sh
+Time=2020,7,31,5,12,42
+URL=file:///etc/cron.d/john
 
-[file:///etc/profile.d/vte.csh]
+[file:///etc/fstab]
 Bookmarks=
-Checksum=3b07c5c7314f8f0c1450992dc03de0bb49de10b1
+Checksum=6b6bfca7e85a5e92c209d1f2da678dd1021cedc3
 Encoding=UTF-8
-Highlighting=Tcsh
+Highlighting=fstab
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Tcsh
+Mode=fstab
 Mode Set By User=false
-Time=2020,5,14,2,4,27
-URL=file:///etc/profile.d/vte.csh
+Time=2020,8,12,9,14,21
+URL=file:///etc/fstab
 
-[file:///etc/skel/.bashrc]
+[file:///home/thmyris/.Xauthority]
+Bookmarks=
+Checksum=1cae11d8f8bef11c2e8b4c81dee70f9102ea9614
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,8,12,9,26,20
+URL=file:///home/thmyris/.Xauthority
+
+[file:///home/thmyris/.bash_aliases]
+Bookmarks=
+Checksum=f33d514bfeb9a8724d57a5855dfc030181f4d902
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,8,12,9,20,52
+URL=file:///home/thmyris/.bash_aliases
+
+[file:///home/thmyris/.bashrc]
 Bookmarks=
 Checksum=14eaf223463da2fda9bc0190a1fbaadadb415c00
 Encoding=UTF-8
@@ -66,646 +90,118 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,5,13,22,57,0
-URL=file:///etc/skel/.bashrc
-
-[file:///home/thmyris/.bash_aliases]
-Bookmarks=
-Checksum=1587a3c7ebcb6533d805da763e67b589bce057d5
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,14,5,5,59
-URL=file:///home/thmyris/.bash_aliases
-
-[file:///home/thmyris/.bashrc]
-Bookmarks=
-Checksum=b2720914cce1efdc0751598cc78e49721df43fb4
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,14,1,56,23
+Time=2020,8,12,9,25,43
 URL=file:///home/thmyris/.bashrc
-
-[file:///home/thmyris/.bashrc.original]
-Bookmarks=
-Checksum=9360f69a747f3b5a267c108302a6a0bbb4f30986
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,14,3,38,8
-URL=file:///home/thmyris/.bashrc.original
-
-[file:///home/thmyris/.config/Mousepad/accels.scm]
-Bookmarks=
-Checksum=05d1ee990e96577748b55d16fcf5fdebc8355dd1
-Encoding=UTF-8
-Highlighting=Scheme
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Scheme
-Mode Set By User=false
-Time=2020,6,5,21,12,43
-URL=file:///home/thmyris/.config/Mousepad/accels.scm
-
-[file:///home/thmyris/.config/Thunar/accels.scm]
-Bookmarks=
-Checksum=f978e2c4e1114a6520fdd2d574825cff739e655f
-Encoding=UTF-8
-Highlighting=Scheme
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Scheme
-Mode Set By User=false
-Time=2020,5,11,4,16,1
-URL=file:///home/thmyris/.config/Thunar/accels.scm
-
-[file:///home/thmyris/.config/dconf/user]
-Bookmarks=
-Checksum=e428fbe7a1f269c941469a19ed8e2d6ab2785604
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,5,21,11,26
-URL=file:///home/thmyris/.config/dconf/user
-
-[file:///home/thmyris/.config/joplin-desktop/edit-e05b2e4ba449422789c009ed5460eed5.md]
-Bookmarks=
-Checksum=acc4cae6c40622b46588ea90d7f508f5d59d61e6
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,21,22,54,24
-URL=file:///home/thmyris/.config/joplin-desktop/edit-e05b2e4ba449422789c009ed5460eed5.md
-
-[file:///home/thmyris/.config/joplin-desktop/userstyle.css]
-Bookmarks=
-Checksum=2cb710f8d3edd6db4746e858d51e992520e11407
-Encoding=UTF-8
-Highlighting=CSS
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=CSS
-Mode Set By User=false
-Time=2020,5,22,2,59,36
-URL=file:///home/thmyris/.config/joplin-desktop/userstyle.css
 
 [file:///home/thmyris/.config/katerc]
 Bookmarks=
-Checksum=46e13c80230372b7461edf9c4850bc80067fe713
+Checksum=387299a35669d439e3e3ea91b245e5510ab8723d
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,11,4,20,20
+Time=2020,8,12,9,28,0
 URL=file:///home/thmyris/.config/katerc
 
-[file:///home/thmyris/.config/qt5ct/qt5ct.conf]
+[file:///home/thmyris/.gitconfig]
 Bookmarks=
-Checksum=6eb11207ffda54087934b9a85ef4c11cc8e346f5
+Checksum=992cd9e8ea03bb6c940a07f6c4529c93a6589718
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,6,5,21,12,55
-URL=file:///home/thmyris/.config/qt5ct/qt5ct.conf
+Time=2020,8,12,9,21,2
+URL=file:///home/thmyris/.gitconfig
 
-[file:///home/thmyris/.config/qterminal.org/qterminal.ini]
+[file:///home/thmyris/.lesshst]
 Bookmarks=
-Checksum=643dc8d63e62eab9ebf599849c7e2ee6cfe1f30a
+Checksum=6ce07c7b989b3717141105ee2845f68f47f6bf55
 Encoding=UTF-8
-Highlighting=INI Files
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=INI Files
+Mode=Normal
 Mode Set By User=false
-Time=2020,5,15,23,21,6
-URL=file:///home/thmyris/.config/qterminal.org/qterminal.ini
+Time=2020,8,12,9,25,30
+URL=file:///home/thmyris/.lesshst
 
-[file:///home/thmyris/.config/xfce4/desktop/icons.screen0-1904x1033.rc]
+[file:///home/thmyris/.nanorc]
 Bookmarks=
-Checksum=d5952bef57e04e213668e3e6e2c5377c7168af12
+Checksum=2f3594253ea53755c7e365fa4c0991418211bec6
 Encoding=UTF-8
-Highlighting=XML
+Highlighting=None
 Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
+Indentation Mode=normal
+Mode=Normal
 Mode Set By User=false
-Time=2020,5,10,17,46,22
-URL=file:///home/thmyris/.config/xfce4/desktop/icons.screen0-1904x1033.rc
-
-[file:///home/thmyris/.config/xfce4/desktop/icons.screen0-1904x1035.rc]
-Bookmarks=
-Checksum=1db6ca666c11fdb63c18448882a17b76a0d85d7e
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2020,5,10,17,46,3
-URL=file:///home/thmyris/.config/xfce4/desktop/icons.screen0-1904x1035.rc
-
-[file:///home/thmyris/.config/xfce4/panel/whiskermenu-1.rc]
-Bookmarks=
-Checksum=864c30cf5feee8ce42c1715fd05e274c6b5c1ef1
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2020,5,10,11,4,58
-URL=file:///home/thmyris/.config/xfce4/panel/whiskermenu-1.rc
-
-[file:///home/thmyris/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml]
-Bookmarks=
-Checksum=d028f985a146189516fc272646c9bb1d6d418465
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2020,5,13,18,46,13
-URL=file:///home/thmyris/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
-
-[file:///home/thmyris/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml]
-Bookmarks=
-Checksum=60cacd7c2516a6bbf3aa80600b421b86d1021450
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2020,5,10,17,48,28
-URL=file:///home/thmyris/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+Time=2020,8,12,9,25,21
+URL=file:///home/thmyris/.nanorc
 
 [file:///home/thmyris/.profile]
 Bookmarks=
-Checksum=9c71a7c4588916c5662b4dc6b1bb236fd0eca424
+Checksum=3cf88cc6531fa4810bf4f4bc9ee44e4671c35e26
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,5,18,18,46,23
+Time=2020,8,12,9,25,14
 URL=file:///home/thmyris/.profile
-
-[file:///home/thmyris/.profile.swp]
-Bookmarks=
-Checksum=ca0d2828a09be52d81b7b3e3b0c047e16e5444d2
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,13,18,29,54
-URL=file:///home/thmyris/.profile.swp
-
-[file:///home/thmyris/.ssh/id_rsa]
-Bookmarks=
-Checksum=0f07d984b994234b015a620779290cc01127e130
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,18,5,24,9
-URL=file:///home/thmyris/.ssh/id_rsa
 
 [file:///home/thmyris/.ssh/known_hosts]
 Bookmarks=
-Checksum=6aa2488634b213103a4dd5ee28fdc7fb272f90dc
+Checksum=45c5f10b1363ad1aee4f3ecce48576bdae458549
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,18,5,31,4
+Time=2020,8,12,9,19,45
 URL=file:///home/thmyris/.ssh/known_hosts
-
-[file:///home/thmyris/.swp]
-Bookmarks=
-Checksum=2c5b9690d8de2e614401131c6723ec47d95cf58c
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,4,6,10
-URL=file:///home/thmyris/.swp
 
 [file:///home/thmyris/.tmux.conf]
 Bookmarks=
-Checksum=c057ac6e42277097cf1727d43864c3fb99e45494
+Checksum=af41f606c03d04f2f22f0ced23ac1ac372282069
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,16,3,46,34
+Time=2020,7,16,9,32,7
 URL=file:///home/thmyris/.tmux.conf
 
-[file:///home/thmyris/.tmux_conf]
+[file:///home/thmyris/.viminfo]
 Bookmarks=
-Checksum=eb03857bcac63de2813535ab1f59684dacc91b44
+Checksum=76dc39fabcea40ac93652f19b65a6f82df166c43
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,2,23,12
-URL=file:///home/thmyris/.tmux_conf
+Time=2020,8,12,9,20,42
+URL=file:///home/thmyris/.viminfo
 
-[file:///home/thmyris/Desktop/!TO DO LIST -XFCE-DEB.md]
+[file:///home/thmyris/.wget-hsts]
 Bookmarks=
-Checksum=47564cd85ba4caf0f62f9910ed14bd564384484c
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,10,10,16,37
-URL=file:///home/thmyris/Desktop/!TO DO LIST -XFCE-DEB.md
-
-[file:///home/thmyris/Desktop/Note taking apps]
-Bookmarks=
-Checksum=2a2354c0c2c96a8c6576f3ed95369d90869916f3
+Checksum=0ac568e6e12dd243765625acf27b9f61fdd4d4b7
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,22,9,18,51
-URL=file:///home/thmyris/Desktop/Note taking apps
+Time=2020,8,12,9,26,54
+URL=file:///home/thmyris/.wget-hsts
 
-[file:///home/thmyris/Desktop/Welcome! (Desktop)/1. Welcome to Joplin! 🗒️.md]
-Bookmarks=
-Checksum=c98ef3a6f5c08c7cdbc4dd61992315e06f70b466
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,22,3,29,58
-URL=file:///home/thmyris/Desktop/Welcome! (Desktop)/1. Welcome to Joplin! 🗒️.md
-
-[file:///home/thmyris/Desktop/Welcome! (Desktop)/bbbbb/bvbnvbn.md]
-Bookmarks=
-Checksum=1891308ca58c828508fbda7e1b9c5c0a576d1741
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,22,4,42,38
-URL=file:///home/thmyris/Desktop/Welcome! (Desktop)/bbbbb/bvbnvbn.md
-
-[file:///home/thmyris/Desktop/asda]
-Bookmarks=
-Checksum=6a5260964c04548f1db44a205f6a9c7f4fb4a7a7
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,14,5,4,56
-URL=file:///home/thmyris/Desktop/asda
-
-[file:///home/thmyris/Desktop/cherrytree pros and cons]
-Bookmarks=
-Checksum=43c72e342d5fbfa3ce503c2365aff921dccdb682
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,22,8,14,19
-URL=file:///home/thmyris/Desktop/cherrytree pros and cons
-
-[file:///home/thmyris/Desktop/egzersiz-prog-cuneyt (copy 1).txt]
-Bookmarks=
-Checksum=2c6d6d8d0b363ddf1dadbf69fe9f4f3ceff72d01
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,2,15,18,39
-URL=file:///home/thmyris/Desktop/egzersiz-prog-cuneyt (copy 1).txt
-
-[file:///home/thmyris/Desktop/egzersiz-prog-cuneyt.txt]
-Bookmarks=
-Checksum=65f35cec7ea756e0a045f925061640056d944843
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,2,12,58,53
-URL=file:///home/thmyris/Desktop/egzersiz-prog-cuneyt.txt
-
-[file:///home/thmyris/Desktop/egzersiz/day 1]
-Bookmarks=
-Checksum=2e740519d1613bc8b3609b16d3a7d4c42015346c
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,2,15,18,33
-URL=file:///home/thmyris/Desktop/egzersiz/day 1
-
-[file:///home/thmyris/Desktop/egzersiz/day2]
-Bookmarks=
-Checksum=d1c7a5bf0792488fd5727ca95084224f027b6b27
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,4,13,45,51
-URL=file:///home/thmyris/Desktop/egzersiz/day2
-
-[file:///home/thmyris/Desktop/egzersiz/egzersiz-prog-cuneyt (copy 1).txt]
-Bookmarks=
-Checksum=2c6d6d8d0b363ddf1dadbf69fe9f4f3ceff72d01
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,4,13,45,51
-URL=file:///home/thmyris/Desktop/egzersiz/egzersiz-prog-cuneyt (copy 1).txt
-
-[file:///home/thmyris/Desktop/egzersiz/eski egzersiz-prog-cuneyt.txt]
-Bookmarks=
-Checksum=65f35cec7ea756e0a045f925061640056d944843
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,2,15,18,34
-URL=file:///home/thmyris/Desktop/egzersiz/eski egzersiz-prog-cuneyt.txt
-
-[file:///home/thmyris/Desktop/egzersiz/eski.txt]
-Bookmarks=
-Checksum=65f35cec7ea756e0a045f925061640056d944843
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,2,15,18,34
-URL=file:///home/thmyris/Desktop/egzersiz/eski.txt
-
-[file:///home/thmyris/Desktop/font i like]
-Bookmarks=
-Checksum=e3c50356d3c7c4da7ccc83f992b089240b2e6710
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,3,43,1
-URL=file:///home/thmyris/Desktop/font i like
-
-[file:///home/thmyris/Desktop/install & cfgure git lfs]
-Bookmarks=
-Checksum=8cb012098f8a32feded77309a8fd23a8c2e4153e
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,14,5,19,42
-URL=file:///home/thmyris/Desktop/install & cfgure git lfs
-
-[file:///home/thmyris/Desktop/kedimailcreds]
-Bookmarks=
-Checksum=40ef374ea8c4aa081f9f973711a370ae7467b579
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,22,0,28,10
-URL=file:///home/thmyris/Desktop/kedimailcreds
-
-[file:///home/thmyris/Desktop/linux.cfg/notes/THINGS I QUESTION ABOUT EVERY LINUX DISTRO]
-Bookmarks=
-Checksum=618301edab63749cb6ca3635af58a62751a8c4b3
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,1,37,13
-URL=file:///home/thmyris/Desktop/linux.cfg/notes/THINGS I QUESTION ABOUT EVERY LINUX DISTRO
-
-[file:///home/thmyris/Desktop/linux.cfg/notes/kali as daily driver experience.txt]
-Bookmarks=
-Checksum=9c5ee5aa92029f40a72222204c725a7b358cf185
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,1,37,7
-URL=file:///home/thmyris/Desktop/linux.cfg/notes/kali as daily driver experience.txt
-
-[file:///home/thmyris/Desktop/linux.cfg/notes/todo-xfce.md]
-Bookmarks=
-Checksum=f437385d483585f81df4c98c0ad7b8e64e25d0a2
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,16,1,37,50
-URL=file:///home/thmyris/Desktop/linux.cfg/notes/todo-xfce.md
-
-[file:///home/thmyris/Desktop/linux.cfg/setup.txt]
-Bookmarks=
-Checksum=dda115f4aa5e58b3d82f88c4a5ceb25e91eb3a00
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,1,38,7
-URL=file:///home/thmyris/Desktop/linux.cfg/setup.txt
-
-[file:///home/thmyris/Desktop/multitouch trackpad gestures]
-Bookmarks=
-Checksum=cb11517b3403f35bd825236e36a7a0376471c59f
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,23,6,45,46
-URL=file:///home/thmyris/Desktop/multitouch trackpad gestures
-
-[file:///home/thmyris/Desktop/nerde kalmistik]
-Bookmarks=
-Checksum=288a6f0fe3175fb044d2226cd9520d2942078881
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,1,31,6
-URL=file:///home/thmyris/Desktop/nerde kalmistik
-
-[file:///home/thmyris/Desktop/new stuff to add to linux.cfg]
-Bookmarks=
-Checksum=f14ea1ee35ee92fba2ee5a1f8c377a571e312af2
-Encoding=UTF-8
-Highlighting=Nagios
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Nagios
-Mode Set By User=false
-Time=2020,5,14,5,20,34
-URL=file:///home/thmyris/Desktop/new stuff to add to linux.cfg
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.ICEauthority]
-Bookmarks=
-Checksum=562cdf549dee15ec90b53b4da113571a75b50b46
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,32,59
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.ICEauthority
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.Xauthority]
-Bookmarks=
-Checksum=01b7bd9b75bf46872d11e4d5c92ebea6ac5b7b7c
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,29,55
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.Xauthority
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.bash_aliases]
-Bookmarks=
-Checksum=1587a3c7ebcb6533d805da763e67b589bce057d5
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,23,29
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.bash_aliases
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.bash_history]
-Bookmarks=
-Checksum=d69cb5208e373cb823a7a0a6038b69f5a16e171e
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,33,5
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.bash_history
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.bashrc]
-Bookmarks=
-Checksum=9360f69a747f3b5a267c108302a6a0bbb4f30986
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,11,4,33,4
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.bashrc
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.config/cherrytree/config.cfg]
-Bookmarks=
-Checksum=53770ff3e6adc27659fff53db90b6b8f52564635
-Encoding=UTF-8
-Highlighting=Nagios
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Nagios
-Mode Set By User=false
-Time=2020,5,11,4,9,8
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.config/cherrytree/config.cfg
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.dmrc]
-Bookmarks=
-Checksum=42912faa681dc7a7f0b6357194a7546b1c7fe2ac
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,33,1
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.dmrc
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.face]
+[file:///home/thmyris/.wget-ocsp]
 Bookmarks=
 Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
 Encoding=UTF-8
@@ -714,404 +210,92 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,11,4,33,2
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.face
+Time=2020,8,12,9,26,8
+URL=file:///home/thmyris/.wget-ocsp
 
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.gitconfig]
+[file:///home/thmyris/Desktop/New File]
 Bookmarks=
-Checksum=f7948710673c231b0d6ef03bf2e10441b6456667
+Checksum=f132533804971ae2387a59a22c8cc42921ec7ce1
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,11,4,33,7
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.gitconfig
+Time=2020,7,20,9,31,17
+URL=file:///home/thmyris/Desktop/New File
 
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.lesshst]
+[file:///home/thmyris/Desktop/recurring email/main.py]
 Bookmarks=
-Checksum=c3e54807b7679d8c7a20bc5a898e8c435ddb4594
+Checksum=62abf8938eb2e1a872f77a0dd4951e3403386c34
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2020,7,30,20,43,10
+URL=file:///home/thmyris/Desktop/recurring email/main.py
+
+[file:///home/thmyris/Desktop/recurring email/message.txt]
+Bookmarks=
+Checksum=ebaac4c6593a1750fe4d4dd6a6a118d60a11c8c9
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,11,4,33,9
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.lesshst
+Time=2020,7,30,20,41,13
+URL=file:///home/thmyris/Desktop/recurring email/message.txt
 
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.mysql_history]
+[file:///home/thmyris/Desktop/recurring email/test.sh]
 Bookmarks=
-Checksum=442b2d513e63704bee79cd4771bf8a4e83faeac1
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,32,55
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.mysql_history
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.profile]
-Bookmarks=
-Checksum=89081c9182525ba860638110a00db48083de5b8f
+Checksum=eb7516bd6c7900869b401973d0b1af31247db8ff
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,5,11,4,33,10
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.profile
+Time=2020,7,30,20,33,27
+URL=file:///home/thmyris/Desktop/recurring email/test.sh
 
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.tmux.conf]
-Bookmarks=
-Checksum=0685776f3184ab99636b194f9e8125962e1224f3
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,33,14
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.tmux.conf
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.viminfo]
-Bookmarks=
-Checksum=8362f41ba8401cb0f7c77679246088a1e21a5f07
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,33,12
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.viminfo
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.wget-hsts]
-Bookmarks=
-Checksum=2bf94910125e98a1e06c1e41faaa820c5c231edb
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,30,3
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/.wget-hsts
-
-[file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/sshcey/authorized_keys]
-Bookmarks=
-Checksum=e82cd42d3ed9e0640df48327ca3343dcba08c3f1
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,32,53
-URL=file:///home/thmyris/Desktop/parcala aslanim/home/thmyris/sshcey/authorized_keys
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/.config/qt5ct/qt5ct.conf]
-Bookmarks=
-Checksum=48882e615552730c4bde8ded430752435d1c0760
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,15,23,32,41
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/.config/qt5ct/qt5ct.conf
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/.config/qterminal.org/qterminal.ini]
-Bookmarks=
-Checksum=48d44167025e4a4578048059227e834d43e69210
-Encoding=UTF-8
-Highlighting=INI Files
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=INI Files
-Mode Set By User=false
-Time=2020,5,15,23,21,7
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/.config/qterminal.org/qterminal.ini
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/.local/share/keyrings/Default_keyring.keyring]
-Bookmarks=
-Checksum=463acb0c074baebe5015988f7a6d1756af89232e
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,15,20,28,0
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/.local/share/keyrings/Default_keyring.keyring
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/.local/share/keyrings/default]
-Bookmarks=
-Checksum=b250febeb411e362f41745d9ca5ebd281b8598e9
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,15,20,28,1
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/.local/share/keyrings/default
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/.local/share/keyrings/login.keyring]
-Bookmarks=
-Checksum=22be28fe14819101c309b5b832da4994e3ebc274
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,15,20,28,0
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/.local/share/keyrings/login.keyring
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/.local/share/keyrings/user.keystore]
-Bookmarks=
-Checksum=e7c3ac366615b8a48f18e9716e2533b00c3a0498
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,15,20,28,1
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/.local/share/keyrings/user.keystore
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/1 - initial setup after re-formatting.sh]
+[file:///home/thmyris/Desktop/replace screenshot keybindings and update linux.cfg]
 Bookmarks=
 Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=Nagios
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
+Mode=Nagios
 Mode Set By User=false
-Time=2020,5,14,4,59,12
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/1 - initial setup after re-formatting.sh
+Time=2020,8,12,8,36,21
+URL=file:///home/thmyris/Desktop/replace screenshot keybindings and update linux.cfg
 
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/dont use kali as daily driver, its NOT STABLE]
+[file:///home/thmyris/Desktop/shelley adalite wallet\x5d]
 Bookmarks=
-Checksum=9c5ee5aa92029f40a72222204c725a7b358cf185
+Checksum=583624ffa9ce5b95efc5dd23369769eab1e3a744
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,4,59,10
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/dont use kali as daily driver, its NOT STABLE
+Time=2020,8,7,16,6,38
+URL=file:///home/thmyris/Desktop/shelley adalite wallet]
 
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/hue/Desktop - custom 1.sh]
+[file:///home/thmyris/Desktop/shelley yeni cuzdanlar.txt]
 Bookmarks=
-Checksum=2f68bc380e749c1916c1e4f41d6f0746a11ab256
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,14,4,56,50
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/hue/Desktop - custom 1.sh
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/hue/youtube-dl.txt]
-Bookmarks=
-Checksum=fd6c8265df45c041c1768be5adda3f34cc0e46d0
+Checksum=527a401635339e745942e8476ffcc5d4e34c0d39
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,4,56,57
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/hue/youtube-dl.txt
-
-[file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/oh snap!/note.txt]
-Bookmarks=
-Checksum=e2a7f1990a2942fb9514d26e50ed5bf4c7716932
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,15,20,29,29
-URL=file:///home/thmyris/Desktop/parcala aslanim/thmyris/linux.cfg-master/oh snap!/note.txt
-
-[file:///home/thmyris/Desktop/quote]
-Bookmarks=
-Checksum=9c85578564fcd9d65bd351e541968f50c3e4a183
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,3,14,53,31
-URL=file:///home/thmyris/Desktop/quote
-
-[file:///home/thmyris/Desktop/setup.sh]
-Bookmarks=
-Checksum=9db8e8bd5a79e9d8aa44536fead34d76b0b47075
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,10,21,2,29
-URL=file:///home/thmyris/Desktop/setup.sh
-
-[file:///home/thmyris/Desktop/setup.txt]
-Bookmarks=40
-Checksum=2f5d7824683beb9ba356ba8a32c82cbb944dcccd
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,10,21,2,29
-URL=file:///home/thmyris/Desktop/setup.txt
-
-[file:///home/thmyris/Desktop/setup/README.md]
-Bookmarks=
-Checksum=65de1c040332ab92f4f329695149a6c90ff9ec59
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,16,1,14,11
-URL=file:///home/thmyris/Desktop/setup/README.md
-
-[file:///home/thmyris/Desktop/setup/aftersetup.sh]
-Bookmarks=
-Checksum=11a93c082fb2cea8c8d98d3e97fcd1996880ed4f
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,16,1,12,8
-URL=file:///home/thmyris/Desktop/setup/aftersetup.sh
-
-[file:///home/thmyris/Desktop/setup/deb/note]
-Bookmarks=
-Checksum=6cbdfc70a4a2de72896035cc54c4c106dc6441a4
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,15,23,55,52
-URL=file:///home/thmyris/Desktop/setup/deb/note
-
-[file:///home/thmyris/Desktop/setup/deb/note.txt]
-Bookmarks=
-Checksum=6cbdfc70a4a2de72896035cc54c4c106dc6441a4
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,1,5,40
-URL=file:///home/thmyris/Desktop/setup/deb/note.txt
-
-[file:///home/thmyris/Desktop/setup/dotfiles/.bash_aliases]
-Bookmarks=
-Checksum=1587a3c7ebcb6533d805da763e67b589bce057d5
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,14,2,24,7
-URL=file:///home/thmyris/Desktop/setup/dotfiles/.bash_aliases
-
-[file:///home/thmyris/Desktop/setup/dotfiles/.tmux.conf]
-Bookmarks=
-Checksum=0685776f3184ab99636b194f9e8125962e1224f3
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,14,2,23,58
-URL=file:///home/thmyris/Desktop/setup/dotfiles/.tmux.conf
-
-[file:///home/thmyris/Desktop/setup/setup-after-restart.sh]
-Bookmarks=
-Checksum=b0a99ec3ba7fae0fa1b5bf4eca5b41bc8cf881a4
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,14,3,38,25
-URL=file:///home/thmyris/Desktop/setup/setup-after-restart.sh
-
-[file:///home/thmyris/Desktop/setup/setup.sh]
-Bookmarks=
-Checksum=a917453c56f2f413bcccd441cd6b2e9827b91602
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,16,1,12,9
-URL=file:///home/thmyris/Desktop/setup/setup.sh
-
-[file:///home/thmyris/Desktop/setup/setup.txt]
-Bookmarks=
-Checksum=dda115f4aa5e58b3d82f88c4a5ceb25e91eb3a00
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,1,12,19
-URL=file:///home/thmyris/Desktop/setup/setup.txt
-
-[file:///home/thmyris/Desktop/setup/todo-xfce.md]
-Bookmarks=
-Checksum=f437385d483585f81df4c98c0ad7b8e64e25d0a2
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,16,0,50,23
-URL=file:///home/thmyris/Desktop/setup/todo-xfce.md
-
-[file:///home/thmyris/Desktop/sh data/setup.txt]
-Bookmarks=
-Checksum=7573ed33fd0533d3020dce57797e0e2df44c3d3c
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,10,21,49,14
-URL=file:///home/thmyris/Desktop/sh data/setup.txt
+Time=2020,8,7,16,6,35
+URL=file:///home/thmyris/Desktop/shelley yeni cuzdanlar.txt
 
 [file:///home/thmyris/Desktop/someones aliases]
 Bookmarks=
@@ -1122,7 +306,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,11,4,20,16
+Time=2020,7,17,14,58,31
 URL=file:///home/thmyris/Desktop/someones aliases
 
 [file:///home/thmyris/Desktop/someones git cfg]
@@ -1134,1030 +318,442 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,6,1,10,38,52
+Time=2020,8,12,8,36,15
 URL=file:///home/thmyris/Desktop/someones git cfg
 
-[file:///home/thmyris/Desktop/soru-cevap]
+[file:///home/thmyris/Desktop/sorun cikaran hepsiburada sifresi]
 Bookmarks=
-Checksum=b018cb33e3bdf7c4b32258fd060dba0921b3a72f
+Checksum=59034b7fcaa14dd15b3ea0b15a31a2689830eaa2
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,6,1,10,38,52
-URL=file:///home/thmyris/Desktop/soru-cevap
+Time=2020,8,4,17,6,33
+URL=file:///home/thmyris/Desktop/sorun cikaran hepsiburada sifresi
 
-[file:///home/thmyris/Desktop/test]
+[file:///home/thmyris/Downloads/TwitterAccountTakeover-master/LICENSE]
 Bookmarks=
-Checksum=bde2c3342badf7650bac4d2ddf159cb5882b1952
+Checksum=f288702d2fa16d3cdf0035b15a9fcbc552cd88e7
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,5,5,12
-URL=file:///home/thmyris/Desktop/test
+Time=2020,7,16,7,53,13
+URL=file:///home/thmyris/Downloads/TwitterAccountTakeover-master/LICENSE
 
-[file:///home/thmyris/Desktop/test2/test]
+[file:///home/thmyris/Downloads/XMousePasteBlock-master/README.md]
 Bookmarks=
-Checksum=7837a2f4914f04fcf6e6ba6e5da6f481541c28ad
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,11,4,9,10
-URL=file:///home/thmyris/Desktop/test2/test
-
-[file:///home/thmyris/Desktop/testets/copy]
-Bookmarks=
-Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,14,5,5,28
-URL=file:///home/thmyris/Desktop/testets/copy
-
-[file:///home/thmyris/Desktop/todo-xfce.md]
-Bookmarks=
-Checksum=f437385d483585f81df4c98c0ad7b8e64e25d0a2
+Checksum=5474002861c9d7ef7a61f281ce67e686bb19fe20
 Encoding=UTF-8
 Highlighting=Markdown
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Markdown
 Mode Set By User=false
-Time=2020,5,14,3,38,26
-URL=file:///home/thmyris/Desktop/todo-xfce.md
+Time=2020,7,14,19,29,1
+URL=file:///home/thmyris/Downloads/XMousePasteBlock-master/README.md
 
-[file:///home/thmyris/Desktop/vivaldi setup.txt]
+[file:///home/thmyris/Downloads/XMousePasteBlock-master/xmousepasteblock.c]
 Bookmarks=
-Checksum=719be06e2f38ff95236c0ad96ac2af78337c7958
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,19,22,58,29
-URL=file:///home/thmyris/Desktop/vivaldi setup.txt
-
-[file:///home/thmyris/Downloads/170401084edited.c]
-Bookmarks=
-Checksum=6e6300fce922087af2d236669d9f9eb48b65ea80
+Checksum=a0d2b2d87d2ad8e585626ea0260f8b025a9a2f61
 Encoding=UTF-8
 Highlighting=C
 Highlighting Set By User=false
 Indentation Mode=cstyle
 Mode=C
 Mode Set By User=false
-Time=2020,5,22,21,38,48
-URL=file:///home/thmyris/Downloads/170401084edited.c
+Time=2020,7,14,18,23,39
+URL=file:///home/thmyris/Downloads/XMousePasteBlock-master/xmousepasteblock.c
 
-[file:///home/thmyris/Downloads/Inconsolata/OFL.txt]
+[file:///home/thmyris/Downloads/anki-2.1.28-linux-amd64/README]
 Bookmarks=
-Checksum=0b83a9a70f566b326e765ccb5f93473f7e188352
+Checksum=fd95930717f499e5597c95327ed6f9f3acf9c3a4
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,4,20,23
-URL=file:///home/thmyris/Downloads/Inconsolata/OFL.txt
+Time=2020,7,20,17,9,3
+URL=file:///home/thmyris/Downloads/anki-2.1.28-linux-amd64/README
 
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/1-4_all_letters_a-z.txt]
+[file:///home/thmyris/Downloads/bitcoin-0.20.0/README.md]
 Bookmarks=
-Checksum=fabfe1470bf7c5d825d53f16f1e7b8d2f0ac917a
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,26,36
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/1-4_all_letters_a-z.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/4-digits-0000-9999.txt]
-Bookmarks=
-Checksum=77dbaaa8b72a319dfef0df18e7625846eb6cc3b2
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,22,44
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/4-digits-0000-9999.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/Databases/MSSQL.fuzzdb.txt]
-Bookmarks=
-Checksum=98bffbab87a82378e2ddededdbb87fe6bffbb9db
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,22,43
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/Databases/MSSQL.fuzzdb.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/Databases/Oracle.fuzzdb.txt]
-Bookmarks=
-Checksum=9ee5c6d8d81f60dcce76d30776686cfc2bfcfe54
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,23,1
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/Databases/Oracle.fuzzdb.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/Databases/db2enumeration.fuzzdb.txt]
-Bookmarks=
-Checksum=316e58a5684fca95b4a970a13e360c3eecd4acbf
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,22,50
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/Databases/db2enumeration.fuzzdb.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/FormatString-Jhaddix.txt]
-Bookmarks=
-Checksum=a29e9c6e4db1e4c3b596e77ce038d8efa4b08371
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,22,44
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/FormatString-Jhaddix.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/HTML5sec-Injections-Jhaddix.txt]
-Bookmarks=
-Checksum=a2e9cee847c989baa25918a6b0375d3ae92578b8
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,22,44
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/HTML5sec-Injections-Jhaddix.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/LFI/LFI-Jhaddix.txt]
-Bookmarks=
-Checksum=3dd8807b1516b8be3c3ee12ca8f3e8aeae2c1435
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,26,41
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/LFI/LFI-Jhaddix.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/User-Agents/UserAgents.fuzz.txt]
-Bookmarks=
-Checksum=67704bf905025be17a57346d0aa81651e693e8c0
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,26,41
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/User-Agents/UserAgents.fuzz.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/User-Agents/operating-system-name/android.txt]
-Bookmarks=
-Checksum=3c47690bb1a11548a00a39a2391abe06f1e96b59
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,26,40
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/User-Agents/operating-system-name/android.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/User-Agents/user-agents-whatismybrowserdotcom-mid.txt]
-Bookmarks=
-Checksum=4266d035e3847ba63260a4859d7ddd5e26789ffa
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,26,40
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/User-Agents/user-agents-whatismybrowserdotcom-mid.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/char.txt]
-Bookmarks=
-Checksum=0edb85647c20325c18d158529b73bc2105696c97
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,21,50
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/char.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Fuzzing/fuzz-Bo0oM.txt]
-Bookmarks=
-Checksum=e83c7515a1ca4c2e7b3040be20fbad8450bfde32
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,22,44
-URL=file:///home/thmyris/Downloads/SecLists-master/Fuzzing/fuzz-Bo0oM.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/IOCs/README.md]
-Bookmarks=
-Checksum=01a7cc29756ca348bcd8b31b535d3b4d0272b440
+Checksum=400320dde016f37d0d3fb09a39d99a45338bc2c7
 Encoding=UTF-8
 Highlighting=Markdown
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Markdown
 Mode Set By User=false
-Time=2020,5,16,17,26,57
-URL=file:///home/thmyris/Downloads/SecLists-master/IOCs/README.md
+Time=2020,8,9,12,6,19
+URL=file:///home/thmyris/Downloads/bitcoin-0.20.0/README.md
 
-[file:///home/thmyris/Downloads/SecLists-master/IOCs/kaspersky-careto-registry.txt]
+[file:///home/thmyris/Downloads/login-logs.txt]
 Bookmarks=
-Checksum=c03e88fd0235c43e7c5a9f0f89ed58416302fd8a
+Checksum=66a7d87fd4d91cf75c8f1c516fb4b5693d10ec46
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,16,17,27,0
-URL=file:///home/thmyris/Downloads/SecLists-master/IOCs/kaspersky-careto-registry.txt
+Time=2020,8,8,12,30,24
+URL=file:///home/thmyris/Downloads/login-logs.txt
 
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt]
+[file:///home/thmyris/Downloads/online-book-store-project-in-php-master/admin.php]
 Bookmarks=
-Checksum=e6e50bf54bb62b803015665fcd3a5fb96735a2bb
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,45,56
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/Cracked-Hashes/milw0rm-dictionary.txt]
-Bookmarks=
-Checksum=db798cc7448dfc3e9401b9833a0857b8ae3e730f
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,46,4
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/Cracked-Hashes/milw0rm-dictionary.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/Honeypot-Captures/multiplesources-passwords-fabian-fingerle.de.txt]
-Bookmarks=
-Checksum=78856ef747b83fd8959c3f900c76d2ec23d6e7d2
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,46,5
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/Honeypot-Captures/multiplesources-passwords-fabian-fingerle.de.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/Honeypot-Captures/python-heralding-sep2019.txt]
-Bookmarks=
-Checksum=e4b927daa80a34f8b8855c809289d2bdb843131a
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,46,5
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/Honeypot-Captures/python-heralding-sep2019.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/Most-Popular-Letter-Passes.txt]
-Bookmarks=
-Checksum=29f57beaee1a6033d820fada1101f65fcdc4cc09
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,40,1
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/Most-Popular-Letter-Passes.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/darkweb2017-top10000.txt]
-Bookmarks=
-Checksum=b799c2072a8ae8d1d1d9f6682ffad44cb1053971
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,46,6
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/darkweb2017-top10000.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/dutch_wordlist]
-Bookmarks=
-Checksum=f6c020c35a6658474cd3ec3116886d6aa035a62a
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,46,7
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/dutch_wordlist
-
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/unkown-azul.txt]
-Bookmarks=
-Checksum=9fda261142b4361f73f3b48650a83990020aef74
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,46,6
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/unkown-azul.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Passwords/xato-net-10-million-passwords-dup.txt]
-Bookmarks=
-Checksum=c9dc05d4d279d152650b70af0ba6be85c52e3068
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,46,10
-URL=file:///home/thmyris/Downloads/SecLists-master/Passwords/xato-net-10-million-passwords-dup.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Usernames/xato-net-10-million-usernames-dup.txt]
-Bookmarks=
-Checksum=7da279912606aeb21324f3e9e51ac09b07cf8b1e
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,42,2
-URL=file:///home/thmyris/Downloads/SecLists-master/Usernames/xato-net-10-million-usernames-dup.txt
-
-[file:///home/thmyris/Downloads/SecLists-master/Usernames/xato-net-10-million-usernames.txt]
-Bookmarks=
-Checksum=6531ca4a72441f3ceff78efecbc8dbb5ecc2e60a
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,17,47,57
-URL=file:///home/thmyris/Downloads/SecLists-master/Usernames/xato-net-10-million-usernames.txt
-
-[file:///home/thmyris/Downloads/Startup Folder (allusers).lnk]
-Bookmarks=
-Checksum=fb73b4d925b681fd661610838a527a96c1f8b4fb
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,5,10,4
-URL=file:///home/thmyris/Downloads/Startup Folder (allusers).lnk
-
-[file:///home/thmyris/Downloads/message.txt]
-Bookmarks=
-Checksum=a8ad082dafb21126e497ac08c284e8a8064ee757
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,13,22,54,40
-URL=file:///home/thmyris/Downloads/message.txt
-
-[file:///home/thmyris/Downloads/removed_files.log]
-Bookmarks=
-Checksum=730942dc1e4406579614fb1ce4518869993cfc3f
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,18,1,27,21
-URL=file:///home/thmyris/Downloads/removed_files.log
-
-[file:///home/thmyris/Downloads/sitemap.xsl]
-Bookmarks=
-Checksum=1c47e7b2948c863a7b21fed01d668729679113b1
-Encoding=UTF-8
-Highlighting=xslt
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=xslt
-Mode Set By User=false
-Time=2020,5,18,17,47,22
-URL=file:///home/thmyris/Downloads/sitemap.xsl
-
-[file:///home/thmyris/Downloads/veracrypt-1.24-Update4-setup-console-x64]
-Bookmarks=
-Checksum=59c7570c10ac0ed2c97eee4d56c96a671944a2b2
-Encoding=ISO-8859-15
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,21,1,21,25
-URL=file:///home/thmyris/Downloads/veracrypt-1.24-Update4-setup-console-x64
-
-[file:///home/thmyris/Downloads/yemeksepeti-master/main.py]
-Bookmarks=
-Checksum=6c52098e802f4bd555d9509b02e00b0a13cc8bf4
-Encoding=UTF-8
-Highlighting=Python
-Highlighting Set By User=false
-Indentation Mode=python
-Mode=Python
-Mode Set By User=false
-Time=2020,5,23,18,17,56
-URL=file:///home/thmyris/Downloads/yemeksepeti-master/main.py
-
-[file:///home/thmyris/files/linpeas.sh]
-Bookmarks=
-Checksum=c6266e50a926f94d8d54de3123d7209f1b5391c4
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,18,3,21,3
-URL=file:///home/thmyris/files/linpeas.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/add_cron_job.sh]
-Bookmarks=
-Checksum=4500883dbd330da02bae4952003c8866bf81fd3e
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,3,28,32
-URL=file:///home/thmyris/files/poor-mans-pentest/add_cron_job.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/add_ssh_key.sh]
-Bookmarks=
-Checksum=916b1da2fffe1413d9bd1f25850eb30dc9db554b
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,3,28,31
-URL=file:///home/thmyris/files/poor-mans-pentest/add_ssh_key.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/download_file_nc.sh]
-Bookmarks=
-Checksum=8c5d53ccb688a36c45dc0a9b4b33f001a8c709cb
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,3,28,31
-URL=file:///home/thmyris/files/poor-mans-pentest/download_file_nc.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/functions.sh]
-Bookmarks=
-Checksum=f0941c24962b02114d00c5dc81854763a0bee0f8
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,3,28,31
-URL=file:///home/thmyris/files/poor-mans-pentest/functions.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/lenum.sh]
-Bookmarks=
-Checksum=31033e75ac05b09a174b2b1c16de84a09bb5835e
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,1,22,37
-URL=file:///home/thmyris/files/poor-mans-pentest/lenum.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/nc_revshell.sh]
-Bookmarks=
-Checksum=d3d88ee33004a1dfd48647b1135f39e6ad0ad5e6
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,3,28,31
-URL=file:///home/thmyris/files/poor-mans-pentest/nc_revshell.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/peas.sh]
-Bookmarks=
-Checksum=570b7383b7b063ae08931d83298c434cb8589fd8
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,3,28,31
-URL=file:///home/thmyris/files/poor-mans-pentest/peas.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/python_revshell.sh]
-Bookmarks=
-Checksum=bfc5330768a0acaed4660cd329fe87f244994a96
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,1,35,24
-URL=file:///home/thmyris/files/poor-mans-pentest/python_revshell.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/stabilize_shell.sh]
-Bookmarks=
-Checksum=d0efc3357aadf89d3252e4947f2c0ca5466097ac
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,1,27,5
-URL=file:///home/thmyris/files/poor-mans-pentest/stabilize_shell.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/todo.txt]
-Bookmarks=
-Checksum=3dee541f4fedd222af4bcaf9dd493b0608306dd9
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,20,1,35,23
-URL=file:///home/thmyris/files/poor-mans-pentest/todo.txt
-
-[file:///home/thmyris/files/poor-mans-pentest/upload_file_nc.sh]
-Bookmarks=
-Checksum=4af1687ed098824c9199ac8164f4b8f30bdc32a1
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,1,27,4
-URL=file:///home/thmyris/files/poor-mans-pentest/upload_file_nc.sh
-
-[file:///home/thmyris/files/poor-mans-pentest/upload_file_wget.sh]
-Bookmarks=
-Checksum=bb8693752c7f3550f796cbb4fba7e915a917dd4a
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,20,1,27,4
-URL=file:///home/thmyris/files/poor-mans-pentest/upload_file_wget.sh
-
-[file:///home/thmyris/linux.cfg/.dotfiles/.tmux.conf]
-Bookmarks=
-Checksum=c057ac6e42277097cf1727d43864c3fb99e45494
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,5,21,13,37
-URL=file:///home/thmyris/linux.cfg/.dotfiles/.tmux.conf
-
-[file:///home/thmyris/linux.cfg/README.md]
-Bookmarks=
-Checksum=65de1c040332ab92f4f329695149a6c90ff9ec59
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,17,21,18,28
-URL=file:///home/thmyris/linux.cfg/README.md
-
-[file:///home/thmyris/linux.cfg/setup.sh]
-Bookmarks=
-Checksum=eeb46cb7b71700d06c3414f7662bc4ffc8d89fb0
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,18,18,46,23
-URL=file:///home/thmyris/linux.cfg/setup.sh
-
-[file:///home/thmyris/linux.cfg/setup.txt]
-Bookmarks=
-Checksum=133298709be02c0c4ed34a054b164d600702d722
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,21,22,54,27
-URL=file:///home/thmyris/linux.cfg/setup.txt
-
-[file:///home/thmyris/sample3.txt]
-Bookmarks=
-Checksum=9a9033970467f61bfa7d9a5313926c98f84562f2
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,13,23,56,18
-URL=file:///home/thmyris/sample3.txt
-
-[file:///home/thmyris/sec/ArkaKapi PDF/%23StayHome]
-Bookmarks=
-Checksum=6e45f75a4eb67d6e05166e972b17b093f00d31e0
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,5,21,4,43
-URL=file:///home/thmyris/sec/ArkaKapi PDF/%23StayHome
-
-[file:///home/thmyris/sec/README.md]
-Bookmarks=
-Checksum=40f773bd73bfc79606a7e4c13dd889a64b0d7115
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2020,5,18,4,57,46
-URL=file:///home/thmyris/sec/README.md
-
-[file:///home/thmyris/sec/The Beginner Malware Analysis Course by 0ffset/whats this]
-Bookmarks=
-Checksum=b225ab5a9667d12d1222a23211343b9991b047ed
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,5,20,59,46
-URL=file:///home/thmyris/sec/The Beginner Malware Analysis Course by 0ffset/whats this
-
-[file:///home/thmyris/sec/reading material.txt]
-Bookmarks=
-Checksum=c32f1afa7b2daf37ece7017aa70a091197d63485
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,4,9,15
-URL=file:///home/thmyris/sec/reading material.txt
-
-[file:///home/thmyris/sec/thm/anonymous/ftp/scripts/clean.sh]
-Bookmarks=
-Checksum=d96a37bce43debc14e55b227201d713bc15e04fe
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,18,2,40,32
-URL=file:///home/thmyris/sec/thm/anonymous/ftp/scripts/clean.sh
-
-[file:///home/thmyris/sec/thm/anonymous/ftp/scripts/removed_files.log]
-Bookmarks=
-Checksum=378a5d472681e3e6b9648792e2c32dcc37a44f22
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,18,1,27,22
-URL=file:///home/thmyris/sec/thm/anonymous/ftp/scripts/removed_files.log
-
-[file:///home/thmyris/sec/thm/anonymous/ftp/scripts/to_do.txt]
-Bookmarks=
-Checksum=252125b98515b1bb3a81d5158b269cf81367f5c7
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,18,1,27,24
-URL=file:///home/thmyris/sec/thm/anonymous/ftp/scripts/to_do.txt
-
-[file:///home/thmyris/sec/thm/lazyadmin/allnmap.txt]
-Bookmarks=
-Checksum=5b449c2dbc453a323899ae6f40437fa36a796ca5
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,18,18,46,23
-URL=file:///home/thmyris/sec/thm/lazyadmin/allnmap.txt
-
-[file:///home/thmyris/sec/thm/lazyadmin/defnmap.txt]
-Bookmarks=
-Checksum=69c0a4f5442991b4aa5fe76a21d807ac4cda5fdb
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,18,18,46,23
-URL=file:///home/thmyris/sec/thm/lazyadmin/defnmap.txt
-
-[file:///home/thmyris/sec/thm/lazyadmin/function.php]
-Bookmarks=
-Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+Checksum=806dde5c995aa4ca2cf96155b06da4c9b597caa4
 Encoding=UTF-8
 Highlighting=PHP (HTML)
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=PHP (HTML)
 Mode Set By User=false
-Time=2020,5,18,17,59,50
-URL=file:///home/thmyris/sec/thm/lazyadmin/function.php
+Time=2020,7,28,16,22,34
+URL=file:///home/thmyris/Downloads/online-book-store-project-in-php-master/admin.php
 
-[file:///home/thmyris/sec/thm/lazyadmin/mysql_bakup_20191129023059-1.5.1.sql]
+[file:///home/thmyris/Downloads/online-book-store-project-in-php-master/admin_verify.php]
 Bookmarks=
-Checksum=85170cf07ad3d1fe4500665b5b67e57d966befde
+Checksum=de32f2aa7ed0c2787cfc6b71d86e2e1f351c2215
 Encoding=UTF-8
-Highlighting=SQL
+Highlighting=PHP (HTML)
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=SQL
+Mode=PHP (HTML)
 Mode Set By User=false
-Time=2020,5,18,19,58,24
-URL=file:///home/thmyris/sec/thm/lazyadmin/mysql_bakup_20191129023059-1.5.1.sql
+Time=2020,7,28,16,39,3
+URL=file:///home/thmyris/Downloads/online-book-store-project-in-php-master/admin_verify.php
 
-[file:///home/thmyris/t discovery with -Pn causes Nmap to attempt the requested scanning functions against every target IP address specified. So if a]
+[file:///home/thmyris/files/recurring-email/cron.sh]
 Bookmarks=
-Checksum=a8f78adcdd7f26051f6478de6cf2a3006ae43707
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,4,5,40
-URL=file:///home/thmyris/t discovery with -Pn causes Nmap to attempt the requested scanning functions against every target IP address specified. So if a
-
-[file:///home/thmyris/test.py]
-Bookmarks=
-Checksum=ca63fb435270c80afb2cd20d2ad689a6859c9d4b
-Encoding=UTF-8
-Highlighting=Python
-Highlighting Set By User=false
-Indentation Mode=python
-Mode=Python
-Mode Set By User=false
-Time=2020,5,14,3,38,14
-URL=file:///home/thmyris/test.py
-
-[file:///home/thmyris/test.sh]
-Bookmarks=
-Checksum=63a39393700457a1947ce65e3d1a1b1c099c2917
+Checksum=c3500ff29934cd8dc64830b82466038334ebd5d1
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,5,14,2,5,38
-URL=file:///home/thmyris/test.sh
+Time=2020,8,4,17,24,22
+URL=file:///home/thmyris/files/recurring-email/cron.sh
 
-[file:///home/thmyris/test/functions.py]
+[file:///home/thmyris/files/recurring-email/main.py]
 Bookmarks=
-Checksum=3d5aaff0322fcb34b27316c1035175ea210315b1
+Checksum=c9548b36b05309c3943a653b52b1cfcea5c06372
 Encoding=UTF-8
 Highlighting=Python
 Highlighting Set By User=false
 Indentation Mode=python
 Mode=Python
 Mode Set By User=false
-Time=2020,5,14,1,40,20
-URL=file:///home/thmyris/test/functions.py
+Time=2020,8,4,18,19,36
+URL=file:///home/thmyris/files/recurring-email/main.py
 
-[file:///home/thmyris/test/test.py]
+[file:///home/thmyris/files/recurring-email/message.txt]
 Bookmarks=
-Checksum=bf5560f509bb18769368763159799d9f86fb1eb1
+Checksum=ebaac4c6593a1750fe4d4dd6a6a118d60a11c8c9
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,7,31,9,36,4
+URL=file:///home/thmyris/files/recurring-email/message.txt
+
+[file:///home/thmyris/files/recurring-email/test.sh]
+Bookmarks=
+Checksum=2a741372b61e466e6a8b435568f597ff91fbdda3
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,31,5,4,46
+URL=file:///home/thmyris/files/recurring-email/test.sh
+
+[file:///home/thmyris/files/recurring-email/test2.py]
+Bookmarks=
+Checksum=19eb0999e48c68aa92b78f21333c8b8e260ba85e
 Encoding=UTF-8
 Highlighting=Python
 Highlighting Set By User=false
 Indentation Mode=python
 Mode=Python
 Mode Set By User=false
-Time=2020,5,14,1,56,31
-URL=file:///home/thmyris/test/test.py
+Time=2020,7,30,21,17,15
+URL=file:///home/thmyris/files/recurring-email/test2.py
 
-[file:///media/WIN/Users/Thmyris/Desktop/Files/UNIVERSITE DOKUMANLAR/2.2/ders notlari/Olasilik ve Istatistik/finalde/chabysev mi ne yokmus.txt]
+[file:///home/thmyris/hs_err_pid4593.log]
 Bookmarks=
-Checksum=dbe1b0b03b602b38acea216b15258b199c067533
+Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,15,17,13,8
-URL=file:///media/WIN/Users/Thmyris/Desktop/Files/UNIVERSITE DOKUMANLAR/2.2/ders notlari/Olasilik ve Istatistik/finalde/chabysev mi ne yokmus.txt
+Time=2020,8,12,9,25,55
+URL=file:///home/thmyris/hs_err_pid4593.log
 
-[file:///media/WIN/Users/Thmyris/Desktop/Files/UNIVERSITE DOKUMANLAR/3.2/Bilg Org/qtspim ile ilgili not.txt]
+[file:///home/thmyris/linux.cfg/README.md]
 Bookmarks=
-Checksum=3c30ad5503349650fbdabec061f23c2cd7d1588e
+Checksum=b78dc96b49cf8ec9e7374e0d30efc99e37377693
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2020,8,12,9,16,1
+URL=file:///home/thmyris/linux.cfg/README.md
+
+[file:///home/thmyris/linux.cfg/aftersetup.sh]
+Bookmarks=
+Checksum=0ed7f6cfe518a2b90b1120d97064b4c980d7a52b
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,8,4,18,19,51
+URL=file:///home/thmyris/linux.cfg/aftersetup.sh
+
+[file:///home/thmyris/linux.cfg/bigfiles]
+Bookmarks=
+Checksum=d9e22cdec8a567f010677a5ff709b880fe64cefd
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,6,3,14,53,24
-URL=file:///media/WIN/Users/Thmyris/Desktop/Files/UNIVERSITE DOKUMANLAR/3.2/Bilg Org/qtspim ile ilgili not.txt
+Time=2020,8,7,20,4,44
+URL=file:///home/thmyris/linux.cfg/bigfiles
 
-[file:///media/WIN/Users/Thmyris/Desktop/Files/interesting trading stuff/kripto notlar march 2020.txt]
+[file:///home/thmyris/linux.cfg/dotfiles/.bash_aliases]
 Bookmarks=
-Checksum=f2ea97ee8cc48d5688e4f64ef35e4663c99eeecb
+Checksum=238c1b4f2ff278a68935c5660178d59bbec5c81a
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,30,18,17,54
-URL=file:///media/WIN/Users/Thmyris/Desktop/Files/interesting trading stuff/kripto notlar march 2020.txt
+Time=2020,8,12,9,19,57
+URL=file:///home/thmyris/linux.cfg/dotfiles/.bash_aliases
 
-[file:///media/WIN/Users/Thmyris/Desktop/Files/interesting trading stuff/trading ind.txt]
+[file:///home/thmyris/linux.cfg/dotfiles/ABOUT THESE FILES]
 Bookmarks=
-Checksum=77126d39cf34afac4a31c8fc774ca5e48d34eb72
+Checksum=510941b3f86e0e7b933c9c87e429927bd88a5c00
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,30,18,17,54
-URL=file:///media/WIN/Users/Thmyris/Desktop/Files/interesting trading stuff/trading ind.txt
+Time=2020,8,12,9,20,52
+URL=file:///home/thmyris/linux.cfg/dotfiles/ABOUT THESE FILES
 
-[file:///media/WIN/Users/Thmyris/Desktop/OKUL ILE ILGILI.txt]
+[file:///home/thmyris/linux.cfg/package-n-upload.sh]
 Bookmarks=
-Checksum=4cfd78280069df5a91eee79976566173856cc0b3
+Checksum=d31ec46b4ba8312f45de988ca7f9c27f2ad6da21
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,8,12,9,16,0
+URL=file:///home/thmyris/linux.cfg/package-n-upload.sh
+
+[file:///home/thmyris/linux.cfg/setup.sh]
+Bookmarks=
+Checksum=32562854bdb76a6017d521391acd3d232ce91194
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,8,12,9,24,56
+URL=file:///home/thmyris/linux.cfg/setup.sh
+
+[file:///home/thmyris/linux.cfg/setup.txt]
+Bookmarks=
+Checksum=59063165587d5e99ad819edb94e1bcaf11db0d2d
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,15,21,35,43
-URL=file:///media/WIN/Users/Thmyris/Desktop/OKUL ILE ILGILI.txt
+Time=2020,8,12,9,8,43
+URL=file:///home/thmyris/linux.cfg/setup.txt
 
-[file:///media/WIN/Users/Thmyris/Desktop/odevler.txt]
+[file:///home/thmyris/linux.cfg/test.sh]
 Bookmarks=
-Checksum=f0a10cf65ebd3878211bc470f42ed8ed2b819055
+Checksum=4da79b6951eae43b9f9d5e39033bd48fa2c56dc3
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,8,12,9,14,21
+URL=file:///home/thmyris/linux.cfg/test.sh
+
+[file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/arifle konusmamiz.txt]
+Bookmarks=
+Checksum=996b4a8fcff3fb8062c4d70747ad672f2235d645
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,18,4,37,55
-URL=file:///media/WIN/Users/Thmyris/Desktop/odevler.txt
+Time=2020,8,8,11,39,7
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/arifle konusmamiz.txt
 
-[file:///media/WIN/Users/Thmyris/Desktop/tum ders kodlari.txt]
+[file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/how to translate.txt]
 Bookmarks=
-Checksum=403a44b7c67f6507e482aa7377d74d87224527ae
+Checksum=86a015501f89b3a585087ef0c65d42d1b0572a83
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,18,4,34,56
-URL=file:///media/WIN/Users/Thmyris/Desktop/tum ders kodlari.txt
+Time=2020,8,8,12,17,54
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/how to translate.txt
 
-[file:///media/WIN/Windows/System32/config/DEFAULT]
+[file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/navals writing.txt]
 Bookmarks=
-Checksum=c68c280a694db75950d0fa34bcfc2a1631d2d622
-Encoding=ISO-8859-15
+Checksum=aec623f510c0abc75cc4b58477abecdfd6c372b9
+Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,17,23,57,43
-URL=file:///media/WIN/Windows/System32/config/DEFAULT
+Time=2020,8,8,12,17,54
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/navals writing.txt
 
-[file:///media/WIN/Windows/System32/config/SAM.LOG1]
+[file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/the translation - Copy Backup before the final edit.txt]
 Bookmarks=
-Checksum=439ede7daaf892fc9a74f02e0be3665a35a53322
-Encoding=ISO-8859-15
+Checksum=6c8d58df541b524b38031c6ac3cb78894d9fdf60
+Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,17,23,57,43
-URL=file:///media/WIN/Windows/System32/config/SAM.LOG1
+Time=2020,8,8,11,39,28
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/the translation - Copy Backup before the final edit.txt
 
-[file:///media/WIN/Windows/System32/config/SECURITY]
+[file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/the translation.txt]
 Bookmarks=
-Checksum=6d0977a621a24ddb4146dc40a8bb55d99d83cd06
-Encoding=ISO-8859-15
+Checksum=abf131228b119bea18c35eaa527addb41882ba33
+Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,17,23,57,42
-URL=file:///media/WIN/Windows/System32/config/SECURITY
+Time=2020,8,8,12,17,54
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/PROJECTS/navals tweet chain translation/the translation.txt
 
-[file:///media/WIN/Windows/System32/config/SECURITY.LOG1]
+[file:///media/WIN/Users/Thmyris/Desktop/Files/borclar/annemden 1500tl ADA.txt]
 Bookmarks=
-Checksum=72a53c4a5f17ecbf736f6f174a2b6b2f6f2de40f
-Encoding=ISO-8859-15
+Checksum=ff2bd4411bbfef80c355043e4d799f377e0702cd
+Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,17,23,57,42
-URL=file:///media/WIN/Windows/System32/config/SECURITY.LOG1
+Time=2020,8,5,18,33,2
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/borclar/annemden 1500tl ADA.txt
 
-[file:///media/thmyris/0062D9AE62D9A8A4/Users/Thmyris/Desktop/hue/youtube-dl.txt]
+[file:///media/WIN/Users/Thmyris/Desktop/Files/borclar/anneme borclarim.txt]
+Bookmarks=
+Checksum=7d5bf2373fcca18b8c2ffc966b7b4c7ee0326d8d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,7,13,17,51,29
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/borclar/anneme borclarim.txt
+
+[file:///media/WIN/Users/Thmyris/Desktop/Files/sec/defcon/clicker_save]
+Bookmarks=
+Checksum=57da2fd76d5d99e3ca0a763b2d5046e01f2a91c7
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,8,7,13,49,47
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/sec/defcon/clicker_save
+
+[file:///media/WIN/Users/Thmyris/Desktop/Files/sec/h@cktivitycon-ctf/perfectXOR.py]
+Bookmarks=
+Checksum=52c4bc439dd1e9370441a68452c2a29a71ec0ef1
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2020,7,30,14,49,7
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/sec/h@cktivitycon-ctf/perfectXOR.py
+
+[file:///media/WIN/Users/Thmyris/Desktop/Files/sec/h@cktivitycon-ctf/perfectXOR/perfectXOR.py]
+Bookmarks=
+Checksum=4ef1d9c5fa2fe749fbf1241b6436eaa8f29f39db
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2020,7,30,20,38,49
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/sec/h@cktivitycon-ctf/perfectXOR/perfectXOR.py
+
+[file:///media/WIN/Users/Thmyris/Desktop/Files/sec/h@cktivitycon-ctf/test.py]
+Bookmarks=
+Checksum=4811354f08c9544e4d2f5bca3faee9390d0c3b53
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2020,7,30,14,49,7
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/sec/h@cktivitycon-ctf/test.py
+
+[file:///media/WIN/Users/Thmyris/Desktop/Files/sec/thm/owasptop10/9/tiberius-exploit.py]
+Bookmarks=
+Checksum=2865079ec76f7665685eb067da7930195ec089a9
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2020,7,28,16,57,8
+URL=file:///media/WIN/Users/Thmyris/Desktop/Files/sec/thm/owasptop10/9/tiberius-exploit.py
+
+[file:///media/WIN/Users/Thmyris/Desktop/duznle/hue/youtube-dl.txt]
 Bookmarks=
 Checksum=fd6c8265df45c041c1768be5adda3f34cc0e46d0
 Encoding=UTF-8
@@ -2166,94 +762,22 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,14,4,58,11
-URL=file:///media/thmyris/0062D9AE62D9A8A4/Users/Thmyris/Desktop/hue/youtube-dl.txt
+Time=2020,7,16,8,22,45
+URL=file:///media/WIN/Users/Thmyris/Desktop/duznle/hue/youtube-dl.txt
 
-[file:///media/thmyris/0062D9AE62D9A8A4/Users/Thmyris/Desktop/odevler.txt]
+[file:///media/thmyris/PROGRAM&VID/cb linux desktop/stuff/vivaldi setup.txt]
 Bookmarks=
-Checksum=f9123dfd88cf0b93b1b580238bae59c3e51df9aa
+Checksum=8b137891791fe96927ad78e64b0aad7bded08bdc
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,13,22,57,4
-URL=file:///media/thmyris/0062D9AE62D9A8A4/Users/Thmyris/Desktop/odevler.txt
+Time=2020,7,17,14,48,52
+URL=file:///media/thmyris/PROGRAM&VID/cb linux desktop/stuff/vivaldi setup.txt
 
-[file:///media/thmyris/DEPO/ARSIV/ALL-DISK-BACKUPS/Chromebook Linux Backup 30.12.19/Home/Desktop/todolist]
-Bookmarks=
-Checksum=ebc97c764d30d9c475b6d20dff6bbd42270db75c
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,21,23,42,25
-URL=file:///media/thmyris/DEPO/ARSIV/ALL-DISK-BACKUPS/Chromebook Linux Backup 30.12.19/Home/Desktop/todolist
-
-[file:///media/thmyris/PROGRAM&VID/arsive/.deb files/about xbindkeys]
-Bookmarks=
-Checksum=12e711236fed3c8032be1213bc28b430c5be4664
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,14,0,0,6
-URL=file:///media/thmyris/PROGRAM&VID/arsive/.deb files/about xbindkeys
-
-[file:///media/thmyris/PROGRAM&VID/arsive/.deb files/notepadqq/which to install.txt]
-Bookmarks=
-Checksum=3781616a93b8d12287948113b51c236835560ce3
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,10,20,40,34
-URL=file:///media/thmyris/PROGRAM&VID/arsive/.deb files/notepadqq/which to install.txt
-
-[file:///media/thmyris/PROGRAM&VID/arsive/put to/user_local_bin_youtube-dl/DONT FORGET TO.TXT]
-Bookmarks=
-Checksum=072bad8cee003934d644ab375e87f409a099ae88
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,10,21,23,9
-URL=file:///media/thmyris/PROGRAM&VID/arsive/put to/user_local_bin_youtube-dl/DONT FORGET TO.TXT
-
-[file:///media/thmyris/PROGRAM&VID/arsive/snap files/NOTE.txt]
-Bookmarks=
-Checksum=8f01edd7f533c22ca94edee9a1bf4cf47f4ebaea
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,17,20,52,54
-URL=file:///media/thmyris/PROGRAM&VID/arsive/snap files/NOTE.txt
-
-[file:///media/thmyris/PROGRAM&VID/arsive/snap files/installation note.txt]
-Bookmarks=
-Checksum=8f01edd7f533c22ca94edee9a1bf4cf47f4ebaea
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,17,21,3,5
-URL=file:///media/thmyris/PROGRAM&VID/arsive/snap files/installation note.txt
-
-[file:///media/veracrypt1/Crypto/btcturk.txt]
+[file:///media/veracrypt3/.Trash-1000/files/btcturk.2.txt]
 Bookmarks=
 Checksum=de224dc1ab031d6fc061afff1fa14b27c332cfa0
 Encoding=UTF-8
@@ -2262,22 +786,34 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,21,1,27,2
-URL=file:///media/veracrypt1/Crypto/btcturk.txt
+Time=2020,8,9,10,27,40
+URL=file:///media/veracrypt3/.Trash-1000/files/btcturk.2.txt
 
-[file:///media/veracrypt1/Crypto/cryptopia.co.nz acc.txt]
+[file:///media/veracrypt3/Crypto/daedalus.txt]
 Bookmarks=
-Checksum=c7783d0ff0a302dcef4e774194cf4987f932eb23
+Checksum=67d5e0a2183f6b1eb887f2df1023cc9cf909ef1a
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,21,1,26,43
-URL=file:///media/veracrypt1/Crypto/cryptopia.co.nz acc.txt
+Time=2020,8,2,20,57,12
+URL=file:///media/veracrypt3/Crypto/daedalus.txt
 
-[file:///media/veracrypt1/Crypto/jax payne.txt]
+[file:///media/veracrypt3/Crypto/electrum btc.txt]
+Bookmarks=
+Checksum=97b9cd417a0133c8da914479278fb05a86189994
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,8,9,15,14,31
+URL=file:///media/veracrypt3/Crypto/electrum btc.txt
+
+[file:///media/veracrypt3/Crypto/jaxx.txt]
 Bookmarks=
 Checksum=45de891df06ff3fed513d18a6928c8f13f3e0319
 Encoding=UTF-8
@@ -2286,129 +822,89 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,21,1,26,22
-URL=file:///media/veracrypt1/Crypto/jax payne.txt
+Time=2020,8,9,15,14,29
+URL=file:///media/veracrypt3/Crypto/jaxx.txt
 
-[file:///media/veracrypt1/Crypto/walletpw.txt]
+[file:///media/veracrypt3/Crypto/shelley adalite wallet\x5d]
 Bookmarks=
-Checksum=d4c3a1d6ad9958a97c49fc9db25e4771af9d9ac1
+Checksum=583624ffa9ce5b95efc5dd23369769eab1e3a744
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,21,1,26,12
-URL=file:///media/veracrypt1/Crypto/walletpw.txt
+Time=2020,8,10,17,42,31
+URL=file:///media/veracrypt3/Crypto/shelley adalite wallet]
 
-[file:///tmp/tmpfiJ5x1/310-1-23717-.viminfo]
-Checksum=924a79115e5cdc3646b060b14f391bdad0be0e98
-Time=2020,5,22,3,8,57
-
-[file:///usr/share/dirb/wordlists/catala.txt]
+[file:///media/veracrypt3/Crypto/shelley yeni cuzdanlar.txt]
 Bookmarks=
-Checksum=57f521d94d6869d1378bbe84bcc614ef869ef4aa
+Checksum=527a401635339e745942e8476ffcc5d4e34c0d39
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,16,4,17,44
-URL=file:///usr/share/dirb/wordlists/catala.txt
+Time=2020,8,10,17,42,37
+URL=file:///media/veracrypt3/Crypto/shelley yeni cuzdanlar.txt
 
-[file:///usr/share/dirb/wordlists/extensions_common.txt]
+[file:///media/veracrypt3/Crypto/yuroi spending pw.txt]
 Bookmarks=
-Checksum=2de16a1a6e774f27f3502fd54b9b5272980112a8
+Checksum=1248e1ad700b46915927f1eeed55728cd57ba95f
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,16,4,17,49
-URL=file:///usr/share/dirb/wordlists/extensions_common.txt
+Time=2020,8,2,13,25,18
+URL=file:///media/veracrypt3/Crypto/yuroi spending pw.txt
 
-[file:///usr/share/dirb/wordlists/indexes.txt]
+[file:///media/veracrypt3/Crypto/yuroi.txt]
 Bookmarks=
-Checksum=ac735299378d4f53ed02f0edb25efe2df6c8f962
+Checksum=7ebd8c5276895800daaa076dc4a804534b99f130
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,16,4,17,54
-URL=file:///usr/share/dirb/wordlists/indexes.txt
+Time=2020,8,2,20,51,38
+URL=file:///media/veracrypt3/Crypto/yuroi.txt
 
-[file:///usr/share/dirb/wordlists/small.txt]
+[file:///media/veracrypt3/genel sifrelerim.txt]
 Bookmarks=
-Checksum=44da3075d7eb205b22145d68a66c976ca5bb81da
+Checksum=b281ba93497a325a1e1c804cf618500417b81f96
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,16,4,18,1
-URL=file:///usr/share/dirb/wordlists/small.txt
+Time=2020,8,7,16,7,49
+URL=file:///media/veracrypt3/genel sifrelerim.txt
 
-[file:///usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt]
+[file:///media/veracrypt3/welcome to faruks secret den.txt]
 Bookmarks=
-Checksum=43bf99bfb92838c210015e907590f0eba7a08e6c
+Checksum=e7d457379d6132ad5232040ba024ed52f6666c77
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,16,4,19,51
-URL=file:///usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+Time=2020,8,9,11,2,54
+URL=file:///media/veracrypt3/welcome to faruks secret den.txt
 
-[file:///usr/share/dirbuster/wordlists/directory-list-2.3-small.txt]
+[file:///usr/share/exploitdb/exploits/php/webapps/13867.txt]
 Bookmarks=
-Checksum=0b4153d977ada92d604fdd6245e0c12d9b1e5574
+Checksum=2e34e11393d165462d8a4306f9e63903eab238c8
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,5,16,4,19,50
-URL=file:///usr/share/dirbuster/wordlists/directory-list-2.3-small.txt
-
-[file:///usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt]
-Bookmarks=
-Checksum=c516c47a78f0a6595ac0d52a539f94bb72718d48
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,16,4,19,50
-URL=file:///usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt
-
-[file:///usr/share/kali-defaults/.bashrc]
-Bookmarks=
-Checksum=14eaf223463da2fda9bc0190a1fbaadadb415c00
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,13,22,57,2
-URL=file:///usr/share/kali-defaults/.bashrc
-
-[file:///usr/share/kali-themes/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml]
-Bookmarks=
-Checksum=2af5bbaf35b75bf6af5bf97c8713dbb840164d96
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2020,5,10,21,39,40
-URL=file:///usr/share/kali-themes/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+Time=2020,7,28,16,39,2
+URL=file:///usr/share/exploitdb/exploits/php/webapps/13867.txt

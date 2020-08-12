@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" id="viewport" content="width=device-width"/></head><body><div id="main"></div><script src="graphs.js"></script></body><script>const nightMode = window.location.hash == "#night";
+        if (nightMode) {
+            document.body.className = "night-mode";
+        }
+        anki.graphs(document.getElementById("main"), nightMode);</script></html>

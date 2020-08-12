@@ -18,7 +18,6 @@
         <value type="int" value="9"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
-        <value type="int" value="16"/>
         <value type="int" value="15"/>
         <value type="int" value="17"/>
         <value type="int" value="18"/>
@@ -68,6 +67,14 @@
       <property name="size-max" type="uint" value="22"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="electrum"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="qasmixer"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="qbittorrent"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="blueman-tray"/>
         <value type="string" value="veracrypt"/>
         <value type="string" value="clipman"/>
         <value type="string" value="xfce4-power-manager"/>
@@ -86,7 +93,7 @@
     </property>
     <property name="plugin-17" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1169;chromium.instance1175;chromium.instance1185;chromium.instance1190;chromium.instance1201;chromium.instance1203;chromium.instance1211;chromium.instance1222;chromium.instance1223;chromium.instance1252;chromium.instance1298;chromium.instance1316;chromium.instance1367;chromium.instance1394;chromium.instance1419;chromium.instance1429;chromium.instance1504;chromium.instance15133;chromium.instance1553;chromium.instance15553;chromium.instance17663;chromium.instance18134;chromium.instance18733;chromium.instance19005;chromium.instance22334;chromium.instance2440;chromium.instance24951;chromium.instance26752;chromium.instance3660;chromium.instance3974;chromium.instance5765;chromium.instance5975;chromium.instance8020;chromium.instance9445;vlc"/>
+      <property name="mpris-players" type="string" value="chromium.instance10014;chromium.instance1169;chromium.instance1175;chromium.instance1185;chromium.instance1190;chromium.instance1197;chromium.instance1201;chromium.instance1203;chromium.instance1211;chromium.instance1222;chromium.instance1223;chromium.instance1233;chromium.instance1245;chromium.instance1252;chromium.instance1256;chromium.instance1298;chromium.instance1316;chromium.instance1335;chromium.instance1336;chromium.instance1346;chromium.instance1353;chromium.instance1355;chromium.instance1358;chromium.instance1362;chromium.instance1367;chromium.instance1374;chromium.instance1394;chromium.instance1396;chromium.instance1410;chromium.instance1419;chromium.instance1423;chromium.instance1429;chromium.instance1446;chromium.instance1472;chromium.instance1504;chromium.instance1510;chromium.instance15133;chromium.instance1553;chromium.instance15553;chromium.instance1565;chromium.instance1606;chromium.instance1633;chromium.instance1688;chromium.instance17663;chromium.instance1785;chromium.instance18134;chromium.instance18733;chromium.instance19005;chromium.instance1922;chromium.instance1950;chromium.instance2137;chromium.instance22334;chromium.instance22429;chromium.instance2341;chromium.instance23631;chromium.instance2407;chromium.instance2440;chromium.instance24951;chromium.instance26752;chromium.instance3052;chromium.instance3160;chromium.instance3251;chromium.instance3361;chromium.instance3660;chromium.instance3679;chromium.instance3907;chromium.instance3974;chromium.instance4811;chromium.instance5765;chromium.instance5975;chromium.instance7625;chromium.instance7939;chromium.instance8020;chromium.instance9445;vlc"/>
     </property>
     <property name="plugin-18" type="string" value="notification-plugin"/>
     <property name="plugin-19" type="string" value="power-manager-plugin"/>

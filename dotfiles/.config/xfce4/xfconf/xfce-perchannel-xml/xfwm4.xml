@@ -2,8 +2,8 @@
 
 <channel name="xfwm4" version="1.0">
   <property name="general" type="empty">
-    <property name="button_layout" type="empty"/>
-    <property name="theme" type="empty"/>
+    <property name="button_layout" type="string" value="|HMC"/>
+    <property name="theme" type="string" value="Kali-Dark"/>
     <property name="title_font" type="empty"/>
     <property name="easy_click" type="empty"/>
     <property name="workspace_count" type="empty"/>
@@ -22,7 +22,7 @@
     <property name="cycle_hidden" type="bool" value="true"/>
     <property name="cycle_minimum" type="bool" value="true"/>
     <property name="cycle_preview" type="bool" value="true"/>
-    <property name="cycle_tabwin_mode" type="int" value="1"/>
+    <property name="cycle_tabwin_mode" type="int" value="0"/>
     <property name="double_click_action" type="string" value="maximize"/>
     <property name="double_click_distance" type="int" value="5"/>
     <property name="double_click_time" type="int" value="250"/>
@@ -58,7 +58,7 @@
     <property name="show_popup_shadow" type="bool" value="true"/>
     <property name="snap_resist" type="bool" value="false"/>
     <property name="snap_to_border" type="bool" value="true"/>
-    <property name="snap_to_windows" type="bool" value="false"/>
+    <property name="snap_to_windows" type="bool" value="true"/>
     <property name="snap_width" type="int" value="10"/>
     <property name="vblank_mode" type="string" value="auto"/>
     <property name="tile_on_move" type="bool" value="true"/>

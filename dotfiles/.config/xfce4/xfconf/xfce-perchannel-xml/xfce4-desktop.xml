@@ -8,7 +8,7 @@
         <property name="color1" type="empty"/>
         <property name="color2" type="empty"/>
         <property name="color-style" type="empty"/>
-        <property name="image-path" type="empty"/>
+        <property name="image-path" type="string" value="/media/WIN/Users/Thmyris/Desktop/Files/!Resimler/WALLPAPERS/foggy trees/wp3775990.jpg"/>
         <property name="image-show" type="empty"/>
         <property name="last-image" type="empty"/>
         <property name="last-single-image" type="empty"/>
@@ -39,7 +39,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="1"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/kali-16x9/kali-dark.png"/>
+          <property name="last-image" type="string" value="/media/WIN/Users/Thmyris/Desktop/Files/!Resimler/WALLPAPERS/foggy trees/wp3775990.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="1"/>
@@ -59,6 +59,18 @@
           <property name="last-image" type="string" value="/usr/share/backgrounds/kali-16x9/kali-logo.png"/>
         </property>
       </property>
+      <property name="monitorHDMI-1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/media/WIN/Users/Thmyris/Desktop/Files/!Resimler/WALLPAPERS/foggy trees/wp3775990.jpg"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/media/WIN/Users/Thmyris/Desktop/Files/!Resimler/WALLPAPERS/foggy trees/wp3775990.jpg"/>
+        </property>
+      </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
@@ -75,7 +87,7 @@
     <property name="single-click" type="bool" value="true"/>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="706"/>
+    <property name="window-width" type="int" value="711"/>
     <property name="window-height" type="int" value="617"/>
   </property>
 </channel>

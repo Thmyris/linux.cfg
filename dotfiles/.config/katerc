@@ -14,6 +14,10 @@ Show Status Bar=true
 Show Tab Bar=true
 Startup Session=manual
 
+[KPropertiesDialog]
+Height 1080=481
+Width 1920=462
+
 [KTextEditor Document]
 Allow End of Line Detection=true
 BOM=false
@@ -72,6 +76,7 @@ Dynamic Word Wrap=true
 Dynamic Word Wrap Align Indent=80
 Dynamic Word Wrap At Static Marker=false
 Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
 Fold First Line=false
 Folding Bar=true
 Folding Preview=true
@@ -103,7 +108,8 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=bvbnvbn,lenum,app,opt,kate,export,desktop,show desktop,vivaldi
+Replace History=a,func
+Search History=b,a,shell_exec,bvbnvbn,lenum,app,opt,kate,export,desktop,show desktop,vivaldi
 
 [Konsole]
 AutoSyncronize=true
@@ -113,7 +119,7 @@ SetEditor=false
 
 [MainWindow]
 Height 1080=1024
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAO/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1920
 Window-Maximized 1080x1920=true

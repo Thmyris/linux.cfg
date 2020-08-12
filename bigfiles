@@ -1,3 +1,5 @@
 ./deb/atom-amd64.deb
+./deb/daedalus-2.0.1-mainnet-14017.bin
 ./files/rockyou_utf8.txt
+./files/anki-2.1.28-linux-amd64/bin/libQt5WebEngineCore.so.5
 ./files/rockyou.txt

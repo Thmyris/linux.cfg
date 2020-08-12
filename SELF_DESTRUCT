@@ -1,2 +1,2 @@
 cd ..
-rm linux.cfg
+rm -rf linux.cfg

@@ -1,5 +1,6 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,xfce-text-editor.desktop,exo-web-browser.desktop,kali-www.desktop,kali-docs.desktop,kali-bugs.desktop,offsec-training.desktop,exploit-database.desktop,vulnhub.desktop
-recent=cherrytree.desktop,mate-calc.desktop,vivaldi-stable.desktop,exo-web-browser.desktop,exo-file-manager.desktop,xfce-keyboard-settings.desktop,panel-preferences.desktop,discord.desktop,kali-burpsuite.desktop,engrampa.desktop
+recent=kali-dnsenum.desktop,kali-maltego.desktop,firefox-esr.desktop,exo-file-manager.desktop,vivaldi-stable.desktop,exo-web-browser.desktop,xfce-settings-manager.desktop,mate-calc.desktop,libreoffice-calc.desktop,org.kde.kate.desktop
+button-title=Applications
 button-icon=kali-panel-menu
 button-single-row=false
 show-button-title=false
@@ -12,7 +13,6 @@ hover-switch-category=false
 category-show-name=true
 category-icon-size=1
 load-hierarchy=true
-view-as-icons=false
 recent-items-max=10
 favorites-in-recent=true
 display-recent-default=false

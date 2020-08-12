@@ -1,0 +1,40 @@
+[Desktop Entry]
+Name=Kazam
+Name[en_GB]=Kazam
+GenericName=Screencast and Screenshot tool
+GenericName[en_GB]=Screencast and Screenshot Tool
+Comment=Record a video or take a screenshot of your screen
+Comment[en_GB]=Record a video or take a picture of your screen
+Keywords=screenshot;screencast;videorecord;desktop recording;
+Keywords[en_GB]=screenshot;screencast;videorecord;desktop recording;
+Categories=GNOME;AudioVideo;
+Exec=kazam
+Icon=kazam
+Terminal=false
+Type=Application
+Actions=SSF;SSA;SSW;Prefs;
+X-XFCE-Source=file:///usr/share/applications/kazam.desktop
+
+[Desktop Action SSF]
+Name=Take a screenshot of entire workspace
+Name[en_GB]=Take a screenshot of the entire workspace
+Exec=kazam -f
+OnlyShowIn=Unity
+
+[Desktop Action SSA]
+Name=Select an area to screenshot
+Name[en_GB]=Select an area to capture
+Exec=kazam -a
+OnlyShowIn=Unity
+
+[Desktop Action SSW]
+Name=Select a window to screenshot
+Name[en_GB]=Select a window to capture
+Exec=kazam -s
+OnlyShowIn=Unity
+
+[Desktop Action Prefs]
+Name=Preferences
+Name[en_GB]=Preferences
+Exec=kazam -p
+OnlyShowIn=Unity

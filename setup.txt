@@ -4,6 +4,42 @@
 # About: The steps in this file requires manual clicking around which is annoying but setting it up for automation is x10 more annoying so we are good for atleast 10 re-formats :D
 # Note: see setup.sh for things that are automated.
 -------------------------------------------------
+touchpad setings -> TICK:reverse scroll direction
+-------------------------------------------------
+28) xfce power manager
+laptop lid -> switch off display for both settings
+security -> automatically lock session -> NEVA
+-------------------------------------------------
+-2) terminal cfg
+Application Transparency -> %0
+Color scheme: Tango
+$TERM=xterm-256color
+History=10000
+font: inconsolata medium 16   #honestly fira code was better but qterminal wouldnt recognize :(
+-------------------------------------------------
+VIVALDI SETUP
+0) login
+1) set appearance tab, custom 'human' theme with a dark accent behind the tabs.
+2) add whatsapp, discord, github on left side
+3) add F1 for downloads and disable F1 help.
+4) remove F3 from find in page
+5) add F3 for view sessions
+6) remove ctrl+q from browser close
+7) add tureng to search with t
+-------------------------------------------------
+13) volume control
+microphone @ %50 is good.
+
+
+
+
+
+
+
+
+#-------------------------------------------------
+Below settings are all applied(except snap but I stopped caring if setup.sh copied dotfiles correctly.
+#-------------------------------------------------
 0) 
 settings    -> panel    -> solid color black
                         -> unlock panel, move down, lock panel
@@ -25,7 +61,7 @@ settings    -> panel    -> solid color black
             -> desktop -> tick: single click to activate items
             -> file manager preferences -> Date: Custom: %d/%m/%Y %H:%M:%S
                                         -> Open new thunar instances as tabs
-touchpad setings -> TICK:reverse scroll direction
+
 -------------------------------------------------
 1) cfg kate
 kate settings   -> appearance 	-> Show indentation lines
@@ -55,15 +91,7 @@ e. light -U 10 -> Ctrl+F1
    light -A 10 -> Ctrl+F2
 
 -------------------------------------------------
-9) keyboard -> layout -> add -> Turkish, Change Key -> Win+Space
--------------------------------------------------
-13) volume control
-microphone @ %50 is good.
-port: microphone(unplugged)
--------------------------------------------------
-28) xfce power manager
-laptop lid -> switch off display for both settings
-security -> automatically lock session -> NEVA
+9) keyboard -> layout -> add -> Turkish, Change Key -> Alt+Shift
 -------------------------------------------------
 25) disable snap auto update
 That said, there are a few workarounds to fool the snap tool from auto updating. Simply run the following commands on ALL your LXD servers:
@@ -114,11 +142,4 @@ snap restart lxd
 #NOTE: snapd.service, can sometimes just not load lol:
 systemctl restart snapd.service
 -------------------------------------------------
--2) terminal cfg
-Application Transparency -> %0
-Color scheme: Tango
-$TERM=xterm-256color
-History=10000
-font: inconsolata medium 16   #honestly fira code was better but qterminal wouldnt recognize :(
--------------------------------------------------
-42) set vivaldi up, sync etc.
+

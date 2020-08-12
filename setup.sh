@@ -1,13 +1,20 @@
 #!/bin/bash
 # Name: setup.sh for kali linux 2020.1b
 # Author: Thmyris
-# Last update: 13.07.2020
+# Last update: 12.08.2020
 # About: This script requires sudo on several occasions and may require human intervention like pressing enter for tee. Internet connection is required to install package dependencies.
 # Note: see setup.txt for things that need to be done manually.
 
 #--------------------------------------------
-echo "Internet connection is required"
-echo >&2 "Have you ran beforesetup.sh already? Dont forget to check 'automounting win drive' & '#optional deb installs', then comment out this line. You also DON'T want to be the user 'root' (while running this for a regular user)."; exit 1;
+echo -e "First a few checks:\n 1) Make sure you are connected to the internet(dependencies require downloading unfortunately)\n 2) Make sure you ran beforesetup.sh already to unpack\n 3) Check 'automounting win drive'\n 4) Check 'optional deb installs'\n 5) You also DON'T want to be the user 'root' (while running this for a regular user).\n 6) Check #dotfiles\n 7) Check #git\n 7) Otherwise have a nice flight!";
+while true; do
+    read -p "Do you wish to continue?(y/n): " yesno
+    case $yesno in
+        [Yy]* ) break;;
+        [Nn]* ) exit 1;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 #--------------------------------------------
 
 # Colors! (bash variables to control the output appearance)
@@ -22,31 +29,36 @@ echo "${bold}${red_bg}starting deb installations${normal}"
 sudo apt install -y ./deb/kate_4%3a20.04.0-1_amd64.deb
 sudo apt install -y ./deb/ksysguard_4%3a5.17.5-3_amd64.deb
 sudo apt install -y ./deb/xinput_1.6.3-1_amd64.deb
-sudo apt install -y ./deb/vivaldi-stable_2.11.1811.51-1_amd64.deb
+sudo apt install -y ./deb/vivaldi-stable_3.1.1929.45-1_amd64.deb
 sudo apt install -y ./deb/xclip_0.13-1_amd64.deb
 sudo apt install -y ./deb/atom-amd64.deb
-sudo apt install -y ./deb/discord-0.0.10.deb
+sudo apt install -y ./deb/discord-0.0.11.deb
 sudo apt install -y ./deb/aptitude_0.8.12-3_amd64.deb
 sudo apt install -y ./deb/fdisk_2.34-0.1_amd64.deb
 sudo apt install -y ./deb/gobuster_3.0.1-0kali1_amd64.deb
 sudo apt install -y ./deb/ffmpeg_7%3a4.2.2-1+b1_amd64.deb
 sudo apt install -y ./deb/htop_2.2.0-2_amd64.deb
-sudo apt install -y ./deb/qbittorrent_4.1.5-1+deb10u1_amd64.deb
+sudo apt install -y qbittorrent                                 # This errors out when installed locally
 sudo apt install -y ./deb/wget2_1.99.1-2.1_amd64.deb
-sudo apt install -y ./deb/vlc_3.0.10-1_amd64.deb
+sudo apt install -y vlc                                         # This errors out when installed locally
 sudo apt install -y ./deb/gdebi_0.9.5.7+nmu3_all.deb
 sudo apt install -y ./deb/tree_1.8.0-1+b1_amd64.deb
 sudo apt install -y ./deb/steghide_0.5.1-14_amd64.deb
 sudo apt install -y ./deb/cherrytree_0.39.4-0_all.deb
 sudo apt install -y ./deb/krita_1%3a4.2.9+dfsg-1+b1_amd64.deb
 sudo apt install -y ./deb/veracrypt-1.24-Update4-Debian-10-amd64.deb
+sudo apt install -y ./deb/openvpn_2.4.9-2_amd64.deb
+sudo apt install -y ./deb/flameshot_0.6.0+git20191001-2_amd64.deb
+sudo apt install -y ./deb/opera-stable_70.0.3728.95_amd64.deb
+sudo apt install -y ./deb/gdb_9.2-1_amd64.deb
+sudo apt install -y ./deb/anacron_2.3-29_amd64.deb
 echo "${bold}${red_bg}done${normal}"
 # Oh no ppl know the versions of the programs I use, how insecure!
 
 #optional deb installs (comment out unwanted packages)
 echo "${bold}${red_bg}starting optional deb installations${normal}"
 sudo apt install -y ./deb/snapd_2.42.1-1_amd64.deb
-sudo apt install -y ./deb/libreoffice_1%3a6.4.1-1_amd64_online_installer.deb
+./deb/daedalus-2.0.1-mainnet-14017.bin                          # Daedalus wallet install
 echo "${bold}${red_bg}done${normal}"
 
 
@@ -123,7 +135,9 @@ fi
 EOT
 echo "${bold}${red_bg}done${normal}"
 
-#dotfiles
+#dotfiles 
+# username HAS TO BE 'thmyris'
+# do not copy these over if you are a different user, if you want to test 'my' configs you can test with a user account named 'thmyris'(without quotes obv)
 echo "${bold}${red_bg}copying dotfiles${normal}"
 cp -r dotfiles/. ~/.
 echo "${bold}${red_bg}done${normal}"
@@ -151,8 +165,10 @@ echo "${bold}${red_bg}done${normal}"
 echo "${bold}${red_bg}automounting win drive${normal}"
 sudo mkdir /media/WIN
 sudo bash -c 'echo "#This is for automounting local dual boot windows"  >> /etc/fstab'
-sudo bash -c 'echo "/dev/sda4 /media/WIN ntfs nls-utf8,umask=000,uid=1000,gid=1000,allow_other,rw 0 0"  >> /etc/fstab'
+sudo bash -c 'echo "/dev/sda3 /media/WIN ntfs nls-utf8,umask=000,uid=1000,gid=1000,allow_other,rw 0 0"  >> /etc/fstab'
 #NOTE: don't mount into /media/<userid> that folder seems to be write protected for user, yet any new drive you add while linux is on gets mounted there with write privelages. IDK. It can also be that windows marked the entire partition as protected because i powered the pc off while its booting 2-3 times in a row. A quick chkdsk fixed this.
+# The mount point can change but UUID never changes. So if you have multiple disks it's more reliable to use UUID's.
+# UUID=28B45E63B45E3392 /media/WIN ntfs nls-utf8,umask=000,uid=1000,gid=1000,allow_other,rw 0 0
 echo "${bold}${red_bg}done${normal}"
 
 #install pip
