@@ -1,9 +1,18 @@
 #!/bin/bash
 # Name: beforesetup.sh for kali linux 2020.1b
 # Author: Thmyris
-# Last update: 13.07.2020
+# Last update: 12.08.2020
 # About: This script is for unarchiving the files that were packaged to bypass github's mib limit. May require internet connection for 7z dependencies.
 
+echo -e "DO NOT RUN THIS FILE or BEFORESETUP.SH TWICE IN A ROW IT'LL MESS UP everything";
+while true; do
+    read -p "Do you wish to continue?(y/n): " yesno
+    case $yesno in
+        [Yy]* ) break;;
+        [Nn]* ) exit 1;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 echo "This script will only get the archived files out. This should take a min..."
 
 # assign number of bigfiles to a bash var
@@ -32,4 +41,6 @@ rm "${!file}".7z*
 ((counter++))
 done
 
-echo "You can run setup.sh now."
+rm bigfiles
+
+echo "Unpacking complete! You can run setup.sh now."

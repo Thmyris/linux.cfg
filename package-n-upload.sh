@@ -3,6 +3,18 @@
 # Author: Thmyris
 # Last update: 12.08.2020
 # About: This script automatically detects big files and packages them for github and optionally pushes all changes to the Thmyris/linux.cfg repository.
+#--------------------------------------------------
+echo -e "MAKE SURE TO RUN BEFORESETUP.SH BEFORE RUNNING THIS";
+echo -e "DO NOT RUN THIS FILE or BEFORESETUP.SH TWICE IN A ROW IT'LL MESS UP everything";
+while true; do
+    read -p "Do you wish to continue?(y/n): " yesno
+    case $yesno in
+        [Yy]* ) break;;
+        [Nn]* ) exit 1;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+#--------------------------------------------------
 
 # put filenames bigger than 95MB into bigfiles
 find -size +95000000c | grep -v "/.git/" > bigfiles
@@ -32,7 +44,7 @@ file=file$counter
 ((counter++))
 done
 
-read -p "Packaging is complete, do you want to continue to commit changes and upload to github? <y/n>: " prompt
+read -p "Packaging is complete, do you want to continue committing changes and upload to github? <y/n>: " prompt
 if [[ $prompt == "n" || $prompt == "N" ]]
 then
   exit 0;
@@ -40,6 +52,6 @@ fi
 
 git add .
 git status
-read -p "Press enter continue. If not, please 'git reset'."
+read -p "Press enter to commit and upload. If not, please CTRL+C and 'git reset'."
 git commit -m "++"
 git push origin master
