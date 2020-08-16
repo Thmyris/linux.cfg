@@ -1,6 +1,6 @@
 ## my linux cfg files
 
-0. open a terminal in linux.cfg folder
+0. open a terminal inside the linux.cfg folder
 1. run beforesetup.sh
 2. run setup.sh
 3. reboot
