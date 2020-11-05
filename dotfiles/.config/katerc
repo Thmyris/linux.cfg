@@ -109,7 +109,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=a,func
-Search History=b,a,shell_exec,bvbnvbn,lenum,app,opt,kate,export,desktop,show desktop,vivaldi
+Search History=change,ip,dump,1,AHMET-FARUK,lateral ra,dumble row,wes,wanker,tits,cock,wif,wife,butt,boob,cum,wıfetalks,wıfe,sex,Ff,nude,ö,text_selection_lower_case,b,a,shell_exec,bvbnvbn,lenum,app,opt,kate,export,desktop,show desktop,vivaldi
 
 [Konsole]
 AutoSyncronize=true
@@ -122,8 +122,12 @@ Height 1080=1024
 State=AAAA/wAAAAD9AAAAAAAAB4AAAAO/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1920
-Window-Maximized 1080x1920=true
 Window-Maximized 1920x1080=true
+eDP-1 Height 1080=1024
+eDP-1 Width 1920=1920
+eDP-1 Window-Maximized 1080x1920=true
+eDP-1 XPosition=0
+eDP-1 YPosition=28
 
 [UiSettings]
 ColorScheme=Kali-Dark

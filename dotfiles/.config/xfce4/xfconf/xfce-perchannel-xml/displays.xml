@@ -5,9 +5,9 @@
   <property name="Default" type="empty">
     <property name="eDP-1" type="string" value="Laptop">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="99dbc4f20fc7b0463601fb12dbcf849c8344b0b1"/>
+      <property name="EDID" type="string" value="73f89a10dfd5517242b4ec28ccd40f9708873d4a"/>
       <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60.052440"/>
+      <property name="RefreshRate" type="double" value="60.020425"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>

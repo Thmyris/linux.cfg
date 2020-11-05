@@ -26,25 +26,13 @@
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
-      <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter --window"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfce4-popup-whiskermenu"/>
-      <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
-      <property name="Print" type="string" value="xfce4-screenshooter"/>
-      <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
-      <property name="&lt;Primary&gt;Print" type="string" value="xfce4-screenshooter --fullscreen --clipboard"/>
       <property name="&lt;Super&gt;Print" type="string" value="kazam"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
-      <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-whiskermenu --pointer"/>
-      <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter --window --clipboard"/>
-      <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Super&gt;f" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder --collapsed"/>
-      <property name="&lt;Primary&gt;bracketleft" type="string" value="xfce4-screenshooter --region"/>
-      <property name="&lt;Primary&gt;bracketright" type="string" value="xfce4-screenshooter --region --clipboard"/>
       <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;a" type="string" value="bash -c &apos;sleep 0.3 &amp;&amp;xset dpms force off&apos;"/>
       <property name="&lt;Shift&gt;Escape" type="empty">
@@ -55,8 +43,10 @@
       </property>
       <property name="&lt;Primary&gt;F4" type="string" value="pactl -- set-sink-volume 0 +10%"/>
       <property name="&lt;Primary&gt;F3" type="string" value="pactl -- set-sink-volume 0 -10%"/>
-      <property name="&lt;Primary&gt;F2" type="string" value="light -A 5"/>
-      <property name="&lt;Primary&gt;F1" type="string" value="light -U 5"/>
+      <property name="&lt;Super&gt;g" type="string" value="exo-open --launch WebBrowser"/>
+      <property name="&lt;Primary&gt;Print" type="string" value="flameshot full -p /home/thmyris/Pictures/"/>
+      <property name="Print" type="string" value="flameshot gui -p /home/thmyris/Pictures/"/>
+      <property name="&lt;Super&gt;s" type="string" value="xflock4"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

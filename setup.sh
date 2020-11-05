@@ -1,17 +1,18 @@
 #!/bin/bash
-# Name: setup.sh for kali linux 2020.1b
+# Name: setup.sh for kali linux 2020.2
 # Author: Thmyris
-# Last update: 12.08.2020
+# Last update: 05.11.2020
 # About: This script requires sudo on several occasions and may require human intervention like pressing enter for tee. Internet connection is required to install package dependencies.
 # Note: see setup.txt for things that need to be done manually.
 
 #--------------------------------------------
-echo -e "First a few checks:\n 1) Make sure you are connected to the internet(dependencies require downloading unfortunately)\n 2) Make sure you ran beforesetup.sh already to unpack\n 3) Check 'automounting win drive'\n 4) Check 'optional deb installs'\n 5) You also DON'T want to be the user 'root' (while running this for a regular user).\n 6) Check #dotfiles\n 7) Check #git\n 7) Otherwise have a nice flight!";
+echo -e "First a few checks:\n 1) Make sure you are connected to the internet\n 2) Make sure you ran beforesetup.sh already. \n 3) Check #automounting windows\n 4) Check #optional deb installs\n 5) You also DON'T want to be the user 'root' (if you are running this for a regular user acc).\n 6) Check #dotfiles\n 7) Check #git\n 8) Otherwise have a nice flight!";
+echo "The stuff that needs user attention has been placed at the end of the script. After continuing, you'll just have to type your sudo password once for apt, then it's all autopilot until miniconda installation."
 while true; do
     read -p "Do you wish to continue?(y/n): " yesno
     case $yesno in
         [Yy]* ) break;;
-        [Nn]* ) exit 1;;
+        [Nn]* ) echo "Goodbye!"; exit 1;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -24,41 +25,26 @@ normal=$(tput sgr0) # Put this to reset back to normal output, if you don't last
 # Copy this fella:
 # echo "${bold}${red_bg}TEST${normal}"
 
-#deb installs, internet connection required for dependencies
-echo "${bold}${red_bg}starting deb installations${normal}"
-sudo apt install -y ./deb/kate_4%3a20.04.0-1_amd64.deb
-sudo apt install -y ./deb/ksysguard_4%3a5.17.5-3_amd64.deb
-sudo apt install -y ./deb/xinput_1.6.3-1_amd64.deb
-sudo apt install -y ./deb/vivaldi-stable_3.1.1929.45-1_amd64.deb
-sudo apt install -y ./deb/xclip_0.13-1_amd64.deb
-sudo apt install -y ./deb/atom-amd64.deb
-sudo apt install -y ./deb/discord-0.0.11.deb
-sudo apt install -y ./deb/aptitude_0.8.12-3_amd64.deb
-sudo apt install -y ./deb/fdisk_2.34-0.1_amd64.deb
-sudo apt install -y ./deb/gobuster_3.0.1-0kali1_amd64.deb
-sudo apt install -y ./deb/ffmpeg_7%3a4.2.2-1+b1_amd64.deb
-sudo apt install -y ./deb/htop_2.2.0-2_amd64.deb
-sudo apt install -y qbittorrent                                 # This errors out when installed locally
-sudo apt install -y ./deb/wget2_1.99.1-2.1_amd64.deb
-sudo apt install -y vlc                                         # This errors out when installed locally
-sudo apt install -y ./deb/gdebi_0.9.5.7+nmu3_all.deb
-sudo apt install -y ./deb/tree_1.8.0-1+b1_amd64.deb
-sudo apt install -y ./deb/steghide_0.5.1-14_amd64.deb
-sudo apt install -y ./deb/cherrytree_0.39.4-0_all.deb
-sudo apt install -y ./deb/krita_1%3a4.2.9+dfsg-1+b1_amd64.deb
-sudo apt install -y ./deb/veracrypt-1.24-Update4-Debian-10-amd64.deb
-sudo apt install -y ./deb/openvpn_2.4.9-2_amd64.deb
-sudo apt install -y ./deb/flameshot_0.6.0+git20191001-2_amd64.deb
-sudo apt install -y ./deb/opera-stable_70.0.3728.95_amd64.deb
-sudo apt install -y ./deb/gdb_9.2-1_amd64.deb
-sudo apt install -y ./deb/anacron_2.3-29_amd64.deb
+#--------------------------------------------
+
+#deb installs, internet connection required
+#NOTE on local .deb files: these are here for backup purposes, in case kali repos don't have the package. If kali repos have the package, apt doesn't actually use these local debs for installation. If you really wanna install .deb files locally, use:
+#sudo gdebi FILE.deb
+#or if you are feeling adventurous:
+#yes | sudo gdebi FILE.deb
+
+echo "${bold}${red_bg}Installing these .deb files:${normal}"
+for f in deb/*.deb ; do echo $f; done
+echo "${bold}${red_bg}Enter sudo pw for apt:${normal}"
+for f in deb/*.deb ; do sudo apt install -y ./$f; done
 echo "${bold}${red_bg}done${normal}"
-# Oh no ppl know the versions of the programs I use, how insecure!
+# Oh no people know the versions of the programs I use, how insecure!
 
 #optional deb installs (comment out unwanted packages)
-echo "${bold}${red_bg}starting optional deb installations${normal}"
-sudo apt install -y ./deb/snapd_2.42.1-1_amd64.deb
-./deb/daedalus-2.0.1-mainnet-14017.bin                          # Daedalus wallet install
+echo "${bold}${red_bg}Starting non-local deb installations${normal}"
+./deb/daedalus-2.4.0-mainnet-14924.bin                          # Daedalus wallet install
+sudo apt install -y qbittorrent                                 # This errors out when installed locally
+sudo apt install -y vlc                                         # This errors out when installed locally
 echo "${bold}${red_bg}done${normal}"
 
 
@@ -126,7 +112,7 @@ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/you
 sudo chmod a+rx /usr/local/bin/youtube-dl
 echo "${bold}${red_bg}done${normal}"
 
-# enable bash_aliases
+# init bash_aliases if it isnt in .bashrc already
 echo "${bold}${red_bg}add bash_aliases in .bashrc${normal}"
 grep -qxF 'if [ -f ~/.bash_aliases ]; then' ~/.bashrc || tee -a ~/.bashrc > /dev/null <<EOT
 if [ -f ~/.bash_aliases ]; then
@@ -136,8 +122,8 @@ EOT
 echo "${bold}${red_bg}done${normal}"
 
 #dotfiles 
-# username HAS TO BE 'thmyris'
-# do not copy these over if you are a different user, if you want to test 'my' configs you can test with a user account named 'thmyris'(without quotes obv)
+#WARNING: for xfce4!!
+#WARNING: username HAS TO BE 'thmyris'. Comment this cp out if you are a different user. If you just want to test my configs you can manually copy dotfiles into a new user acc named thmyris after ur done
 echo "${bold}${red_bg}copying dotfiles${normal}"
 cp -r dotfiles/. ~/.
 echo "${bold}${red_bg}done${normal}"
@@ -153,7 +139,7 @@ sudo cp -r font/truetype/. /usr/share/fonts/truetype/
 sudo cp -r font/opentype/.  /usr/share/fonts/opentype/
 echo "${bold}${red_bg}done${normal}"
 
-# automounting windows:
+#automounting windows:
 # sudo /sbin/blkid
 # or
 # sudo /sbin/fstab -l
@@ -184,8 +170,20 @@ echo "${bold}${red_bg}git cfg${normal}"
 git config --global user.email thmyris@windowslive.com
 git config --global user.name "Ahmet Faruk Albayrak"
 # TODO: This is missing the ssh key part but im not uploading my key to github anyway lmao, maybe in the future, encrypted
+echo "${bold}${red_bg}done${normal}"
 
+echo "${bold}${red_bg}Installing miniconda, needs user attention!${normal}"
+./deb/Miniconda3-latest-Linux-x86_64.sh
 echo "${bold}${red_bg}done${normal}"
 
 echo "${bold}${red_bg}ALL DONE! Don't forget to restart your pc! Have an awesome year!${normal}"
-echo "${bold}${red_bg}You can run aftersetup.sh now...${normal}"
+echo "${bold}${red_bg}You can run aftersetup.sh after the restart.${normal}"
+
+while true; do
+    read -p "Do you wish reboot right now?(y/n): " yesno
+    case $yesno in
+        [Yy]* ) xfce4-session-logout --reboot; break;;
+        [Nn]* ) echo "Goodbye!"; exit 1;;
+        * ) echo "Please answer with a y or n.";;
+    esac
+done

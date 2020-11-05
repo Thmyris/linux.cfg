@@ -1,1 +1,0 @@
-+100mb files are splitted with peazip bcs i cant be bothered to make a package for git-lfs for kali (there isnt one!)

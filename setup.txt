@@ -1,8 +1,7 @@
-# Name: setup.txt for kali linux 2020.1b
+# Name: setup.txt for kali linux 2020.2
 # Author: Thmyris
-# Last update: 12.07.2020
+# Last update: 05.11.2020
 # About: The steps in this file requires manual clicking around which is annoying but setting it up for automation is x10 more annoying so we are good for atleast 10 re-formats :D
-# Note: see setup.sh for things that are automated.
 -------------------------------------------------
 touchpad setings -> TICK:reverse scroll direction
 -------------------------------------------------
@@ -32,13 +31,8 @@ microphone @ %50 is good.
 
 
 
-
-
-
-
-
 #-------------------------------------------------
-Below settings are all applied(except snap but I stopped caring if setup.sh copied dotfiles correctly.
+Below settings are all applied by #dotfiles c&p in setup.sh
 #-------------------------------------------------
 0) 
 settings    -> panel    -> solid color black

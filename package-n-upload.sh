@@ -1,19 +1,17 @@
 #!/bin/bash
-# Name: package-n-upload.sh for kali linux 2020.1b
+# Name: package-n-upload.sh
 # Author: Thmyris
-# Last update: 12.08.2020
+# Last update: 05.11.2020
 # About: This script automatically detects big files and packages them for github and optionally pushes all changes to the Thmyris/linux.cfg repository.
 #--------------------------------------------------
-echo -e "MAKE SURE TO RUN BEFORESETUP.SH BEFORE RUNNING THIS";
-echo -e "DO NOT RUN THIS FILE or BEFORESETUP.SH TWICE IN A ROW IT'LL MESS UP everything";
-while true; do
-    read -p "Do you wish to continue?(y/n): " yesno
-    case $yesno in
-        [Yy]* ) break;;
-        [Nn]* ) exit 1;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
+
+FILE=bigfiles
+if [ -f "$FILE" ]; then
+    echo "$FILE file exists, you either haven't run beforesetup.sh yet or it was CTRL^C'd while unarchiving. Either way, make sure the files listed inside 'bigfiles' are unpacked. If you are sure, delete 'bigfiles' file and run this script again. Quitting..."
+    exit 1;
+else
+    echo ""
+fi
 #--------------------------------------------------
 
 # put filenames bigger than 95MB into bigfiles
@@ -52,6 +50,6 @@ fi
 
 git add .
 git status
-read -p "Press enter to commit and upload. If not, please CTRL+C and 'git reset'."
+read -p "Press enter to commit and upload. If not, please CTRL^C and 'git reset'."
 git commit -m "++"
-git push origin main
+git push origin master

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://conda.io/projects/conda/en/latest/user-guide/install/linux.html -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Installing on Linux — conda 4.9.0.post12+a9f5f25d documentation</title>
+<link rel="shortcut icon" href="https://conda.io/projects/conda/en/latest/_static/conda-logo.png">
+<script async="" src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/analytics.js"></script><script type="text/javascript" src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/modernizr.min.js"></script>
+<script type="text/javascript" id="documentation_options" data-url_root="../../" src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/documentation_options.js"></script>
+<script src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/jquery.js"></script>
+<script src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/underscore.js"></script>
+<script src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/doctools.js"></script>
+<script src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/language_data.js"></script>
+<script async="async" src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/readthedocs-doc-embed.js"></script>
+<script type="text/javascript" src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/theme.js"></script>
+<link rel="stylesheet" href="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/custom.css" type="text/css">
+<link rel="stylesheet" href="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/pygments.css" type="text/css">
+<link rel="stylesheet" href="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/graphviz.css" type="text/css">
+<link rel="index" title="Index" href="https://conda.io/projects/conda/en/latest/genindex.html">
+<link rel="search" title="Search" href="https://conda.io/projects/conda/en/latest/search.html">
+<link rel="next" title="RPM and Debian Repositories for Miniconda" href="https://conda.io/projects/conda/en/latest/user-guide/install/rpm-debian.html">
+<link rel="prev" title="Installing on macOS" href="https://conda.io/projects/conda/en/latest/user-guide/install/macos.html">
+
+
+<link rel="canonical" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html">
+<link rel="stylesheet" href="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/readthedocs-doc-embed.css" type="text/css">
+<script type="application/json" id="READTHEDOCS_DATA">{"ad_free": false, "api_host": "https://readthedocs.com", "build_date": "2020-10-26T18:49:36Z", "builder": "sphinx", "canonical_url": "https://docs.conda.io/projects/conda/en/latest/", "commit": "a9f5f25d", "docroot": "/docs/source/", "features": {"docsearch_disabled": false}, "global_analytics_code": "UA-17997319-2", "language": "en", "page": "user-guide/install/linux", "programming_language": "py", "project": "continuumio-conda", "proxied_api_host": "/_", "source_suffix": ".rst", "subprojects": {}, "theme": "sphinx_rtd_theme", "user_analytics_code": "UA-143852910-1", "version": "latest"}</script>
+
+<script type="text/javascript">
+READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerHTML);
+</script>
+<script type="text/javascript" src="./Installing on Linux — miniconda 4.9.0.post12+a9f5f25d documentation_files/readthedocs-analytics.js" async="async"></script>
+
+</head>
+<body class="wy-body-for-nav">
+<div class="wy-grid-for-nav">
+<nav data-toggle="wy-nav-shift" class="wy-nav-side">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="https://conda.io/projects/conda/en/latest/index.html" class="icon icon-home"> conda
+</a>
+<div class="version">
+latest
+</div>
+<div role="search">
+<form id="rtd-search-form" class="wy-form" action="https://conda.io/projects/conda/en/latest/search.html" method="get">
+<input type="text" name="q" placeholder="Search docs">
+<input type="hidden" name="check_keywords" value="yes">
+<input type="hidden" name="area" value="default">
+</form>
+</div>
+</div>
+<div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/index.html"><span class="toctree-expand"></span>User guide</a><ul class="">
+<li class="toctree-l2"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/concepts/index.html">Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/getting-started.html">Getting started with conda</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html"><span class="toctree-expand"></span>Installation</a><ul class="">
+<li class="toctree-l3"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html#system-requirements">System requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation">Regular installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html#installing-in-silent-mode">Installing in silent mode</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html#installing-conda-on-a-system-that-has-other-python-installations-or-packages"><span class="toctree-expand"></span>Installing conda on a system that has other Python installations or packages</a><ul class="">
+<li class="toctree-l4"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/download.html">Downloading conda</a></li>
+<li class="toctree-l4"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/windows.html">Installing on Windows</a></li>
+<li class="toctree-l4"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/macos.html">Installing on macOS</a></li>
+<li class="toctree-l4 current"><a class="reference internal current" href="https://conda.io/projects/conda/en/latest/user-guide/install/linux.html#">Installing on Linux</a></li>
+<li class="toctree-l4"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/rpm-debian.html">RPM and Debian Repositories for Miniconda</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/configuration/index.html">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/tasks/index.html">Tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html">Cheat sheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/configuration.html">Conda configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/api/index.html">Conda Python API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/release-notes.html">Release notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/commands.html">Command reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://conda.io/projects/conda/en/latest/glossary.html">Glossary</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+<nav class="wy-nav-top" aria-label="top navigation">
+<i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+<a href="https://conda.io/projects/conda/en/latest/index.html">conda</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content">
+<div role="navigation" aria-label="breadcrumbs navigation">
+<ul class="wy-breadcrumbs">
+<li><a href="https://conda.io/projects/conda/en/latest/index.html">Docs</a> »</li>
+<li><a href="https://conda.io/projects/conda/en/latest/user-guide/index.html">User guide</a> »</li>
+<li><a href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html">Installation</a> »</li>
+<li>Installing on Linux</li>
+<li class="wy-breadcrumbs-aside">
+<a href="https://github.com/conda/conda/blob/master/docs/source/user-guide/install/linux.rst" class="fa fa-github"> Edit on GitHub</a>
+</li>
+</ul>
+<hr>
+</div>
+<div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+<div itemprop="articleBody">
+<div class="section" id="installing-on-linux">
+<h1>Installing on Linux<a class="headerlink" href="https://conda.io/projects/conda/en/latest/user-guide/install/linux.html#installing-on-linux" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic">
+<li><p>Download the installer:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html#linux-installers">Miniconda installer for Linux</a>.</p></li>
+<li><p><a class="reference external" href="https://www.anaconda.com/download/">Anaconda installer for Linux</a>.</p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/download.html#hash-verification"><span class="std std-ref">Verify your installer hashes</span></a>.</p></li>
+<li><p>In your terminal window, run:</p>
+<ul>
+<li><p>Miniconda:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bash</span> <span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+</li>
+<li><p>Anaconda:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bash</span> <span class="n">Anaconda</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</li>
+<li><p>Follow the prompts on the installer screens.</p>
+<p>If you are unsure about any setting, accept the defaults. You
+can change them later.</p>
+</li>
+<li><p>To make the changes take effect, close and then re-open your
+terminal window.</p></li>
+<li><p>Test your installation. In your terminal window or
+Anaconda Prompt, run the command <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">list</span></code>. A list of installed packages appears
+if it has been installed correctly.</p></li>
+</ol>
+<div class="section" id="using-with-fish-shell">
+<span id="install-linux-silent"></span><h2>Using with fish shell<a class="headerlink" href="https://conda.io/projects/conda/en/latest/user-guide/install/linux.html#using-with-fish-shell" title="Permalink to this headline">¶</a></h2>
+<p>To use conda with fish shell, run the following in your terminal:</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">init</span> <span class="pre">fish</span></code></p>
+</div></blockquote>
+</div>
+<div class="section" id="installing-in-silent-mode">
+<h2>Installing in silent mode<a class="headerlink" href="https://conda.io/projects/conda/en/latest/user-guide/install/linux.html#installing-in-silent-mode" title="Permalink to this headline">¶</a></h2>
+<p>See the instructions for
+<a class="reference internal" href="https://conda.io/projects/conda/en/latest/user-guide/install/macos.html#install-macos-silent"><span class="std std-ref">installing in silent mode on macOS</span></a>.</p>
+</div>
+<div class="section" id="updating-anaconda-or-miniconda">
+<h2>Updating Anaconda or Miniconda<a class="headerlink" href="https://conda.io/projects/conda/en/latest/user-guide/install/linux.html#updating-anaconda-or-miniconda" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Open a terminal window.</p></li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">update</span> <span class="pre">conda</span></code>.</p></li>
+</ol>
+</div>
+<div class="section" id="uninstalling-anaconda-or-miniconda">
+<h2>Uninstalling Anaconda or Miniconda<a class="headerlink" href="https://conda.io/projects/conda/en/latest/user-guide/install/linux.html#uninstalling-anaconda-or-miniconda" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Open a terminal window.</p></li>
+<li><p>Remove the entire Miniconda install directory with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">~/</span><span class="n">miniconda</span>
+</pre></div>
+</div>
+</li>
+<li><p>OPTIONAL: Edit <code class="docutils literal notranslate"><span class="pre">~/.bash_profile</span></code> to remove the Miniconda
+directory from your PATH environment variable.</p></li>
+<li><p>OPTIONAL: Remove the following hidden file and folders that
+may have been created in the home directory:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">.condarc</span></code> file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.conda</span></code> directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.continuum</span></code> directory</p></li>
+</ul>
+<p>By running:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">~/.</span><span class="n">condarc</span> <span class="o">~/.</span><span class="n">conda</span> <span class="o">~/.</span><span class="n">continuum</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+<a href="https://conda.io/projects/conda/en/latest/user-guide/install/rpm-debian.html" class="btn btn-neutral float-right" title="RPM and Debian Repositories for Miniconda" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+<a href="https://conda.io/projects/conda/en/latest/user-guide/install/macos.html" class="btn btn-neutral float-left" title="Installing on macOS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+</div>
+<hr>
+<div role="contentinfo">
+<p>
+© Copyright 2017, Continuum Analytics
+<span class="commit">
+Revision <code>a9f5f25d</code>.
+</span>
+</p>
+</div>
+Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span class="fa fa-book"> Read the Docs</span>
+v: latest
+<span class="fa fa-caret-down"></span>
+</span>
+<div class="rst-other-versions"><!-- Inserted RTD Footer -->
+
+<div class="injected">
+
+  
+
+      
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+        
+        <dd><a href="https://docs.conda.io/projects/conda/en/master/user-guide/install/linux.html">master</a></dd>
+        
+        
+         <strong> 
+        <dd><a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html">latest</a></dd>
+         </strong> 
+        
+        
+        <dd><a href="https://docs.conda.io/projects/conda/en/4.6.1/user-guide/install/linux.html">4.6.1</a></dd>
+        
+        
+        
+        <dd><a href="https://docs.conda.io/projects/conda/en/4.6.0/user-guide/install/linux.html">4.6.0</a></dd>
+        
+        
+      </dl>
+      
+      
+
+      
+      
+      <dl>
+        <dt>Downloads</dt>
+        
+        <dd><a href="https://docs.conda.io/_/downloads/conda/en/latest/pdf/">PDF</a></dd>
+        
+        <dd><a href="https://docs.conda.io/_/downloads/conda/en/latest/htmlzip/">HTML</a></dd>
+        
+        <dd><a href="https://docs.conda.io/_/downloads/conda/en/latest/epub/">Epub</a></dd>
+        
+      </dl>
+      
+      
+
+      
+
+  <dl>
+    
+    <dt>On Read the Docs</dt>
+    <dd>
+    <a href="https://readthedocs.com/projects/continuumio-conda/">Project Home</a>
+    </dd>
+    <dd>
+    <a href="https://readthedocs.com/projects/continuumio-conda/builds/">Builds</a>
+    </dd>
+    <dd>
+    <a href="https://readthedocs.com/projects/continuumio-conda/downloads/">Downloads</a>
+    </dd>
+  </dl>
+
+
+
+      
+
+      
+      <dl>
+        <dt>On GitHub</dt>
+        <dd>
+          <a href="https://github.com/conda/conda/blob/master/docs/source/user-guide/install/linux.rst">View</a>
+        </dd>
+        
+        <dd>
+          <a href="https://github.com/conda/conda/edit/master/docs/source/user-guide/install/linux.rst">Edit</a>
+        </dd>
+        
+      </dl>
+      
+      
+
+      
+
+      
+  
+
+
+      <hr>
+      
+Documentation hosted by <a href="https://readthedocs.com/">Read the Docs</a>.
+
+
+      
+
+</div>
+</div>
+</div>
+<script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27761864-11', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+</body><auto-scroll></auto-scroll></html>

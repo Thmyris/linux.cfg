@@ -3,13 +3,11 @@ login.
 sudo service lightdm restart
 #to restart explorer.exe
 
-alias youtube-dl commands
+
 
 set up thunderbird properly
 
 look up the kde program notes, like dolphin and tohers
-
-is there any way to stop cherrytree from "modernizing" punctuations like " and '. It's messing up code. Yes there is.
 
 increase regular scroll speed, its so low, especially felt while scrolling a lot, maybe it doesn't register the input faster than 1ms? I cant be scrolling that fast. Or can I? :vsauce:
 
@@ -18,7 +16,7 @@ install flux or alternative
 
 set up mpv with the smplayer multimedia engine or with celluloid
 
-startup programs (how does startup mgmt work in liunux?)
+
 
 add kates cfgs to the .sh
 """
@@ -32,12 +30,7 @@ fix middle click for good
 setup ssh for git
 
 disable touchpad acceleration (is it still exists after g604 is fixed, but maybe, leave it on?)
-touchpad cant touch click :facepalm:
 
-playonlinux un varligini note al
-
-Things that were alredady done in kali:
-install tmux
 
 
 
