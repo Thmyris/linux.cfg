@@ -124,3 +124,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+pulseaudio -D
+clear

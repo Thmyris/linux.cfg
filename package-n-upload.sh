@@ -51,5 +51,5 @@ fi
 git add .
 git status
 read -p "Press enter to commit and upload. If not, please CTRL^C and 'git reset'."
-git commit -m "++"
+git commit -m "v4.1"
 git push origin master

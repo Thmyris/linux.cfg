@@ -1,7 +1,7 @@
 #!/bin/bash
-# Name: beforesetup.sh for kali linux 2020.1b
+# Name: beforesetup.sh for kali linux 2020.3
 # Author: Thmyris
-# Last update: 05.11.2020
+# Last update: 17.11.2020
 # About: This script is for unarchiving the files that were packaged to bypass github's mib limit. May require internet connection for 7z dependencies.
 #--------------------------------------------
 

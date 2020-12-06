@@ -90,3 +90,4 @@ Run xbindkeys on startup(it auto added itself on kali20201b, NOP doesnt work on 
 literally enables loading cursor if software supports it
 
 
+

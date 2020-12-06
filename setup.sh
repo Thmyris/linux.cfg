@@ -1,12 +1,12 @@
 #!/bin/bash
-# Name: setup.sh for kali linux 2020.2
+# Name: setup.sh for kali linux 2020.3
 # Author: Thmyris
-# Last update: 05.11.2020
+# Last update: 06.12.2020
 # About: This script requires sudo on several occasions and may require human intervention like pressing enter for tee. Internet connection is required to install package dependencies.
 # Note: see setup.txt for things that need to be done manually.
 
 #--------------------------------------------
-echo -e "First a few checks:\n 1) Make sure you are connected to the internet\n 2) Make sure you ran beforesetup.sh already. \n 3) Check #automounting windows\n 4) Check #optional deb installs\n 5) You also DON'T want to be the user 'root' (if you are running this for a regular user acc).\n 6) Check #dotfiles\n 7) Check #git\n 8) Otherwise have a nice flight!";
+echo -e "Pre-flight checklist:\n 1) Make sure you are connected to the internet\n 2) Make sure you ran beforesetup.sh already. \n 3) Check #automounting windows\n 4) Check #optional deb installs\n 5) You also DON'T want to be the user 'root' (if you are running this for a regular user acc).\n 6) Check #dotfiles\n 7) Check #git\n 8) Otherwise have a nice flight!";
 echo "The stuff that needs user attention has been placed at the end of the script. After continuing, you'll just have to type your sudo password once for apt, then it's all autopilot until miniconda installation."
 while true; do
     read -p "Do you wish to continue?(y/n): " yesno
@@ -28,7 +28,7 @@ normal=$(tput sgr0) # Put this to reset back to normal output, if you don't last
 #--------------------------------------------
 
 #deb installs, internet connection required
-#NOTE on local .deb files: these are here for backup purposes, in case kali repos don't have the package. If kali repos have the package, apt doesn't actually use these local debs for installation. If you really wanna install .deb files locally, use:
+#NOTE on local .deb files: these are here for backup purposes. If case kali or debian repos don't have the package dependencies it most likely won't install. If you really wanna install .deb files locally, use:
 #sudo gdebi FILE.deb
 #or if you are feeling adventurous:
 #yes | sudo gdebi FILE.deb
@@ -45,6 +45,8 @@ echo "${bold}${red_bg}Starting non-local deb installations${normal}"
 ./deb/daedalus-2.4.0-mainnet-14924.bin                          # Daedalus wallet install
 sudo apt install -y qbittorrent                                 # This errors out when installed locally
 sudo apt install -y vlc                                         # This errors out when installed locally
+sudo apt install -y ffmpeg                                      # This doesn't meet dependencies when installed locally
+sudo dpkg -i bat_0.17.1_amd64.deb                               # BAT!
 echo "${bold}${red_bg}done${normal}"
 
 
@@ -99,10 +101,14 @@ echo "${bold}${red_bg}done${normal}"
 # 
 #     Things like paths should go into .profile if you want them to work outside of the interactive sessions. (say when you press Alt+F2 in GNOME)
 
+#adding some binaries to path
 #snap path addition
-echo "${bold}${red_bg}adding snap to path${normal}"
+echo "${bold}${red_bg}adding some binaries to path${normal}"
 tee -a ~/.profile > /dev/null <<EOT
 export PATH="$PATH:/snap/bin"
+EOT
+tee -a ~/.profile > /dev/null <<EOT
+export PATH="$PATH:/home/thmyris/files/Image-ExifTool-12.09:/home/thmyris/files/node-v14.15.1-linux-x64/bin/"
 EOT
 echo "${bold}${red_bg}done${normal}"
 
@@ -112,13 +118,29 @@ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/you
 sudo chmod a+rx /usr/local/bin/youtube-dl
 echo "${bold}${red_bg}done${normal}"
 
-# init bash_aliases if it isnt in .bashrc already
+# init bash_aliases if it isnt in .bashrc already(VERY OUTDATED)
 echo "${bold}${red_bg}add bash_aliases in .bashrc${normal}"
 grep -qxF 'if [ -f ~/.bash_aliases ]; then' ~/.bashrc || tee -a ~/.bashrc > /dev/null <<EOT
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
 EOT
+echo "${bold}${red_bg}done${normal}"
+
+# fix repos
+echo "${bold}${red_bg}'fixing' repos =)${normal}"
+sudo tee /etc/apt/sources.list > /dev/null <<EOT
+# See https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
+# <Archive>   <Mirror>                <Branch>         <Component>
+deb http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src http://http.kali.org/kali kali-rolling main contrib non-free
+deb http://ftp.de.debian.org/debian buster main
+
+# This file was added by linux.cfg/setup.sh to fix default repos and add debian repos because why not
+EOT
+sleep 0.05
+sudo apt update
+sleep 0.1
 echo "${bold}${red_bg}done${normal}"
 
 #dotfiles 
@@ -174,6 +196,10 @@ echo "${bold}${red_bg}done${normal}"
 
 echo "${bold}${red_bg}Installing miniconda, needs user attention!${normal}"
 ./deb/Miniconda3-latest-Linux-x86_64.sh
+echo "${bold}${red_bg}done${normal}"
+
+echo "${bold}${red_bg}Installing Jdownloader2, needs user attention!${normal}"
+./deb/JD2Setup_x64.sh
 echo "${bold}${red_bg}done${normal}"
 
 echo "${bold}${red_bg}ALL DONE! Don't forget to restart your pc! Have an awesome year!${normal}"

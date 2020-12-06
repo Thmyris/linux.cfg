@@ -1,13 +1,14 @@
-## my linux cfg files
-This is my linux configuration folder for getting Kali-2020.2 ready to go in under 10 mins right after a reformat.
+# linux.cfg
+This is my linux configuration folder for getting Kali-2020.3 ready to go in under 10 mins right after a reformat.
 
+## Usage
 0. open a terminal in the linux.cfg folder
-1. run ./beforesetup.sh
-2. run ./setup.sh (AKA install.sh)
+1. `./beforesetup.sh`
+2. `./setup.sh #(AKA install.sh)`
 3. reboot
-4. run ./aftersetup.sh
+4. `./aftersetup.sh`
 5. read setup.txt
-6. run ./SELF_DESTRUCT
+6. `./SELF_DESTRUCT`
 
 #### Changelog:
 ##### v4(Nov 2020):

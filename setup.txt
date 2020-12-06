@@ -1,11 +1,10 @@
-# Name: setup.txt for kali linux 2020.2
+# Name: setup.txt for kali linux 2020.3
 # Author: Thmyris
-# Last update: 05.11.2020
+# Last update: 17.11.2020
 # About: The steps in this file requires manual clicking around which is annoying but setting it up for automation is x10 more annoying so we are good for atleast 10 re-formats :D
 -------------------------------------------------
-touchpad setings -> TICK:reverse scroll direction
--------------------------------------------------
 28) xfce power manager
+Display -> 5 mins to turn off display, others -> NEVA
 laptop lid -> switch off display for both settings
 security -> automatically lock session -> NEVA
 -------------------------------------------------
@@ -15,6 +14,7 @@ Color scheme: Tango
 $TERM=xterm-256color
 History=10000
 font: inconsolata medium 16   #honestly fira code was better but qterminal wouldnt recognize :(
+BUG: .config/qterminal.org/.ini ye girip font ismindeki boslugu silmeden gui ile degisiklik yapilmiyor
 -------------------------------------------------
 VIVALDI SETUP
 0) login
@@ -22,7 +22,7 @@ VIVALDI SETUP
 2) add whatsapp, discord, github on left side
 3) add F1 for downloads and disable F1 help.
 4) remove F3 from find in page
-5) add F3 for view sessions
+5) add F3 open saved session
 6) remove ctrl+q from browser close
 7) add tureng to search with t
 -------------------------------------------------
@@ -32,8 +32,10 @@ microphone @ %50 is good.
 
 
 #-------------------------------------------------
-Below settings are all applied by #dotfiles c&p in setup.sh
+Settings below are all applied by #dotfiles c&p in setup.sh
 #-------------------------------------------------
+touchpad setings -> TICK:reverse scroll direction
+-------------------------------------------------
 0) 
 settings    -> panel    -> solid color black
                         -> unlock panel, move down, lock panel
@@ -41,21 +43,21 @@ settings    -> panel    -> solid color black
                         -> row size (pixels) = 28
                         -> items    -> show desktop to bottom
                                     -> clock above it
-                                    -> remove log out and lock screen
+                                    -> remove action buttons
                                     -> remove kazam, TerminalEmulator, directory
-            -> windows Manager Tweaks   -> Cycle through windows in a list 
-                                        -> untick Use mouse wheel on title bar to roll up the window
-                                        -> tick Notify of urgency...
-                                        -> untick Wrap workspaces depending...
-                                        -> show shadows under popup windows
-            window manager  -> Advanced -> tick:Wrap workspaces...mouse pointer
+                                    -> remove unnecessary seperators
+            -> windows Manager Tweaks   -> untick: Use mouse wheel on title bar to roll up the window
+                                        -> tick: Notify of urgency...
+                                        -> untick: Wrap workspaces depending...
+                                        -> tick: show shadows under popup windows
+            window manager  -> Advanced -> tick: Wrap workspaces...mouse pointer
                                         -> increase edge resist to half
                                         -> tick: when resizing
             -> appearance -> custom dpi setting: 110
             -> desktop -> tick: single click to activate items
             -> file manager preferences -> Date: Custom: %d/%m/%Y %H:%M:%S
                                         -> Open new thunar instances as tabs
-
+right click clock -> clock options -> format -> choose 1st
 -------------------------------------------------
 1) cfg kate
 kate settings   -> appearance 	-> Show indentation lines
@@ -74,14 +76,12 @@ c. close window: F4
 __keyboard app__
 a. exo-open –-launch FileManager -> Win+E
 #just adding "thunar" also works for xfce
-b. xfce4-shreenshooter --region -> Ctrl + [
-c. xfce4-screenshooter --region --clipboard -> Ctrl + ]
-d. xfce4-appfinder: Win+F
-e. xfce4-appfinder --collapsed: win+R
+b. xfce4-appfinder: Win+F
+c. xfce4-appfinder --collapsed: win+R
 # In an ideal world, appfinder would be super & I'd unbind whiskermenu, but for now that doesnt seem possible.
-f. add a shortcut to CTRL+ALT+A -> bash -c 'sleep 0.3 &&xset dpms force off' or force standby
-g. ksysguard -> Ctrl+Shift+ESC
-e. light -U 10 -> Ctrl+F1
+d. add a shortcut to CTRL+ALT+A -> bash -c 'sleep 0.3 &&xset dpms force off' or force standby
+e. ksysguard -> Ctrl+Shift+ESC
+f. light -U 10 -> Ctrl+F1
    light -A 10 -> Ctrl+F2
 
 -------------------------------------------------
@@ -136,4 +136,5 @@ snap restart lxd
 #NOTE: snapd.service, can sometimes just not load lol:
 systemctl restart snapd.service
 -------------------------------------------------
+
 
