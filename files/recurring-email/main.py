@@ -6,16 +6,17 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 MY_ADDRESS = 'badbatbot@zohomail.com'
-PR = 'j16D7$vf7J@z8&6Om#a8&%mxuzZphi' # Please have better things to do then take over this useless bot email. I literally can't be asked to hide this, so you shouldn't be bothered to login. There's nothing interesting inside.
+PR = 'j16D7$vf7J@z8&6Om#a8&%mxuzZphi' # Please have better things to do then take over this useless bot meyil. I literally can't be asked to hide this, so you shouldn't be bothered to login. There's nothing interesting inside.
 
 def get_contacts():
     """
-    Return two lists names, emails containing names and email addresses
+    Return two lists names, meyils containing names and meyil addresses
     read from a file specified by filename.
     """
     names = ['']
-    emails = ['sagirli.arif@gmail.com']
-    return names, emails
+    meyil1= 'sag' + 'irli' + '.' + 'ar' + 'if' + '@' + 'g' + 'ma' + 'il' + '.' + 'c' + 'om'
+    meyils = [meyil1]
+    return names, meyils
 
 def read_template(filename):
     """
@@ -29,7 +30,7 @@ def read_template(filename):
     return Template(template_file_content)
 
 def main():
-    names, emails = get_contacts() 
+    names, meyils = get_contacts() 
     message_template = read_template('/home/thmyris/files/recurring-email/message.txt')
 
     # set up the SMTP server
@@ -37,8 +38,8 @@ def main():
     s.starttls()
     s.login(MY_ADDRESS, PR)
 
-    # For each contact, send the email:
-    for name, email in zip(names, emails):
+    # For each contact, send the meyil:
+    for name, email in zip(names, meyils):
         msg = MIMEMultipart()       # create a message
 
         # add in the actual person name to the message template
