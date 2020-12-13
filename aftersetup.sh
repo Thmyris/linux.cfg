@@ -1,7 +1,7 @@
 #!/bin/bash
 # Name: aftersetup.sh for kali linux 2020.3
 # Author: Thmyris
-# Last update: 17.11.2020
+# Last update: 10.12.2020
 # About: This file is for when you are done running setup.sh and completely restarted your pc(no session saving)
 
 echo "disabling snap retention..."
@@ -21,4 +21,9 @@ echo "installing scrcpy"
 snap install scrcpy
 echo "done"
 
-echo "You can see setup.txt now"
+#atom sync-settings
+echo "installing atom sync-settings plugin"
+apm install sync-settings
+echo "done"
+
+echo "You can see setup.txt now(optional)"

@@ -186,7 +186,6 @@ python3 get-pip.py
 rm get-pip.py
 echo "${bold}${red_bg}done${normal}"
 
-
 # GIT
 echo "${bold}${red_bg}git cfg${normal}"
 git config --global user.email thmyris@windowslive.com
