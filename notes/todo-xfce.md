@@ -17,8 +17,6 @@ install flux or alternative
 set up mpv with the smplayer multimedia engine or with celluloid
 
 
-
-add kates cfgs to the .sh
 """
 fix brightness shortcuts etc (autohotkey again?)
 VOLUME CONTROL on mouse gesture.

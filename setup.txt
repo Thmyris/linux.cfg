@@ -1,6 +1,6 @@
 # Name: setup.txt for kali linux 2020.3
 # Author: Thmyris
-# Last update: 17.11.2020
+# Last update: 14.12.2020
 # About: The steps in this file requires manual clicking around which is annoying but setting it up for automation is x10 more annoying so we are good for atleast 10 re-formats :D
 -------------------------------------------------
 28) xfce power manager
@@ -13,13 +13,14 @@ Application Transparency -> %0
 Color scheme: Tango
 $TERM=xterm-256color
 History=10000
-font: inconsolata medium 16   #honestly fira code was better but qterminal wouldnt recognize :(
-BUG: .config/qterminal.org/.ini ye girip font ismindeki boslugu silmeden gui ile degisiklik yapilmiyor
+font: inconsolata medium 18   # or fira code
+BUG: BUG: BUG: BUG: BUG: 
+vim .config/qterminal.org/qterminal.ini
+ye girip font ismindeki boslugu silmeden gui ile degisiklik yapilmiyor.
+sil kaydet, o terminali kapamadan yeni terminal ac, eskiyi kapa. Tek fix bu.
 -------------------------------------------------
 VIVALDI SETUP
 0) login
-1) set appearance tab, custom 'human' theme with a dark accent behind the tabs.
-2) add whatsapp, discord, github on left side
 3) add F1 for downloads and disable F1 help.
 4) remove F3 from find in page
 5) add F3 open saved session
@@ -28,6 +29,14 @@ VIVALDI SETUP
 -------------------------------------------------
 13) volume control
 microphone @ %50 is good.
+-------------------------------------------------
+23) fix time
+sudo apt install ntp ntpdate
+sudo ntpdate pool.ntp.org                       #this fixes universal time
+#timedatectl list-timezones
+timedatectl set-timezone "Europe/Istanbul"
+timedatectl
+-------------------------------------------------
 
 
 
@@ -35,24 +44,25 @@ microphone @ %50 is good.
 Settings below are all applied by #dotfiles c&p in setup.sh
 #-------------------------------------------------
 touchpad setings -> TICK:reverse scroll direction
+                    TICK:tap touchpad to click
+mouse settings   -> acceleration: 0 (this is actual acceleration but u still need the change in setup.sh along with setting this to 0)
 -------------------------------------------------
 0) 
-settings    -> panel    -> solid color black
+settings    -> panel    -> solid color black(maybe not =)
                         -> unlock panel, move down, lock panel
-                        -> untick don't reserve space on borders (fix fullscreen windows seeping under the start menu)
+                        -> UNTICK: don't reserve space on borders (fix fullscreen windows seeping under the start menu)
                         -> row size (pixels) = 28
                         -> items    -> show desktop to bottom
                                     -> clock above it
                                     -> remove action buttons
-                                    -> remove kazam, TerminalEmulator, directory
+                                    -> remove kazam, TerminalEmulator, directory menu
                                     -> remove unnecessary seperators
-            -> windows Manager Tweaks   -> untick: Use mouse wheel on title bar to roll up the window
-                                        -> tick: Notify of urgency...
-                                        -> untick: Wrap workspaces depending...
-                                        -> tick: show shadows under popup windows
-            window manager  -> Advanced -> tick: Wrap workspaces...mouse pointer
+            -> windows Manager Tweaks   -> UNTICK: Use mouse wheel on title bar to roll up the window
+                                        -> TICK: Notify of urgency...
+                                        -> UNTICK: Wrap workspaces depending...
+                                        -> TICK: show shadows under popup windows
+            window manager  -> Advanced -> TICK: Wrap workspaces...mouse pointer
                                         -> increase edge resist to half
-                                        -> tick: when resizing
             -> appearance -> custom dpi setting: 110
             -> desktop -> tick: single click to activate items
             -> file manager preferences -> Date: Custom: %d/%m/%Y %H:%M:%S
@@ -69,20 +79,22 @@ kate settings   -> appearance 	-> Show indentation lines
 -------------------------------------------------
 8) keyboard shortcuts
 __settings -> window manager__
-a. exo-open --launch TerminalEmulator -> Win+T
-b. show desktop: Win+D
-c. close window: F4
-#This is different from start menu finder
+a. show desktop: Win+D
+b. close window: F4
 __keyboard app__
-a. exo-open –-launch FileManager -> Win+E
-#just adding "thunar" also works for xfce
-b. xfce4-appfinder: Win+F
-c. xfce4-appfinder --collapsed: win+R
-# In an ideal world, appfinder would be super & I'd unbind whiskermenu, but for now that doesnt seem possible.
-d. add a shortcut to CTRL+ALT+A -> bash -c 'sleep 0.3 &&xset dpms force off' or force standby
-e. ksysguard -> Ctrl+Shift+ESC
-f. light -U 10 -> Ctrl+F1
-   light -A 10 -> Ctrl+F2
+a. exo-open --launch FileManager -> Win+E       #just adding "thunar" also works for xfce
+b. exo-open --launch TerminalEmulator -> Win+T
+c. xfce4-appfinder: Win+F
+d. xfce4-appfinder --collapsed: win+R
+# In an ideal world, appfinder would be super & I'd unbind whiskermenu, but for now that doesnt seem possible (asked on so, solved)
+e. add a shortcut to CTRL+ALT+A -> bash -c 'sleep 0.3 &&xset dpms force off' or force standby
+f. ksysguard -> Ctrl+Shift+ESC
+g. flameshot full -p /home/thmyris/Pictures/  -> Ctrl+Print
+h. flameshot gui -p /home/thmyris/Pictures/   -> Print
+
+#brightness
+#light -U 10 -> Ctrl+F1
+#light -A 10 -> Ctrl+F2
 
 -------------------------------------------------
 9) keyboard -> layout -> add -> Turkish, Change Key -> Alt+Shift

@@ -1,43 +1,123 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/thmyris/Desktop/font i like]
-row=8
-col=0
-
-[/home/thmyris/Desktop/!TO DO LIST -XFCE-DEB.md]
-row=0
+[/home/thmyris/Desktop/eski]
+row=6
 col=1
 
-[/home/thmyris/Desktop/Building Secure and Reliable Systems by Google.pdf]
+[/home/thmyris/Desktop/todo]
+row=7
+col=2
+
+[/home/thmyris/Desktop/deja-dup_42.5-1_amd64.deb]
 row=7
 col=0
 
-[/home/thmyris/Desktop/parcala aslanim]
+[/home/thmyris/Desktop/balenaEtcher-1.5.111-x64.AppImage]
+row=2
+col=1
+
+[/home/thmyris/Desktop/farm price checker.sh]
+row=7
+col=1
+
+[/home/thmyris/Desktop/motog5 rok saved images]
+row=3
+col=2
+
+[/home/thmyris/Desktop/xfce zoom]
+row=8
+col=2
+
+[/home/thmyris/Desktop/to sec]
 row=6
+col=2
+
+[/home/thmyris/Desktop/meems]
+row=2
+col=2
+
+[/home/thmyris/Desktop/0]
+row=8
 col=0
 
-[E4E0B488E0B4630A]
+[/home/thmyris/Desktop/linux.cfg changes]
+row=5
+col=3
+
+[/home/thmyris/Desktop/deja-dup-42.6]
+row=3
+col=1
+
+[/home/thmyris/Desktop/Hacking To The Gate Eurobeat Remix.mp3]
+row=0
+col=1
+
+[/home/thmyris/Desktop/tcy t5 quickfix.txt]
 row=4
-col=0
+col=2
 
-[0062D9AE62D9A8A4]
+[/home/thmyris/Desktop/linux-5.9.9.tar.xz]
+row=1
+col=2
+
+[/home/thmyris/Desktop/Ultracopier]
+row=1
+col=1
+
+[/home/thmyris/Desktop/yeni cekirdek derleme isini windowsta ubuntu 2024 sanal makinede yap]
+row=0
+col=3
+
+[/home/thmyris/Desktop/harvest.finance unstaking and claiming cost.png]
+row=0
+col=2
+
+[/home/thmyris/Desktop/fpc.log]
+row=8
+col=1
+
+[/home/thmyris/Desktop/deja-dup-42.6.zip]
+row=4
+col=1
+
+[/home/thmyris/Desktop/egzersiz]
+row=5
+col=1
+
+[/home/thmyris/Desktop/tengirsek emanet]
+row=5
+col=2
+
+[EAC4F434C4F4051B]
 row=0
 col=0
 
-[1723d8b9-b154-4179-8049-90101f5b6b65]
+[2ed10a62-e9f9-4f61-bd3c-2816b4958d1c]
 row=5
 col=0
 
-[Wastebasket]
+[87 MB Volume]
+row=1
+col=3
+
+[E4E0B488E0B4630A]
+row=6
+col=0
+
+[6E8A4B598A4B1CC9]
 row=1
 col=0
 
-[/]
+[Wastebasket]
 row=2
 col=0
 
-[/home/thmyris]
+[/]
 row=3
+col=0
+
+[/home/thmyris]
+row=4
 col=0
 

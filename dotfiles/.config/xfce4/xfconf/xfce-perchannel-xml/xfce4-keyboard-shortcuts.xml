@@ -26,27 +26,29 @@
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
+      <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter --window"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfce4-popup-whiskermenu"/>
+      <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
+      <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
       <property name="&lt;Super&gt;Print" type="string" value="kazam"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter --region --clipboard"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
+      <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-whiskermenu --pointer"/>
+      <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter --window --clipboard"/>
+      <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Super&gt;f" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder --collapsed"/>
-      <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager"/>
+      <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
       <property name="&lt;Primary&gt;&lt;Alt&gt;a" type="string" value="bash -c &apos;sleep 0.3 &amp;&amp;xset dpms force off&apos;"/>
-      <property name="&lt;Shift&gt;Escape" type="empty">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="ksysguard">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
-      <property name="&lt;Primary&gt;F4" type="string" value="pactl -- set-sink-volume 0 +10%"/>
-      <property name="&lt;Primary&gt;F3" type="string" value="pactl -- set-sink-volume 0 -10%"/>
-      <property name="&lt;Super&gt;g" type="string" value="exo-open --launch WebBrowser"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="ksysguard"/>
       <property name="&lt;Primary&gt;Print" type="string" value="flameshot full -p /home/thmyris/Pictures/"/>
       <property name="Print" type="string" value="flameshot gui -p /home/thmyris/Pictures/"/>
-      <property name="&lt;Super&gt;s" type="string" value="xflock4"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -164,8 +166,8 @@
       <property name="&lt;Primary&gt;&lt;Super&gt;5" type="string" value="move_window_workspace_5_key"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;Up" type="string" value="tile_up_key"/>
       <property name="override" type="bool" value="true"/>
-      <property name="F4" type="string" value="close_window_key"/>
       <property name="&lt;Super&gt;d" type="string" value="show_desktop_key"/>
+      <property name="F4" type="string" value="close_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">

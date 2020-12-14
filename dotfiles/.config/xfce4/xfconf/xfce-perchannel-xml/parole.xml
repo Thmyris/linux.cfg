@@ -5,17 +5,12 @@
     <property name="font" type="string" value="Sans Bold 20"/>
   </property>
   <property name="folders" type="empty">
-    <property name="last-used-media" type="string" value="/media/WIN/Users/Thmyris/Downloads"/>
+    <property name="last-used-media" type="string" value="/home/thmyris/Desktop/meems"/>
   </property>
   <property name="window" type="empty">
-    <property name="maximized" type="bool" value="true"/>
-    <property name="width" type="int" value="1920"/>
-    <property name="height" type="int" value="1024"/>
+    <property name="maximized" type="bool" value="false"/>
   </property>
   <property name="audio" type="empty">
-    <property name="volume" type="int" value="11"/>
-  </property>
-  <property name="playlist" type="empty">
-    <property name="show-playlist" type="bool" value="false"/>
+    <property name="volume" type="int" value="50"/>
   </property>
 </channel>

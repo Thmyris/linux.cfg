@@ -1,77 +1,4 @@
-[Breeze Dark]
-dummy=prevent-empty-group
-
-[KDE]
-dummy=prevent-empty-group
-
 [Normal]
-Color Background[$d]
-Color Code Folding[$d]
-Color Current Line Number[$d]
-Color Highlighted Bracket[$d]
-Color Highlighted Line[$d]
-Color Icon Bar[$d]
-Color Indentation Line[$d]
-Color Line Number[$d]
-Color MarkType 1[$d]
-Color MarkType 2[$d]
-Color MarkType 3[$d]
-Color MarkType 4[$d]
-Color MarkType 5[$d]
-Color MarkType 6[$d]
-Color MarkType 7[$d]
-Color Modified Lines[$d]
-Color Replace Highlight[$d]
-Color Saved Lines[$d]
-Color Search Highlight[$d]
-Color Selection[$d]
-Color Separator[$d]
-Color Spelling Mistake Line[$d]
-Color Tab Marker[$d]
-Color Template Background[$d]
-Color Template Editable Placeholder[$d]
-Color Template Focused Editable Placeholder[$d]
-Color Template Not Editable Placeholder[$d]
-Color Word Wrap Marker[$d]
-Font=Fira Code,14,-1,5,53,0,0,0,0,0,Retina
-dummy=prevent-empty-group
-
-[Printing]
-Color Background[$d]
-Color Code Folding[$d]
-Color Current Line Number[$d]
-Color Highlighted Bracket[$d]
-Color Highlighted Line[$d]
-Color Icon Bar[$d]
-Color Indentation Line[$d]
-Color Line Number[$d]
-Color MarkType 1[$d]
-Color MarkType 2[$d]
-Color MarkType 3[$d]
-Color MarkType 4[$d]
-Color MarkType 5[$d]
-Color MarkType 6[$d]
-Color MarkType 7[$d]
-Color Modified Lines[$d]
-Color Replace Highlight[$d]
-Color Saved Lines[$d]
-Color Search Highlight[$d]
-Color Selection[$d]
-Color Separator[$d]
-Color Spelling Mistake Line[$d]
-Color Tab Marker[$d]
-Color Template Background[$d]
-Color Template Editable Placeholder[$d]
-Color Template Focused Editable Placeholder[$d]
-Color Template Not Editable Placeholder[$d]
-Color Word Wrap Marker[$d]
-dummy=prevent-empty-group
-
-[Solarized (dark)]
-Font=Fira Code,14,-1,5,57,0,0,0,0,0
-dummy=prevent-empty-group
-
-[Solarized (light)]
 dummy=prevent-empty-group
 
 [Vim (dark)]
@@ -79,5 +6,6 @@ Color Current Line Number=4,174,222
 Color Icon Bar=51,51,51
 Color Line Number=251,254,255
 Color Selection=64,64,64
-Font=Inconsolata Medium,18,-1,5,57,0,0,0,0,0,Regular
+Color Separator=92,98,108
+Font=Inconsolata,15,-1,5,50,0,0,0,0,0
 dummy=prevent-empty-group

@@ -1,13 +1,15 @@
 #!/bin/bash
-# Name: setup.sh for kali linux 2020.3
+# Name: setup.sh for kali linux 2020.3(last version with bash)
 # Author: Thmyris
-# Last update: 06.12.2020
-# About: This script requires sudo on several occasions and may require human intervention like pressing enter for tee. Internet connection is required to install package dependencies.
+# Last update: 14.12.2020
+# About: This script requires sudo on several occasions and does require human intervention. Internet connection is required to install packages & dependencies.
 # Note: see setup.txt for things that need to be done manually.
 
 #--------------------------------------------
+
 echo -e "Pre-flight checklist:\n 1) Make sure you are connected to the internet\n 2) Make sure you ran beforesetup.sh already. \n 3) Check #automounting windows\n 4) Check #optional deb installs\n 5) You also DON'T want to be the user 'root' (if you are running this for a regular user acc).\n 6) Check #dotfiles\n 7) Check #git\n 8) Otherwise have a nice flight!";
-echo "The stuff that needs user attention has been placed at the end of the script. After continuing, you'll just have to type your sudo password once for apt, then it's all autopilot until miniconda installation."
+echo "The stuff that needs user attention has been placed at the top of the script. After continuing, you'll just have to type your sudo password once, install a few stuff in gui and then it's all autopilot"
+echo "If you want to troubleshoot later you should run this script as './setup.sh | tee setup.log' But you should be just fine without it."
 while true; do
     read -p "Do you wish to continue?(y/n): " yesno
     case $yesno in
@@ -16,6 +18,7 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
+
 #--------------------------------------------
 
 # Colors! (bash variables to control the output appearance)
@@ -27,6 +30,36 @@ normal=$(tput sgr0) # Put this to reset back to normal output, if you don't last
 
 #--------------------------------------------
 
+# fix repos
+echo "${bold}${red_bg}'fixing' repos =)${normal}"
+echo "${bold}${red_bg}Enter sudo pw for sudo cp:${normal}"
+if [ ! -f /etc/apt/linuxcfg.sources.list.bak ]; then
+    sudo cp /etc/apt/sources.list /etc/apt/linuxcfg.sources.list.bak
+fi
+sudo tee /etc/apt/sources.list > /dev/null <<EOT
+# See https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
+# <Archive>   <Mirror>                <Branch>         <Component>
+deb http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src http://http.kali.org/kali kali-rolling main contrib non-free
+deb http://ftp.de.debian.org/debian buster main
+
+# This file is added by linux.cfg/setup.sh to make sure default repos are set up correctly and add debian repos because why not
+# Original file is backed up as "linuxcfg.sources.list.bak" in case you want to restore it.
+EOT
+sleep 0.05
+sudo apt update
+sleep 0.1
+echo "${bold}${red_bg}done${normal}"
+
+echo "${bold}${red_bg}Installing miniconda, needs user attention!${normal}"
+./deb/Miniconda3-latest-Linux-x86_64.sh
+conda config --set auto_activate_base false
+echo "${bold}${red_bg}done${normal}"
+
+echo "${bold}${red_bg}Installing Jdownloader2, needs user attention!${normal}"
+./deb/JD2Setup_x64.sh
+echo "${bold}${red_bg}done${normal}"
+
 #deb installs, internet connection required
 #NOTE on local .deb files: these are here for backup purposes. If case kali or debian repos don't have the package dependencies it most likely won't install. If you really wanna install .deb files locally, use:
 #sudo gdebi FILE.deb
@@ -35,18 +68,41 @@ normal=$(tput sgr0) # Put this to reset back to normal output, if you don't last
 
 echo "${bold}${red_bg}Installing these .deb files:${normal}"
 for f in deb/*.deb ; do echo $f; done
-echo "${bold}${red_bg}Enter sudo pw for apt:${normal}"
-for f in deb/*.deb ; do sudo apt install -y ./$f; done
+
+for f in deb/*.deb
+do
+if [ $f = "deb/aptitude_0.8.12-3_amd64.deb" ]
+then
+sleep 0.3
+echo "."
+sleep 0.3
+echo "."
+sleep 0.3
+echo "."
+sleep 0.2
+echo "${bold}${red_bg}No more user attention should be needed anymore. Kick back and enjoy.${normal}"
+sleep 3
+echo "${bold}${red_bg}Speeding up!${normal}"
+sleep 1
+fi
+sudo apt install -y ./$f
+done
+
+#This used to be the oneliner:
+#for f in deb/*.deb ; do sudo apt install -y ./$f; done
+
+sudo dpkg -i deb/bat_0.17.1_amd64.deb
 echo "${bold}${red_bg}done${normal}"
 # Oh no people know the versions of the programs I use, how insecure!
 
 #optional deb installs (comment out unwanted packages)
-echo "${bold}${red_bg}Starting non-local deb installations${normal}"
-./deb/daedalus-2.4.0-mainnet-14924.bin                          # Daedalus wallet install
-sudo apt install -y qbittorrent                                 # This errors out when installed locally
-sudo apt install -y vlc                                         # This errors out when installed locally
-sudo apt install -y ffmpeg                                      # This doesn't meet dependencies when installed locally
-sudo dpkg -i bat_0.17.1_amd64.deb                               # BAT!
+echo "${bold}${red_bg}Starting non-local deb installations${normal}" # Can't install from local deb file
+sudo apt install -y qbittorrent
+sudo apt install -y vlc
+sudo apt install -y ffmpeg
+sudo apt install -y krita
+sudo apt install -y ksysguard
+sudo apt install -y aptitude
 echo "${bold}${red_bg}done${normal}"
 
 
@@ -79,6 +135,7 @@ EndSection
 EOT
 echo "${bold}${red_bg}done${normal}"
 
+#--------------------------------#
 # add to $PATH note:
 # The following command adds a path to your current path:
 # 
@@ -100,17 +157,9 @@ echo "${bold}${red_bg}done${normal}"
 #     Things like byobu should really go into .profile, (otherwise it won't work ;-)
 # 
 #     Things like paths should go into .profile if you want them to work outside of the interactive sessions. (say when you press Alt+F2 in GNOME)
-
-#adding some binaries to path
-#snap path addition
-echo "${bold}${red_bg}adding some binaries to path${normal}"
-tee -a ~/.profile > /dev/null <<EOT
-export PATH="$PATH:/snap/bin"
-EOT
-tee -a ~/.profile > /dev/null <<EOT
-export PATH="$PATH:/home/thmyris/files/Image-ExifTool-12.09:/home/thmyris/files/node-v14.15.1-linux-x64/bin/"
-EOT
-echo "${bold}${red_bg}done${normal}"
+#--------------------------------#
+#PATH ADDITION IS NOW HANDLED BY .BASHRC FROM DOTFILES
+#--------------------------------#
 
 #youtube-dl, dependency: ffmpeg(installed above)
 echo "${bold}${red_bg}setting up youtube-dl${normal}"
@@ -119,47 +168,35 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 echo "${bold}${red_bg}done${normal}"
 
 # init bash_aliases if it isnt in .bashrc already(VERY OUTDATED)
-echo "${bold}${red_bg}add bash_aliases in .bashrc${normal}"
-grep -qxF 'if [ -f ~/.bash_aliases ]; then' ~/.bashrc || tee -a ~/.bashrc > /dev/null <<EOT
-if [ -f ~/.bash_aliases ]; then
-. ~/.bash_aliases
-fi
-EOT
-echo "${bold}${red_bg}done${normal}"
+#echo "${bold}${red_bg}add bash_aliases in .bashrc${normal}"
+#grep -qxF 'if [ -f ~/.bash_aliases ]; then' ~/.bashrc || tee -a ~/.bashrc > /dev/null <<EOT
+#if [ -f ~/.bash_aliases ]; then
+#. ~/.bash_aliases
+#fi
+#EOT
+#echo "${bold}${red_bg}done${normal}"
 
-# fix repos
-echo "${bold}${red_bg}'fixing' repos =)${normal}"
-sudo tee /etc/apt/sources.list > /dev/null <<EOT
-# See https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
-# <Archive>   <Mirror>                <Branch>         <Component>
-deb http://http.kali.org/kali kali-rolling main non-free contrib
-deb-src http://http.kali.org/kali kali-rolling main contrib non-free
-deb http://ftp.de.debian.org/debian buster main
-
-# This file was added by linux.cfg/setup.sh to fix default repos and add debian repos because why not
-EOT
-sleep 0.05
-sudo apt update
-sleep 0.1
-echo "${bold}${red_bg}done${normal}"
 
 #dotfiles 
 #WARNING: for xfce4!!
-#WARNING: username HAS TO BE 'thmyris'. Comment this cp out if you are a different user. If you just want to test my configs you can manually copy dotfiles into a new user acc named thmyris after ur done
+#WARNING: username HAS TO BE 'thmyris'. Comment this out if you are a different user. If you just want to test my configs you can manually copy dotfiles into a new user acc named thmyris after ur done
 echo "${bold}${red_bg}copying dotfiles${normal}"
 cp -r dotfiles/. ~/.
 echo "${bold}${red_bg}done${normal}"
+
 
 #files
 echo "${bold}${red_bg}copying /files${normal}"
 cp -r files ~/.
 echo "${bold}${red_bg}done${normal}"
 
+
 #fonts
 echo "${bold}${red_bg}copying fonts${normal}"
 sudo cp -r font/truetype/. /usr/share/fonts/truetype/
 sudo cp -r font/opentype/.  /usr/share/fonts/opentype/
 echo "${bold}${red_bg}done${normal}"
+
 
 #automounting windows:
 # sudo /sbin/blkid
@@ -173,11 +210,12 @@ echo "${bold}${red_bg}done${normal}"
 echo "${bold}${red_bg}automounting win drive${normal}"
 sudo mkdir /media/WIN
 sudo bash -c 'echo "#This is for automounting local dual boot windows"  >> /etc/fstab'
-sudo bash -c 'echo "/dev/sda3 /media/WIN ntfs nls-utf8,umask=000,uid=1000,gid=1000,allow_other,rw 0 0"  >> /etc/fstab'
+sudo bash -c 'echo "UUID="6E8A4B598A4B1CC9" /media/WIN ntfs nls-utf8,umask=000,uid=1000,gid=1000,allow_other,rw 0 0"  >> /etc/fstab'
 #NOTE: don't mount into /media/<userid> that folder seems to be write protected for user, yet any new drive you add while linux is on gets mounted there with write privelages. IDK. It can also be that windows marked the entire partition as protected because i powered the pc off while its booting 2-3 times in a row. A quick chkdsk fixed this.
-# The mount point can change but UUID never changes. So if you have multiple disks it's more reliable to use UUID's.
+# The mount point can change but UUID never changes. So if you have multiple disks it's more reliable to use UUID's. Or use /dev/sda1
 # UUID=28B45E63B45E3392 /media/WIN ntfs nls-utf8,umask=000,uid=1000,gid=1000,allow_other,rw 0 0
 echo "${bold}${red_bg}done${normal}"
+
 
 #install pip
 echo "${bold}${red_bg}installing pip for python3${normal}"
@@ -186,6 +224,7 @@ python3 get-pip.py
 rm get-pip.py
 echo "${bold}${red_bg}done${normal}"
 
+
 # GIT
 echo "${bold}${red_bg}git cfg${normal}"
 git config --global user.email thmyris@windowslive.com
@@ -193,16 +232,10 @@ git config --global user.name "Ahmet Faruk Albayrak"
 # TODO: This is missing the ssh key part but im not uploading my key to github anyway lmao, maybe in the future, encrypted
 echo "${bold}${red_bg}done${normal}"
 
-echo "${bold}${red_bg}Installing miniconda, needs user attention!${normal}"
-./deb/Miniconda3-latest-Linux-x86_64.sh
-echo "${bold}${red_bg}done${normal}"
 
-echo "${bold}${red_bg}Installing Jdownloader2, needs user attention!${normal}"
-./deb/JD2Setup_x64.sh
-echo "${bold}${red_bg}done${normal}"
-
-echo "${bold}${red_bg}ALL DONE! Don't forget to restart your pc! Have an awesome year!${normal}"
+echo "${bold}${red_bg}SETUP COMPELTE! Don't forget to restart your pc! Have an awesome year!${normal}"
 echo "${bold}${red_bg}You can run aftersetup.sh after the restart.${normal}"
+
 
 while true; do
     read -p "Do you wish reboot right now?(y/n): " yesno

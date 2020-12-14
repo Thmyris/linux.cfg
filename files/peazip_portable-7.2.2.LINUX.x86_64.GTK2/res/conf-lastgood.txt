@@ -17,7 +17,7 @@ default.txt
 1
 
 [pealauncher: open output directory when job ends]
-0
+1
 
 [console binaries interface]
 2
@@ -114,16 +114,16 @@ default.txt
 0
 
 [left]
-64
+291
 
 [top]
-64
+162
 
 [width]
-960
+1244
 
 [height]
-600
+750
 
 [archive formats to show in favourite popup menu]
 1
@@ -175,7 +175,7 @@ LZMA2
 10
 
 [default zip compression level]
-3
+0
 
 [default zip compression method]
 Deflate
@@ -206,7 +206,7 @@ Deflate
 1
 
 [desktop path]
-
+/home/thmyris/Desktop/
 
 [job definition encoding]
 1
@@ -215,7 +215,7 @@ Deflate
 1
 
 [last output path]
-
+/home/thmyris/Desktop/setup/deb/
 
 [height of the navigation's splitter]
 220
@@ -242,7 +242,7 @@ PeaZip
 88
 120
 48
-97
+386
 0
 
 [extract to new folder]
@@ -459,7 +459,7 @@ PeaZip
 
 
 [delete originals after archival, extraction: 0 no (default) 1 yes - anyway user will be asked for confirmation]
-0
+1
 0
 
 [add timestamp suffix when creating archives: 0 no (default) 1 yes]
@@ -536,14 +536,14 @@ PeaZip
 0
 
 [file spanning]
-0
-100
+1
+80
 2
 
 [advanced 7z/p7zip compression settings]
-0
-4
-0
+-1
+-1
+-1
 0
 
 [auto close PeaZip when task completes]

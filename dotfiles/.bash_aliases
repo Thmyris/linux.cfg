@@ -24,7 +24,7 @@ alias bt="sudo systemctl restart bluetooth"
 
 alias btfix="pulseaudio --kill && sleep 5 && sudo pulseaudio --start"
 
-alias lso="ls -alG | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\" %0o \",k);print}'"
+alias lso="ls -alGSh --group-directories-first | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\" %0o \",k);print}'"
 
 #-------------------security---------------------#
 
@@ -68,7 +68,7 @@ alias ytdl="youtube-dl --mark-watched --no-geo-bypass --no-playlist -o '/home/th
 
 alias anki='~/files/anki-2.1.28-linux-amd64/bin/anki'
 
-alias foobar='systemctl restart snapd.service && sleep 3 && systemctl restart apparmor && sleep 4 && foobar2000'
+alias foobar='sudo systemctl restart snapd.service && sleep 3 && sudo systemctl restart apparmor && sleep 4 && foobar2000'
 
 alias teamsdownload='./destreamer.sh -f list.txt -t "{title}-{author}-{publishDate}" -k -u "170401001@ogr.comu.edu.tr"'
 
@@ -86,4 +86,4 @@ alias teamsdownload='./destreamer.sh -f list.txt -t "{title}-{author}-{publishDa
 
 
 #this HAS TO BE at the bottom
-alias alias="vim ~/.bash_aliases"
+#alias alias="vim ~/.bash_aliases"

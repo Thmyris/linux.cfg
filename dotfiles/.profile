@@ -26,4 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/thmyris/.local/bin:/home/thmyris/files/Image-ExifTool-12.09:/home/thmyris/files/node-v14.15.1-linux-x64/bin/"
+# Don't add anything about path here. add it to the bottom of .bashrc instead. Below conda's path setting.
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:$HOME/bin:$HOME/.local/bin:$HOME/files/Image-ExifTool-12.09:$HOME/files/node-v14.15.1-linux-x64/bin/"
+#fuk it just paste it everywhere. I've read that .profile needs path for non interactive shells

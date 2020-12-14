@@ -84,7 +84,7 @@ default.txt
 
 [save history of recent archives]
 1
-/home/thmyris/Desktop/setup/deb/atom-amd64.zip.001
+
 
 
 
@@ -410,7 +410,7 @@ PeaZip
 
 [save history of recent directories]
 /
-/home/thmyris/Desktop/setup/deb/
+
 
 
 
