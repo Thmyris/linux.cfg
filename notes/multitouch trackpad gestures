@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=ArBCfhVsTZw
+follow the guide without installing that is already installed
+
+commands:
+xdotool key Super+Down
+
+Todo:
+volup - 3 finger
+voldown - 3 finger
+brightness - ctrl f1-f2
+
+pactl -- set-sink-volume 0 +10%

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Name: setup.sh for kali linux 2020.3(last version with bash)
 # Author: Thmyris
-# Last update: 14.12.2020
+# Last update: 23.12.2020
 # About: This script requires sudo on several occasions and does require human intervention. Internet connection is required to install packages & dependencies.
 # Note: see setup.txt for things that need to be done manually.
 
@@ -103,6 +103,8 @@ sudo apt install -y ffmpeg
 sudo apt install -y krita
 sudo apt install -y ksysguard
 sudo apt install -y aptitude
+sudo apt install -y sox             #play command
+sudo apt install libsox-fmt-all     #play command
 echo "${bold}${red_bg}done${normal}"
 
 

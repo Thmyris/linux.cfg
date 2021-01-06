@@ -1,0 +1,9 @@
+Today, 21:56:15
+R1NGxZ3R0: https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95
+R1NGxZ3R0: do the first two commands then nano ~/.zshrc
+R1NGxZ3R0: then you will add zsh-autosuggestions to the plugins where you see git already added
+R1NGxZ3R0: there is like 300 diff themes as well you can set random or find one you like and save it where themes is
+Thmyris: i was already setting up a fresh install, thought about trying zsh today, this looks easy to setup, will give zsh a try thanks to you :D
+R1NGxZ3R0: make sure to add it as root
+R1NGxZ3R0: np!
+Thmyris: you got it, ty!
