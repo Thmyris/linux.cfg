@@ -5,7 +5,7 @@
 # About: This script is for unarchiving the files that were packaged to bypass github's mib limit. May require internet connection for 7z dependencies.
 #--------------------------------------------
 
-echo -e "If you had to CTRL^C while running this script, you'll have to continue unpacking manually.";
+echo -e "If you have to CTRL^C while running this script, you'll have to continue unpacking manually.";
 while true; do
     read -p "Do you wish to continue unpacking automatically?(y/n): " yesno
     case $yesno in

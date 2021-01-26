@@ -1,0 +1,3 @@
+merge beforesetup.sh and setup.sh
+
+ask at the beginning if the user wants to run setup.sh after unpacking

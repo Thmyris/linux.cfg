@@ -4,6 +4,7 @@
   <property name="Net" type="empty">
     <property name="ThemeName" type="empty"/>
     <property name="IconThemeName" type="empty"/>
+    <property name="CursorBlink" type="bool" value="false"/>
   </property>
   <property name="Xft" type="empty">
     <property name="HintStyle" type="empty"/>

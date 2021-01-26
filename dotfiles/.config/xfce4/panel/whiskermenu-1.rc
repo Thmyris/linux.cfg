@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,xfce-text-editor.desktop,exo-web-browser.desktop,kali-www.desktop,kali-docs.desktop,kali-bugs.desktop,offsec-training.desktop,exploit-database.desktop,vulnhub.desktop
-recent=exo-terminal-emulator.desktop,exo-file-manager.desktop
+recent=exo-web-browser.desktop,cherrytree.desktop,atom.desktop,mate-calc.desktop,discord.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop
 button-icon=kali-panel-menu
 button-single-row=false
 show-button-title=false
