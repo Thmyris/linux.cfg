@@ -1,1 +1,1 @@
-automate backing up files into /files and /dotfiles with rsync
+automate backing up files into /files and /dotfiles from local pc with rsync
