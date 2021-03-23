@@ -1,0 +1,1721 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0057)https://misc.flogisoft.com/bash/tip_colors_and_formatting -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+  
+  <title>
+    bash:tip_colors_and_formatting - FLOZz' MISC  </title>
+
+  <meta name="generator" content="DokuWiki">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="bash,tip_colors_and_formatting">
+<link rel="search" type="application/opensearchdescription+xml" href="https://misc.flogisoft.com/lib/exe/opensearch.php" title="FLOZz&#39; MISC">
+<link rel="start" href="https://misc.flogisoft.com/">
+<link rel="contents" href="https://misc.flogisoft.com/bash/tip_colors_and_formatting?do=index" title="Sitemap">
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="https://misc.flogisoft.com/feed.php">
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="https://misc.flogisoft.com/feed.php?mode=list&amp;ns=bash">
+<link rel="alternate" type="text/html" title="Plain HTML" href="https://misc.flogisoft.com/_export/xhtml/bash/tip_colors_and_formatting">
+<link rel="canonical" href="https://misc.flogisoft.com/bash/tip_colors_and_formatting">
+<link rel="stylesheet" type="text/css" href="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/css.php">
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='bash';var JSINFO = {"id":"bash:tip_colors_and_formatting","namespace":"bash"};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/jquery.php"></script>
+<script type="text/javascript" charset="utf-8" src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/js.php"></script><style id="iris-css">.iris-picker{display:block;position:relative}.iris-picker,.iris-picker *{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input+.iris-picker{margin-top:4px}.iris-error{background-color:#ffafaf}.iris-border{border-radius:3px;border:1px solid #aaa;width:200px;background-color:#fff}.iris-picker-inner{position:absolute;top:0;right:0;left:0;bottom:0}.iris-border .iris-picker-inner{top:10px;right:10px;left:10px;bottom:10px}.iris-picker .iris-square-inner{position:absolute;left:0;right:0;top:0;bottom:0}.iris-picker .iris-square,.iris-picker .iris-slider,.iris-picker .iris-square-inner,.iris-picker .iris-palette{border-radius:3px;box-shadow:inset 0 0 5px rgba(0,0,0,.4);height:100%;width:12.5%;float:left;margin-right:5%}.iris-picker .iris-square{width:76%;margin-right:10%;position:relative}.iris-picker .iris-square-inner{width:auto;margin:0}.iris-ie-9 .iris-square,.iris-ie-9 .iris-slider,.iris-ie-9 .iris-square-inner,.iris-ie-9 .iris-palette{box-shadow:none;border-radius:0}.iris-ie-9 .iris-square,.iris-ie-9 .iris-slider,.iris-ie-9 .iris-palette{outline:1px solid rgba(0,0,0,.1)}.iris-ie-lt9 .iris-square,.iris-ie-lt9 .iris-slider,.iris-ie-lt9 .iris-square-inner,.iris-ie-lt9 .iris-palette{outline:1px solid #aaa}.iris-ie-lt9 .iris-square .ui-slider-handle{outline:1px solid #aaa;background-color:#fff;-ms-filter:"alpha(Opacity=30)"}.iris-ie-lt9 .iris-square .iris-square-handle{background:0;border:3px solid #fff;-ms-filter:"alpha(Opacity=50)"}.iris-picker .iris-strip{margin-right:0;position:relative}.iris-picker .iris-strip .ui-slider-handle{position:absolute;background:0;margin:0;right:-3px;left:-3px;border:4px solid #aaa;border-width:4px 3px;width:auto;height:6px;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.2);opacity:.9;z-index:5;cursor:ns-resize}.iris-strip .ui-slider-handle:before{content:" ";position:absolute;left:-2px;right:-2px;top:-3px;bottom:-3px;border:2px solid #fff;border-radius:3px}.iris-picker .iris-slider-offset{position:absolute;top:11px;left:0;right:0;bottom:-3px;width:auto;height:auto;background:transparent;border:0;border-radius:0}.iris-picker .iris-square-handle{background:transparent;border:5px solid #aaa;border-radius:50%;border-color:rgba(128,128,128,.5);box-shadow:none;width:12px;height:12px;position:absolute;left:-10px;top:-10px;cursor:move;opacity:1;z-index:10}.iris-picker .ui-state-focus .iris-square-handle{opacity:.8}.iris-picker .iris-square-handle:hover{border-color:#999}.iris-picker .iris-square-value:focus .iris-square-handle{box-shadow:0 0 2px rgba(0,0,0,.75);opacity:.8}.iris-picker .iris-square-handle:hover::after{border-color:#fff}.iris-picker .iris-square-handle::after{position:absolute;bottom:-4px;right:-4px;left:-4px;top:-4px;border:3px solid #f9f9f9;border-color:rgba(255,255,255,.8);border-radius:50%;content:" "}.iris-picker .iris-square-value{width:8px;height:8px;position:absolute}.iris-ie-lt9 .iris-square-value,.iris-mozilla .iris-square-value{width:1px;height:1px}.iris-palette-container{position:absolute;bottom:0;left:0;margin:0;padding:0}.iris-border .iris-palette-container{left:10px;bottom:10px}.iris-picker .iris-palette{margin:0;cursor:pointer}.iris-square-handle,.ui-slider-handle{border:0;outline:0}</style>
+<!--<![endif]-->
+
+  <link rel="shortcut icon" type="image/png" href="https://misc.flogisoft.com/favicon.png">
+
+
+  </head>
+
+<body data-new-gr-c-s-check-loaded="14.992.0" data-gr-ext-installed="">
+<div class="dokuwiki">
+  
+  <div id="header">
+	<div id="search"><form action="https://misc.flogisoft.com/home" accept-charset="utf-8" class="search" id="dw__search" method="get" role="search"><div class="no"><input type="hidden" name="do" value="search"><input type="text" placeholder="Search" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]"><button type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup" style="display: none;"></div></div></form></div>
+	<h1><a href="https://misc.flogisoft.com/home" name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[H]">FLOZz' MISC</a> » bash:tip_colors_and_formatting</h1>
+  </div>
+
+  <div class="stylehead">
+
+    
+    
+        <div class="breadcrumbs">
+      <span class="bchead">You are here: </span><span class="home"><bdi><a href="https://misc.flogisoft.com/home" class="wikilink1" title="home">home</a></bdi></span> » <bdi><a href="https://misc.flogisoft.com/bash/home" class="wikilink1" title="bash:home">bash</a></bdi> » <bdi><span class="curid"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting" class="wikilink1" title="bash:tip_colors_and_formatting">tip_colors_and_formatting</a></span></bdi>    </div>
+    
+  </div>
+  
+  
+  <div class="page">
+    <!-- wikipage start -->
+    <!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle open" style="cursor: pointer;"><strong><span>−</span></strong>Table of Contents</h3>
+<div aria-expanded="true" style="">
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#bash_tipscolors_and_formatting_ansivt100_control_sequences">Bash tips: Colors and formatting (ANSI/VT100 Control sequences)</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#formatting">Formatting</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#set">Set</a></div></li>
+<li class="level3"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#reset">Reset</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors">8/16 Colors</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#foreground_text">Foreground (text)</a></div></li>
+<li class="level3"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#background">Background</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors1">88/256 Colors</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#foreground_text1">Foreground (text)</a></div></li>
+<li class="level3"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#background1">Background</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#attributes_combination">Attributes combination</a></div></li>
+<li class="level2"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#terminals_compatibility">Terminals compatibility</a></div></li>
+<li class="level2"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#demonstration_programs">Demonstration programs</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors_and_formatting_16_colors">Colors and formatting (16 colors)</a></div></li>
+<li class="level3"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors2">256 colors</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#links">Links</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#discussion__section">Discussion</a></div></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="bash_tipscolors_and_formatting_ansivt100_control_sequences">Bash tips: Colors and formatting (ANSI/VT100 Control sequences)</h1>
+<div class="level1">
+
+<p>
+The <strong>ANSI/VT100</strong> terminals and terminal emulators are not just able to display black and white text ;
+they can display <strong>colors</strong> and formatted texts thanks to <strong>escape sequences</strong>. Those sequences are composed of
+the <strong>Escape character</strong> (often represented by “<code>^[</code>” or “<code>&lt;Esc&gt;</code>”) followed by some other characters:
+“<code>&lt;Esc&gt;[</code><span style="color: red"><em>FormatCode</em></span><code>m</code>”.
+</p>
+
+<p>
+In Bash, the <code>&lt;Esc&gt;</code> character can be obtained with the following syntaxes:
+</p>
+<ul>
+<li class="level1"><div class="li"> <code>\e</code></div>
+</li>
+<li class="level1"><div class="li"> <code>\033</code></div>
+</li>
+<li class="level1"><div class="li"> <code>\x1B</code></div>
+</li>
+</ul>
+
+<p>
+<em class="u">Examples:</em>
+</p>
+<div class="table sectionedit2"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> Code (Bash)                                          </th><th class="col1 leftalign"> Preview                                                          </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"\e[31mHello World\e[0m"</span></pre>
+</td><td class="col1"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/escape_example_01.png" class="media" title="Hello World" alt="Hello World"> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"\033[31mHello\e[0m World"</span></pre>
+</td><td class="col1"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/escape_example_02.png" class="media" title="Hello World" alt="Hello World"> </td>
+	</tr>
+</tbody></table></div>
+
+<p>
+<em class="u">NOTE¹:</em> The <code>-e</code> option of the <code>echo</code> command enable the parsing of the escape sequences.
+</p>
+
+<p>
+<em class="u">NOTE²:</em> The “<code>\e[0m</code>” sequence removes all attributes (formatting and colors). It can be a good idea to add it at the end of each colored text. ;) 
+</p>
+
+<p>
+<em class="u">NOTE³:</em> The examples in this page are in <strong>Bash</strong> but the <strong>ANSI/VT100</strong> escape sequences can be used in every programming languages.
+</p>
+
+</div>
+
+<h2 class="sectionedit3" id="formatting">Formatting</h2>
+<div class="level2">
+
+<p>
+Here are the most commonly supported control sequences for formatting text. Their support depends on the used terminal
+(<span class="curid"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#terminals_compatibility" class="wikilink1" title="bash:tip_colors_and_formatting">see the compatibility list</a></span>).
+</p>
+
+</div>
+
+<h3 class="sectionedit4" id="set">Set</h3>
+<div class="level3">
+<div class="table sectionedit5"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Code </th><th class="col1 leftalign"> Description                    </th><th class="col2 leftalign"> Example                                            </th><th class="col3 leftalign"> Preview                                                                  </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 centeralign">  1   </td><td class="col1 leftalign"> Bold/Bright                    </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[1mBold"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_01_bright.png" class="media" title="Normal Bold" alt="Normal Bold">           </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 centeralign">  2   </td><td class="col1 leftalign"> Dim                            </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[2mDim"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_02_dim.png" class="media" title="Normal Dim" alt="Normal Dim">               </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 centeralign">  4   </td><td class="col1 leftalign"> Underlined                     </td><td class="col2"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[4mUnderlined"</span></pre>
+</td><td class="col3"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_04_underlined.png" class="media" title="Normal Underlined" alt="Normal Underlined"> </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 centeralign">  5   </td><td class="col1"> Blink <sup><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#fn__1" id="fnt__1" class="fn_top">1)</a></sup> </td><td class="col2"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[5mBlink"</span></pre>
+</td><td class="col3"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_05_blink.gif" class="media" title="Normal Blink" alt="Normal Blink"> </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 centeralign">  7   </td><td class="col1"> Reverse (invert the foreground and background colors) </td><td class="col2"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[7minverted"</span></pre>
+</td><td class="col3"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_07_inverted.png" class="media" title="Normal inverted" alt="Normal inverted"> </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 centeralign">  8   </td><td class="col1 leftalign"> Hidden (useful for passwords)  </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[8mHidden"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_08_hidden.png" class="media" title="Normal Hidden" alt="Normal Hidden">         </td>
+	</tr>
+</tbody></table></div>
+
+</div>
+
+<h3 class="sectionedit6" id="reset">Reset</h3>
+<div class="level3">
+<div class="table sectionedit7"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Code </th><th class="col1 leftalign"> Description          </th><th class="col2 leftalign"> Example                                                         </th><th class="col3 leftalign"> Preview                                                                               </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 centeralign">   0  </td><td class="col1"> Reset all attributes </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"\e[0mNormal Text"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_00_reset_all.png" class="media" title="Normal Text" alt="Normal Text">                     </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 centeralign">  21  </td><td class="col1 leftalign"> Reset bold/bright    </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[1mBold \e[21mNormal"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_21_reset_bright.png" class="media" title="Normal Bold Normal" alt="Normal Bold Normal">           </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 centeralign">  22  </td><td class="col1 leftalign"> Reset dim            </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[2mDim \e[22mNormal"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_22_reset_dim.png" class="media" title="Normal Dim Normal" alt="Normal Dim Normal">               </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 centeralign">  24  </td><td class="col1 leftalign"> Reset underlined     </td><td class="col2"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[4mUnderlined \e[24mNormal"</span></pre>
+</td><td class="col3"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_24_reset_underlined.png" class="media" title="Normal Underlined Normal" alt="Normal Underlined Normal"> </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 centeralign">  25  </td><td class="col1 leftalign"> Reset blink          </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[5mBlink \e[25mNormal"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_25_reset_blink.gif" class="media" title="Normal Blink Normal" alt="Normal Blink Normal">           </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 centeralign">  27  </td><td class="col1 leftalign"> Reset reverse        </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[7minverted \e[27mNormal"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_27_reset_inverted.png" class="media" title="Normal inverted Normal" alt="Normal inverted Normal">     </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 centeralign">  28  </td><td class="col1 leftalign"> Reset hidden         </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Normal \e[8mHidden \e[28mNormal"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_format_28_reset_hidden.png" class="media" title="Normal Hidden Normal" alt="Normal Hidden Normal">         </td>
+	</tr>
+</tbody></table></div>
+
+</div>
+
+<h2 class="sectionedit8" id="colors">8/16 Colors</h2>
+<div class="level2">
+
+<p>
+The following colors works with most terminals and terminals emulators <sup><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#fn__2" id="fnt__2" class="fn_top">2)</a></sup>,
+<span class="curid"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#terminals_compatibility" class="wikilink1" title="bash:tip_colors_and_formatting">see the compatibility list</a></span> for more informations.
+</p>
+
+<p>
+<em class="u">NOTE:</em> The colors can vary depending of the terminal configuration.
+</p>
+
+</div>
+
+<h3 class="sectionedit9" id="foreground_text">Foreground (text)</h3>
+<div class="level3">
+<div class="table sectionedit10"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Code </th><th class="col1 leftalign"> Color                    </th><th class="col2 leftalign"> Example                                                 </th><th class="col3"> Preview </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 centeralign">  39  </td><td class="col1"> Default foreground color </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[39mDefault"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_39_default.png" class="media" title="Default Default" alt="Default Default">             </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 centeralign">  30  </td><td class="col1 leftalign"> Black                    </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[30mBlack"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_30_black.png" class="media" title="Default Black" alt="Default Black">                 </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 centeralign">  31  </td><td class="col1 leftalign"> Red                      </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[31mRed"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_31_red.png" class="media" title="Default Red" alt="Default Red">                     </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 centeralign">  32  </td><td class="col1 leftalign"> Green                    </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[32mGreen"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_32_green.png" class="media" title="Default Green" alt="Default Green">                 </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 centeralign">  33  </td><td class="col1 leftalign"> Yellow                   </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[33mYellow"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_33_yellow.png" class="media" title="Default Yellow" alt="Default Yellow">               </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 centeralign">  34  </td><td class="col1 leftalign"> Blue                     </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[34mBlue"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_34_blue.png" class="media" title="Default Blue" alt="Default Blue">                   </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 centeralign">  35  </td><td class="col1 leftalign"> Magenta                  </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[35mMagenta"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_35_magenta.png" class="media" title="Default Magenta" alt="Default Magenta">             </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0 centeralign">  36  </td><td class="col1 leftalign"> Cyan                     </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[36mCyan"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_36_cyan.png" class="media" title="Default Cyan" alt="Default Cyan">                   </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0 centeralign">  37  </td><td class="col1 leftalign"> Light gray               </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[37mLight gray"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_37_light_gray.png" class="media" title="Default Light gray" alt="Default Light gray">       </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0 centeralign">  90  </td><td class="col1 leftalign"> Dark gray                </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[90mDark gray"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_90_dark_gray.png" class="media" title="Default Dark gray" alt="Default Dark gray">         </td>
+	</tr>
+	<tr class="row11">
+		<td class="col0 centeralign">  91  </td><td class="col1 leftalign"> Light red                </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[91mLight red"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_91_light_red.png" class="media" title="Default Light red" alt="Default Light red">         </td>
+	</tr>
+	<tr class="row12">
+		<td class="col0 centeralign">  92  </td><td class="col1 leftalign"> Light green              </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[92mLight green"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_92_light_green.png" class="media" title="Default Light green" alt="Default Light green">     </td>
+	</tr>
+	<tr class="row13">
+		<td class="col0 centeralign">  93  </td><td class="col1 leftalign"> Light yellow             </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[93mLight yellow"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_93_light_yellow.png" class="media" title="Default Light yellow" alt="Default Light yellow">   </td>
+	</tr>
+	<tr class="row14">
+		<td class="col0 centeralign">  94  </td><td class="col1 leftalign"> Light blue               </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[94mLight blue"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_94_light_blue.png" class="media" title="Default Light blue" alt="Default Light blue">       </td>
+	</tr>
+	<tr class="row15">
+		<td class="col0 centeralign">  95  </td><td class="col1 leftalign"> Light magenta            </td><td class="col2"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[95mLight magenta"</span></pre>
+</td><td class="col3"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_95_light_magenta.png" class="media" title="Default Light magenta" alt="Default Light magenta"> </td>
+	</tr>
+	<tr class="row16">
+		<td class="col0 centeralign">  96  </td><td class="col1 leftalign"> Light cyan               </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[96mLight cyan"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_96_light_cyan.png" class="media" title="Default Light cyan" alt="Default Light cyan">       </td>
+	</tr>
+	<tr class="row17">
+		<td class="col0 centeralign">  97  </td><td class="col1 leftalign"> White                    </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[97mWhite"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_fg_97_white.png" class="media" title="Default White" alt="Default White">                 </td>
+	</tr>
+</tbody></table></div>
+
+</div>
+
+<h3 class="sectionedit11" id="background">Background</h3>
+<div class="level3">
+<div class="table sectionedit12"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> Code  </th><th class="col1 leftalign"> Color                    </th><th class="col2 leftalign"> Example                                                  </th><th class="col3"> Preview </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 centeralign">   49  </td><td class="col1"> Default background color </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[49mDefault"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_49_default.png" class="media" title="Default Default" alt="Default Default">              </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 centeralign">   40  </td><td class="col1 leftalign"> Black                    </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[40mBlack"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_40_black.png" class="media" title="Default Black" alt="Default Black">                  </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 centeralign">   41  </td><td class="col1 leftalign"> Red                      </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[41mRed"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_41_red.png" class="media" title="Default Red" alt="Default Red">                      </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 centeralign">   42  </td><td class="col1 leftalign"> Green                    </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[42mGreen"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_42_green.png" class="media" title="Default Green" alt="Default Green">                  </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 centeralign">   43  </td><td class="col1 leftalign"> Yellow                   </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[43mYellow"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_43_yellow.png" class="media" title="Default Yellow" alt="Default Yellow">                </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 centeralign">   44  </td><td class="col1 leftalign"> Blue                     </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[44mBlue"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_44_blue.png" class="media" title="Default Blue" alt="Default Blue">                    </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 centeralign">   45  </td><td class="col1 leftalign"> Magenta                  </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[45mMagenta"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_45_magenta.png" class="media" title="Default Magenta" alt="Default Magenta">              </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0 centeralign">   46  </td><td class="col1 leftalign"> Cyan                     </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[46mCyan"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_46_cyan.png" class="media" title="Default Cyan" alt="Default Cyan">                    </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0 centeralign">   47  </td><td class="col1 leftalign"> Light gray               </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[47mLight gray"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_47_light_gray.png" class="media" title="Default Light gray" alt="Default Light gray">        </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0 centeralign">  100  </td><td class="col1 leftalign"> Dark gray                </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[100mDark gray"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_100_dark_gray.png" class="media" title="Default Dark gray" alt="Default Dark gray">         </td>
+	</tr>
+	<tr class="row11">
+		<td class="col0 centeralign">  101  </td><td class="col1 leftalign"> Light red                </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[101mLight red"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_101_light_red.png" class="media" title="Default Light red" alt="Default Light red">         </td>
+	</tr>
+	<tr class="row12">
+		<td class="col0 centeralign">  102  </td><td class="col1 leftalign"> Light green              </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[102mLight green"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_102_light_green.png" class="media" title="Default Light green" alt="Default Light green">     </td>
+	</tr>
+	<tr class="row13">
+		<td class="col0 centeralign">  103  </td><td class="col1 leftalign"> Light yellow             </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[103mLight yellow"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_103_light_yellow.png" class="media" title="Default Light yellow" alt="Default Light yellow">   </td>
+	</tr>
+	<tr class="row14">
+		<td class="col0 centeralign">  104  </td><td class="col1 leftalign"> Light blue               </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[104mLight blue"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_104_light_blue.png" class="media" title="Default Light blue" alt="Default Light blue">       </td>
+	</tr>
+	<tr class="row15">
+		<td class="col0 centeralign">  105  </td><td class="col1 leftalign"> Light magenta            </td><td class="col2"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[105mLight magenta"</span></pre>
+</td><td class="col3"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_105_light_magenta.png" class="media" title="Default Light magenta" alt="Default Light magenta"> </td>
+	</tr>
+	<tr class="row16">
+		<td class="col0 centeralign">  106  </td><td class="col1 leftalign"> Light cyan               </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[106mLight cyan"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_106_light_cyan.png" class="media" title="Default Light cyan" alt="Default Light cyan">       </td>
+	</tr>
+	<tr class="row17">
+		<td class="col0 centeralign">  107  </td><td class="col1 leftalign"> White                    </td><td class="col2 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"Default \e[107mWhite"</span></pre>
+</td><td class="col3 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/vt100_color_bg_107_white.png" class="media" title="Default White" alt="Default White">                 </td>
+	</tr>
+</tbody></table></div>
+
+</div>
+
+<h2 class="sectionedit13" id="colors1">88/256 Colors</h2>
+<div class="level2">
+
+<p>
+Some terminals (<span class="curid"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#terminals_compatibility" class="wikilink1" title="bash:tip_colors_and_formatting">see the compatibility list</a></span>) can support 88 or 256 colors. Here are the control sequences that permit you to use them.
+</p>
+
+<p>
+<em class="u">NOTE¹</em>: The colors number <code>256</code> is only supported by <strong>vte</strong> (GNOME Terminal, XFCE4 Terminal, Nautilus Terminal, Terminator,…).
+</p>
+
+<p>
+<em class="u">NOTE²</em>: The 88-colors terminals (like <strong>rxvt</strong>) does not have the same color map that the 256-colors terminals.
+For showing the 88-colors terminals color map, run the “<span class="curid"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors2" class="wikilink1" title="bash:tip_colors_and_formatting">256-colors.sh</a></span>” script in a 88-colors terminal.
+</p>
+
+</div>
+
+<h3 class="sectionedit14" id="foreground_text1">Foreground (text)</h3>
+<div class="level3">
+
+<p>
+For using one of the 256 colors on the foreground (text color), the control sequence is
+“<code>&lt;Esc&gt;[38;5;</code><span style="color: red;"><em>ColorNumber</em></span><code>m</code>” where <code>ColorNumber</code> is one of the following colors:
+</p>
+
+<p>
+<img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/256_colors_fg.png" class="media" title="XTerm 256 color list (foreground)" alt="XTerm 256 color list (foreground)">
+</p>
+
+<p>
+<em class="u">Examples:</em>
+</p>
+<div class="table sectionedit15"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> Code (Bash)                                                                                    </th><th class="col1 leftalign"> Preview                                                           </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"\e[38;5;82mHello \e[38;5;198mWorld"</span></pre>
+</td><td class="col1 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/256-color_fg_example_01.png" class="media" title="Hello World" alt="Hello World">   </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> <pre class="code bash"><span class="kw1">for</span> i <span class="kw1">in</span> <span class="br0">{</span><span class="nu0">16</span>..<span class="nu0">21</span><span class="br0">}</span> <span class="br0">{</span><span class="nu0">21</span>..<span class="nu0">16</span><span class="br0">}</span> ; <span class="kw1">do</span> <span class="kw3">echo</span> <span class="re5">-en</span> <span class="st0">"\e[38;5;<span class="es3">${i}</span>m#\e[0m"</span> ; <span class="kw1">done</span> ; <span class="kw3">echo</span></pre>
+</td><td class="col1"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/256-color_fg_example_02.png" class="media" title="Blue gradiant" alt="Blue gradiant"> </td>
+	</tr>
+</tbody></table></div>
+
+</div>
+
+<h3 class="sectionedit16" id="background1">Background</h3>
+<div class="level3">
+
+<p>
+For using one of the 256 colors on the background, the control sequence is
+“<code>&lt;Esc&gt;[48;5;</code><span style="color: red;"><em>ColorNumber</em></span><code>m</code>” where <code>ColorNumber</code> is one of the following colors:
+</p>
+
+<p>
+<img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/256_colors_bg.png" class="media" title="XTerm 256 color list (background)" alt="XTerm 256 color list (background)">
+</p>
+
+<p>
+<em class="u">Examples:</em>
+</p>
+<div class="table sectionedit17"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> Code (Bash)                                                                                    </th><th class="col1 leftalign"> Preview                                                           </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"\e[40;38;5;82m Hello \e[30;48;5;82m World \e[0m"</span></pre>
+</td><td class="col1 leftalign"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/256-color_bg_example_01.png" class="media" title="Hello World" alt="Hello World">   </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> <pre class="code bash"><span class="kw1">for</span> i <span class="kw1">in</span> <span class="br0">{</span><span class="nu0">16</span>..<span class="nu0">21</span><span class="br0">}</span> <span class="br0">{</span><span class="nu0">21</span>..<span class="nu0">16</span><span class="br0">}</span> ; <span class="kw1">do</span> <span class="kw3">echo</span> <span class="re5">-en</span> <span class="st0">"\e[48;5;<span class="es3">${i}</span>m \e[0m"</span> ; <span class="kw1">done</span> ; <span class="kw3">echo</span></pre>
+</td><td class="col1"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/256-color_bg_example_02.png" class="media" title="Blue gradiant" alt="Blue gradiant"> </td>
+	</tr>
+</tbody></table></div>
+
+</div>
+
+<h2 class="sectionedit18" id="attributes_combination">Attributes combination</h2>
+<div class="level2">
+
+<p>
+Terminals allow attribute combinations. The attributes must be separated by a semicolon (“<code>;</code>”).
+</p>
+
+<p>
+<em class="u">Examples:</em>
+</p>
+<div class="table sectionedit19"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> Description                             </th><th class="col1 leftalign"> Code (Bash)                                                   </th><th class="col2"> Preview </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row1">
+		<td class="col0 leftalign"> Bold + Underlined                       </td><td class="col1 leftalign"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"\e[1;4mBold and Underlined"</span></pre>
+</td><td class="col2"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/combination_example_01.png" class="media" title="Bold and Underlined" alt="Bold and Underlined"> </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> Bold + Red forground + Green background </td><td class="col1"> <pre class="code bash"><span class="kw3">echo</span> <span class="re5">-e</span> <span class="st0">"\e[1;31;42m Yes it is awful \e[0m"</span></pre>
+</td><td class="col2"> <img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/combination_example_02.png" class="media" title="Yes it is awful" alt="Yes it is awful"> </td>
+	</tr>
+</tbody></table></div>
+
+</div>
+
+<h2 class="sectionedit20" id="terminals_compatibility">Terminals compatibility</h2>
+<div class="level2">
+<div class="table sectionedit21"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 centeralign" rowspan="2">  Terminal                                                              </th><th class="col1 centeralign" colspan="6">  Formatting                                                     </th><th class="col7 centeralign" colspan="4">  Colors          </th><th class="col11 centeralign" rowspan="2">  Comment  </th>
+	</tr>
+	<tr class="row1">
+		<th class="col0 centeralign">  Bold  </th><th class="col1 centeralign">  Dim  </th><th class="col2 centeralign">  Underlined  </th><th class="col3 centeralign">  Blink  </th><th class="col4 centeralign">  invert  </th><th class="col5 centeralign">  Hidden  </th><th class="col6 centeralign">  8   </th><th class="col7 centeralign">  16  </th><th class="col8 centeralign">  88  </th><th class="col9 centeralign">  256  </th>
+	</tr>
+	</thead>
+	<tbody><tr class="row2">
+		<td class="col0 leftalign"> <a href="http://www.afterstep.org/aterm.php" class="urlextern" title="http://www.afterstep.org/aterm.php">aTerm</a>                           </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  -    </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  -      </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  -       </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ~   </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  -    </td><td class="col11"> Lighter background instead of blink. </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> <a href="http://www.eterm.org/" class="urlextern" title="http://www.eterm.org/">Eterm</a>                                        </td><td class="col1 centeralign">  ~     </td><td class="col2 centeralign">  -    </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  -      </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  -       </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ~   </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11"> Lighter color instead of Bold. Lighter background instead of blink. Can overline a text with the “<code>^[</code><code>[6m</code>” sequence. </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> <a href="http://library.gnome.org/users/gnome-terminal/" class="urlextern" title="http://library.gnome.org/users/gnome-terminal/">GNOME Terminal</a>      </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  ok   </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ok     </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  ok      </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11"> Strikeout with the “<code>^[</code><code>[9m</code>” sequence. </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 leftalign"> <a href="http://guake.org/" class="urlextern" title="http://guake.org/">Guake</a>                                            </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  ok   </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ok     </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  ok      </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11"> Strikeout with the “<code>^[</code><code>[9m</code>” sequence. </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 leftalign"> <a href="http://konsole.kde.org/" class="urlextern" title="http://konsole.kde.org/">Konsole</a>                                    </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  -    </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ok     </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  -       </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11 leftalign">           </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 leftalign"> <a href="https://github.com/flozz/nautilus-terminal" class="urlextern" title="https://github.com/flozz/nautilus-terminal">Nautilus Terminal</a>       </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  ok   </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ok     </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  ok      </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11"> Strikeout with the “<code>^[</code><code>[9m</code>” sequence. </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0 leftalign"> <a href="http://rxvt.sourceforge.net/" class="urlextern" title="http://rxvt.sourceforge.net/">rxvt</a>                                  </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  -    </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ~      </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  -       </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  ok  </td><td class="col10 centeralign">  -    </td><td class="col11"> If the background is not set to the default color, Blink make it lighter instead of blinking. Support of italic text with the “<code>^[</code><code>[3m</code>” sequence. </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0 leftalign"> <a href="http://www.tenshu.net/terminator/" class="urlextern" title="http://www.tenshu.net/terminator/">Terminator</a>                       </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  ok   </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  -      </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  ok      </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11"> Strikeout with the “<code>^[</code><code>[9m</code>” sequence. </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0 leftalign"> <a href="http://tilda.sourceforge.net/tildaabout.php" class="urlextern" title="http://tilda.sourceforge.net/tildaabout.php">Tilda</a>                  </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  -    </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ok     </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  -       </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  -    </td><td class="col11"> Underline instead of Dim. Convert 256-colors in 16-colors. </td>
+	</tr>
+	<tr class="row11">
+		<td class="col0 leftalign"> <a href="http://www.xfce.org/projects/terminal" class="urlextern" title="http://www.xfce.org/projects/terminal">XFCE4 Terminal</a>               </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  ok   </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ok     </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  ok      </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11"> Strikeout with the “<code>^[</code><code>[9m</code>” sequence. </td>
+	</tr>
+	<tr class="row12">
+		<td class="col0 leftalign"> <a href="http://invisible-island.net/xterm/xterm.html" class="urlextern" title="http://invisible-island.net/xterm/xterm.html">XTerm</a>                 </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  -    </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ok     </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  ok      </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11 leftalign">           </td>
+	</tr>
+	<tr class="row13">
+		<td class="col0 leftalign"> xvt                                                                    </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  -    </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  -      </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  -       </td><td class="col7 centeralign">  -   </td><td class="col8 centeralign">  -   </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  -    </td><td class="col11 leftalign">           </td>
+	</tr>
+	<tr class="row14">
+		<td class="col0 leftalign"> Linux TTY                                                              </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  -    </td><td class="col3 centeralign">  -           </td><td class="col4 centeralign">  -      </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  -       </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ~   </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  -    </td><td class="col11"> Specials colors instead of Dim and Underlined. Lighter background instead of Blink, Bug with 88/256 colors. </td>
+	</tr>
+	<tr class="row15">
+		<td class="col0"> <a href="http://developer.gnome.org/vte/" class="urlextern" title="http://developer.gnome.org/vte/">VTE Terminal</a> <sup><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#fn__3" id="fnt__3" class="fn_top">3)</a></sup> </td><td class="col1 centeralign">  ok    </td><td class="col2 centeralign">  ok   </td><td class="col3 centeralign">  ok          </td><td class="col4 centeralign">  ok      </td><td class="col5 centeralign">  ok      </td><td class="col6 centeralign">  ok      </td><td class="col7 centeralign">  ok  </td><td class="col8 centeralign">  ok  </td><td class="col9 centeralign">  -   </td><td class="col10 centeralign">  ok   </td><td class="col11"> Strikeout with the “<code>^[</code><code>[9m</code>” sequence. </td>
+	</tr>
+</tbody></table></div>
+
+<p>
+<em class="u">Notations used in the table:</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> “<code>ok</code>”: Supported by the terminal.</div>
+</li>
+<li class="level1"><div class="li"> “<code>~</code>”: Supported in a special way by the terminal.</div>
+</li>
+<li class="level1"><div class="li"> “<code>-</code>”: Not supported at all by the terminal.</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit22" id="demonstration_programs">Demonstration programs</h2>
+<div class="level2">
+
+</div>
+
+<h3 class="sectionedit23" id="colors_and_formatting_16_colors">Colors and formatting (16 colors)</h3>
+<div class="level3">
+
+<p>
+<img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/colors_and_formatting.sh.png" class="mediaright" title="Screenshot of the color_and_formatting.sh script" alt="Screenshot of the color_and_formatting.sh script">
+</p>
+
+<p>
+The following shell script displays a lot of possible combination of the attributes (but not all, because it uses only one formatting attribute at a time).
+</p>
+<dl class="code">
+<dt><a href="https://misc.flogisoft.com/_export/code/bash/tip_colors_and_formatting?codeblock=55" title="Download Snippet" class="mediafile mf_sh">colors_and_formatting.sh</a></dt>
+<dd><pre class="code bash"><span class="co0">#!/bin/bash</span>
+&nbsp;
+<span class="co0"># This program is free software. It comes without any warranty, to</span>
+<span class="co0"># the extent permitted by applicable law. You can redistribute it</span>
+<span class="co0"># and/or modify it under the terms of the Do What The Fuck You Want</span>
+<span class="co0"># To Public License, Version 2, as published by Sam Hocevar. See</span>
+<span class="co0"># http://sam.zoy.org/wtfpl/COPYING for more details.</span>
+&nbsp;
+<span class="co0">#Background</span>
+<span class="kw1">for</span> clbg <span class="kw1">in</span> <span class="br0">{</span><span class="nu0">40</span>..<span class="nu0">47</span><span class="br0">}</span> <span class="br0">{</span><span class="nu0">100</span>..<span class="nu0">107</span><span class="br0">}</span> <span class="nu0">49</span> ; <span class="kw1">do</span>
+	<span class="co0">#Foreground</span>
+	<span class="kw1">for</span> clfg <span class="kw1">in</span> <span class="br0">{</span><span class="nu0">30</span>..<span class="nu0">37</span><span class="br0">}</span> <span class="br0">{</span><span class="nu0">90</span>..<span class="nu0">97</span><span class="br0">}</span> <span class="nu0">39</span> ; <span class="kw1">do</span>
+		<span class="co0">#Formatting</span>
+		<span class="kw1">for</span> attr <span class="kw1">in</span> <span class="nu0">0</span> <span class="nu0">1</span> <span class="nu0">2</span> <span class="nu0">4</span> <span class="nu0">5</span> <span class="nu0">7</span> ; <span class="kw1">do</span>
+			<span class="co0">#Print the result</span>
+			<span class="kw3">echo</span> <span class="re5">-en</span> <span class="st0">"\e[<span class="es3">${attr}</span>;<span class="es3">${clbg}</span>;<span class="es3">${clfg}</span>m ^[<span class="es3">${attr}</span>;<span class="es3">${clbg}</span>;<span class="es3">${clfg}</span>m \e[0m"</span>
+		<span class="kw1">done</span>
+		<span class="kw3">echo</span> <span class="co0">#Newline</span>
+	<span class="kw1">done</span>
+<span class="kw1">done</span>
+&nbsp;
+<span class="kw3">exit</span> <span class="nu0">0</span></pre>
+</dd></dl>
+
+</div>
+
+<h3 class="sectionedit24" id="colors2">256 colors</h3>
+<div class="level3">
+
+<p>
+<img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/256-colors.sh-v2.png" class="mediaright" title="Screenshot of the 256-colors.sh script" alt="Screenshot of the 256-colors.sh script" width="200">
+</p>
+
+<p>
+The following script display the 256 colors available on some terminals and terminals emulators like <strong>XTerm</strong> and <strong>GNOME Terminal</strong>.
+</p>
+<dl class="code">
+<dt><a href="https://misc.flogisoft.com/_export/code/bash/tip_colors_and_formatting?codeblock=56" title="Download Snippet" class="mediafile mf_sh">256-colors.sh</a></dt>
+<dd><pre class="code bash"><span class="co0">#!/bin/bash</span>
+&nbsp;
+<span class="co0"># This program is free software. It comes without any warranty, to</span>
+<span class="co0"># the extent permitted by applicable law. You can redistribute it</span>
+<span class="co0"># and/or modify it under the terms of the Do What The Fuck You Want</span>
+<span class="co0"># To Public License, Version 2, as published by Sam Hocevar. See</span>
+<span class="co0"># http://sam.zoy.org/wtfpl/COPYING for more details.</span>
+&nbsp;
+<span class="kw1">for</span> fgbg <span class="kw1">in</span> <span class="nu0">38</span> <span class="nu0">48</span> ; <span class="kw1">do</span> <span class="co0"># Foreground / Background</span>
+    <span class="kw1">for</span> color <span class="kw1">in</span> <span class="br0">{</span><span class="nu0">0</span>..<span class="nu0">255</span><span class="br0">}</span> ; <span class="kw1">do</span> <span class="co0"># Colors</span>
+        <span class="co0"># Display the color</span>
+        <span class="kw3">printf</span> <span class="st0">"\e[<span class="es3">${fgbg}</span>;5;%sm  %3s  \e[0m"</span> <span class="re1">$color</span> <span class="re1">$color</span>
+        <span class="co0"># Display 6 colors per lines</span>
+        <span class="kw1">if</span> <span class="br0">[</span> $<span class="br0">(</span><span class="br0">(</span><span class="br0">(</span><span class="re1">$color</span> + <span class="nu0">1</span><span class="br0">)</span> <span class="sy0">%</span> <span class="nu0">6</span><span class="br0">)</span><span class="br0">)</span> == <span class="nu0">4</span> <span class="br0">]</span> ; <span class="kw1">then</span>
+            <span class="kw3">echo</span> <span class="co0"># New line</span>
+        <span class="kw1">fi</span>
+    <span class="kw1">done</span>
+    <span class="kw3">echo</span> <span class="co0"># New line</span>
+<span class="kw1">done</span>
+&nbsp;
+<span class="kw3">exit</span> <span class="nu0">0</span></pre>
+</dd></dl>
+
+</div>
+
+<h2 class="sectionedit25" id="links">Links</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="http://linux.die.net/man/4/console_codes" class="urlextern" title="http://linux.die.net/man/4/console_codes">Linux console codes manual (''man console_codes'')</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://invisible-island.net/xterm/ctlseqs/ctlseqs.html" class="urlextern" title="http://invisible-island.net/xterm/ctlseqs/ctlseqs.html">XTerm Control Sequences</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://bjh21.me.uk/all-escapes/all-escapes.txt" class="urlextern" title="http://bjh21.me.uk/all-escapes/all-escapes.txt">Compilation of all escape sequences</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://en.wikipedia.org/wiki/ANSI_escape_code" class="interwiki iw_wp" title="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI escape code (Wikipedia)</a></div>
+</li>
+</ul>
+
+</div>
+<div class="footnotes">
+<div class="fn"><sup><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#fnt__1" id="fn__1" class="fn_bot">1)</a></sup> 
+<div class="content">Does not work with most of the terminal emulators, works in the tty and XTerm.</div></div>
+<div class="fn"><sup><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#fnt__2" id="fn__2" class="fn_bot">2)</a></sup> 
+<div class="content">Some terminals supports only the first 8 colors (30..37 and 40..47), and some others does not support any color at all.</div></div>
+<div class="fn"><sup><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#fnt__3" id="fn__3" class="fn_bot">3)</a></sup> 
+<div class="content">GTK Widget used in GNOME Terminal, Nautilus Terminal, XFCE4 Terminal…</div></div>
+</div>
+<div class="comment_wrapper" id="comment_wrapper">
+  <h2><a name="discussion__section" id="discussion__section">
+    Discussion
+  </a></h2>
+  <div class="level2 hfeed">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_972a4456166ac19f13b5e0db3644e888" id="comment_972a4456166ac19f13b5e0db3644e888"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch.php" class="medialeft photo fn" title="William C Grisaitis" alt="William C Grisaitis" width="40" height="40"><span class="fn">William C Grisaitis</span></span>, <abbr class="published" title="2011-11-13T01:00:30Z">2011/11/13 01:00</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Thanks! This was invaluable in customizing my PS1's:<br><br>        if [[ ${EUID} == 0 ]] ; then<br>                PS1='\e[1;31;48;5;234m\u \e[38;5;240mon \e[1;38;5;28;48;5;234m\h \e[38;5;54m\d \@\e[0m\n\e[0;31;48;5;234m[\w] \e[1m\$\e[0m '<br>        else<br>                PS1='\e[1;38;5;56;48;5;234m\u \e[38;5;240mon \e[1;38;5;28;48;5;234m\h \e[38;5;54m\d \@\e[0m\n\e[0;38;5;56;48;5;234m[\w] \e[1m\$\e[0m '<br>        fi<br><br>@caravaggisto
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_87cf240fafe4138d444505937b065cfc" id="comment_87cf240fafe4138d444505937b065cfc"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(1).php" class="medialeft photo fn" title="Barry Scott" alt="Barry Scott" width="40" height="40"><span class="fn">Barry Scott</span></span>, <abbr class="published" title="2012-06-14T19:41:49Z">2012/06/14 19:41</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Great work on terminal compatibility.I have been trying to get blinking text on a Linux tty(at the console). Do you have any idea if it's possible?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_706573235fda5aee95ac6aaea8afba77" id="comment_706573235fda5aee95ac6aaea8afba77"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(2).php" class="medialeft photo fn" title="Anatoly" alt="Anatoly" width="40" height="40"><span class="fn">Anatoly</span></span>, <abbr class="published" title="2017-09-21T09:54:16Z">2017/09/21 09:54</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Not all terminal support blinking, and dim too. Before i think there are only 16 colors support. But now I see 256 are. It's very good. But for 16 only you may design<br>pseudo graphic interface, draw good windows and all graphical controls in text mode. Only you need(for russians) use DOS866 encodding set. It containe full set of pseudo  graphic symbols, others no. There is set of libraries of pseudo graphic controls. And you may easily make TUI(text user interface) API like GUI. But library is Turbo Vision for DOS 16 only. But this libs in source code available. If you want you may rewrite them for Linux platform. And if use 256 colors you get more better design nearest to GUI. Many years I try to find redy solution but failed. So if you want to do that you need to all work by yourself. But result will best. This API take tens times less resources  and quicker then gui. They don't require GUI regime at all... It will be best <br>But API of all. There is only 1 restriction. You don't must draw pictures, graphics, videos and so on where you need pixel draw indeed. But there are little API like that. Most API don't need pixel draw at all.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_81a14f50910805ae455975b961dc4052" id="comment_81a14f50910805ae455975b961dc4052"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2012-06-14T19:54:48Z">2012/06/14 19:54</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+I Think it is possible, but I haven't found how to do that
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_7ec0ad71cc61803b3ca30c86f4045d7b" id="comment_7ec0ad71cc61803b3ca30c86f4045d7b"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(1).php" class="medialeft photo fn" title="Barry Scott" alt="Barry Scott" width="40" height="40"><span class="fn">Barry Scott</span></span>, <abbr class="published" title="2012-06-14T20:11:46Z">2012/06/14 20:11</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+I have looked at infocmp for linux the terminal(TERM=linux) I use and I see blink referenced in it but I'm having a hard time understanding the file format. The cursor blinks why disable blinking text.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_fcc44209a6e05ae94e16df83395b6c73" id="comment_fcc44209a6e05ae94e16df83395b6c73"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(3).php" class="medialeft photo fn" title="Warron" alt="Warron" width="40" height="40"><span class="fn">Warron</span></span>, <abbr class="published" title="2013-04-04T17:09:17Z">2013/04/04 17:09</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Great page on bash coloring and attributes.<br><br>I was actually looking to find out if there is a way to combine attributes {BOLD, Blink, etc} around the same subset of text in doing a bash echo command with the -e option.<br><br>Can you help with this matter?<br><br><br>\\War
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_f1903955fa5efa0b97f7fb605b99d2cc" id="comment_f1903955fa5efa0b97f7fb605b99d2cc"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2013-04-04T19:54:48Z">2013/04/04 19:54</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello,<br><br>You can combine attributes with a semicolon:<br><br>    echo -e "\e[1;5m Bold+Blink \e[0m"<br>    echo -e "\e[1;4;31m Bold+Underline+Red \e[0m"<br><br>Note that the blink attribute is supported only by few terminals (XTerm, tty).<br><br>Regards,
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_b26dac16421182129e333137b1a0128f" id="comment_b26dac16421182129e333137b1a0128f"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(3).php" class="medialeft photo fn" title="Warron" alt="Warron" width="40" height="40"><span class="fn">Warron</span></span>, <abbr class="published" title="2013-04-11T19:49:35Z">2013/04/11 19:49</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Thank you Fabian.<br><br>That worked splendidly!  You are the man!
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_90fe267ee7fad636bfc02883a8b04deb" id="comment_90fe267ee7fad636bfc02883a8b04deb"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(4).php" class="medialeft photo fn" title="Konrad" alt="Konrad" width="40" height="40"><span class="fn">Konrad</span></span>, <abbr class="published" title="2015-07-25T19:51:17Z">2015/07/25 19:51</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Thank you!<br><br>konrad@vps1 ~/web/abc▌▌▌mkdir xyz<br><br>PS1='\[\e[0m\]\[\e[48;5;236m\]\[\e[38;5;105m\]\u\[\e[38;5;105m\]@\[\e[38;5;105m\]\h\[\e[38;5;105m\] \[\e[38;5;221m\]\w\[\e[38;5;221m\]\[\e[38;5;105m\]\[\e[0m\]\[\e[38;5;236m\]\342\226\214\342\226\214\342\226\214\[\e[0m\]'<br><br>root:<br><br>PS1='\[\e[0m\]\[\e[48;5;236m\]\[\e[38;5;197m\]\u\[\e[38;5;197m\]@\[\e[38;5;197m\]\h\[\e[38;5;105m\] \[\e[38;5;221m\]\w\[\e[38;5;221m\]\[\e[38;5;105m\]\[\e[0m\]\[\e[38;5;236m\]\342\226\214\342\226\214\342\226\214\[\e[0m\]'
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_ab5839e1302bed42ceb456163d33a891" id="comment_ab5839e1302bed42ceb456163d33a891"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(5).php" class="medialeft photo fn" title="Per Bothner" alt="Per Bothner" width="40" height="40"><span class="fn">Per Bothner</span></span>, <abbr class="published" title="2015-11-28T19:03:25Z">2015/11/28 19:03</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Note that the 256-colors.sh script uses a tab character, which has different behavior on different emulators.<br>On xterm and Konsole, TAB moves the cursor, without touching the skipped-over positions (so the background color is unchanged), while Gnome Terminal appears to effectively write spaces (so the background color is changed).  Your images show the latter, but note that is incompatible with xterm.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_13fefd27818b1c95202d173320db6fbb" id="comment_13fefd27818b1c95202d173320db6fbb"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(6).php" class="medialeft photo fn" title="egmontkob" alt="egmontkob" width="40" height="40"><span class="fn">egmontkob</span></span>, <abbr class="published" title="2017-10-10T10:01:54Z">2017/10/10 10:01</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Note that Gnome Terminal (actually VTE version 0.44.2) has also changed its behavior to be like xterm, making the patch from the next comment necessary.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_46637fe03ebd48c753bf4f294be21d5b" id="comment_46637fe03ebd48c753bf4f294be21d5b"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(5).php" class="medialeft photo fn" title="Per Bothner" alt="Per Bothner" width="40" height="40"><span class="fn">Per Bothner</span></span>, <abbr class="published" title="2015-11-28T19:14:35Z">2015/11/28 19:14</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+A fix for 256-colors.sh that uses printf instead of tabs:<br><br>    	#Display the color<br>      	echo -en "\e[${fgbg};5;${color}m"<br>        printf "%4d " ${color}<br>        echo -en "\e[0m"<br><br>Also, the upper cbound should be 255, not 256:<br><br>    for color in {0..255} ; do #Colors
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_e4989260f3297116c09836003b061a13" id="comment_e4989260f3297116c09836003b061a13"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(7).php" class="medialeft photo fn" title="Nga Nguyen Duy" alt="Nga Nguyen Duy" width="40" height="40"><span class="fn">Nga Nguyen Duy</span></span>, <abbr class="published" title="2015-12-06T20:55:55Z">2015/12/06 20:55</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+I don't know what is the difference between the &lt;ESC&gt; characters:<br><br>\e<br><br>\033<br><br>\x1B<br><br>Can somebody explain for me?<br>Thank in advance.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_6bfe63b9e09fefd51fbaf56aa9530ec5" id="comment_6bfe63b9e09fefd51fbaf56aa9530ec5"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2015-12-07T08:29:45Z">2015/12/07 08:29</abbr>, <abbr class="updated" title="2015-12-07T08:31:12Z">2015/12/07 08:31</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello,<br><br>This is only three ways to represent the same character. There will be no differences between using one representation or an other.<br><br>* \e is a convenient way provided by Bash to insert the Escape character.<br><br>* 33 is the position of the Escape character in the ASCII table expressed in octal (base 8, in decimal this is equal to 27)<br>* 1B is the position of the Escape character in the ASCII table expressed in hexadecimal (base 16)<br><br>→ So \0nn and \xNN are just a way to insert a character by providing its position in the ASCII table, in octal or hexadecimal format.<br><br>You can find an the ASCII table here → https://duckduckgo.com/?q=ascii+table&amp;t=canonical
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_223a21c07ec27212b36659e5f4a344e9" id="comment_223a21c07ec27212b36659e5f4a344e9"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(8).php" class="medialeft photo fn" title="g alexander" alt="g alexander" width="40" height="40"><span class="fn">g alexander</span></span>, <abbr class="published" title="2016-02-12T21:13:11Z">2016/02/12 21:13</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+you are a bash scripting color, ascii man among boys
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_e0dfbc603cb7752b3088979f0b647a8c" id="comment_e0dfbc603cb7752b3088979f0b647a8c"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(9).php" class="medialeft photo fn" title="g alexander" alt="g alexander" width="40" height="40"><span class="fn">g alexander</span></span>, <abbr class="published" title="2016-02-12T21:20:12Z">2016/02/12 21:20</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+good work.<br><br>with that gradient,i was trying to work how to put text inside of it to get a gradient of of text but the text just repeats with the loop.  how can i put this into a function something like gradient "some text" blue white or gradient "more text" blue white yellow, function gradient(){}?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_99cff5482f1c698f3c8f2cfa9a9a358d" id="comment_99cff5482f1c698f3c8f2cfa9a9a358d"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(10).php" class="medialeft photo fn" title="Mohsen Pahlevanzadeh" alt="Mohsen Pahlevanzadeh" width="40" height="40"><span class="fn">Mohsen Pahlevanzadeh</span></span>, <abbr class="published" title="2016-03-15T01:33:33Z">2016/03/15 01:33</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+blink code doesn't work.<br><br>for example:<br><br>echo -e "Normal \033[5mHello"<br><br>Normal Hello<br><br><br><br>##### It's normal print Normal Hello, Not blink.<br><br>Can you write truly blink text?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_17580f4175d7f5bb42a2ef433280201b" id="comment_17580f4175d7f5bb42a2ef433280201b"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2016-03-15T08:13:21Z">2016/03/15 08:13</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello,<br><br>blink do not work on vte based terminals (most linux terminal, like gnome-terminal, tilda, guake, terminator, xfce4-terminal,...)<br><br>You can try with xterm, it should work on it.<br><br>See the compatibility table for more info: http://misc.flogisoft.com/bash/tip_colors_and_formatting?&amp;#terminals_compatibility
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_ffb31e58da0958f3fbac4c78860ee181" id="comment_ffb31e58da0958f3fbac4c78860ee181"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(6).php" class="medialeft photo fn" title="egmontkob" alt="egmontkob" width="40" height="40"><span class="fn">egmontkob</span></span>, <abbr class="published" title="2017-12-23T22:39:49Z">2017/12/23 22:39</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Blinking is going to work in gnome-terminal and friends beginning with VTE 0.52 (to be released in March 2018).
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_7f66ec456dd39b8564bee24464364b94" id="comment_7f66ec456dd39b8564bee24464364b94"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2017-12-25T14:05:51Z">2017/12/25 14:05</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Thank you for the information :)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_99bcd3681c56d7f83c0bd18540dde94f" id="comment_99bcd3681c56d7f83c0bd18540dde94f"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(11).php" class="medialeft photo fn" title="Gerry" alt="Gerry" width="40" height="40"><span class="fn">Gerry</span></span>, <abbr class="published" title="2016-04-12T18:26:16Z">2016/04/12 18:26</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Here's a little more on resetting:<br><br>\e[0m resets all colors and attributes.<br>\e[20m resets only attributes (underline, etc.), leaving colors unchanged.<br>\e[39m resets only foreground color, leaving attributes unchanged.<br>\e[49m resets only background color, leaving attributes unchanged.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_88df27bdb4b6f53cc174848e1cdb3a53" id="comment_88df27bdb4b6f53cc174848e1cdb3a53"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(12).php" class="medialeft photo fn" title="Ron" alt="Ron" width="40" height="40"><span class="fn">Ron</span></span>, <abbr class="published" title="2016-05-13T13:17:53Z">2016/05/13 13:17</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+(Taken from http://makandracards.com/makandra/1090-customize-your-bash-prompt :)<br>    \u: current username<br>    \h: hostname up to the first ., \H: full hostname<br>    \w: current working directory, \W: same, but only the basename<br>    $(__git_ps1 "%s"): your current git branch if you're in a git directory, otherwise nothing<br><br>    \$: if the effective UID is 0: #, otherwise $<br>    \d: the date in "Weekday Month Date" format (e.g., "Tue May 26")<br>    \t: the current time in 24-hour HH:MM:SS format, \T: same, but 12-hour format, \@: same, but in 12-hour am/pm format<br>    \n: newline<br>    \r: carriage return<br>    \\: backslash
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_4a895bc9d5543ec292986c7b2ea770d2" id="comment_4a895bc9d5543ec292986c7b2ea770d2"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2016-05-13T13:21:47Z">2016/05/13 13:21</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+@Ron: \u, \h &amp;co are available only in prompts:<br><br>http://misc.flogisoft.com/bash/tip_customize_the_shell_prompt
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_b265522be40245ac83a05810bd8bbcff" id="comment_b265522be40245ac83a05810bd8bbcff"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(13).php" class="medialeft photo fn" title="Toby" alt="Toby" width="40" height="40"><span class="fn">Toby</span></span>, <abbr class="published" title="2016-06-13T13:11:31Z">2016/06/13 13:11</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Please, please, please DON'T encourage people to put the raw terminal codes into their message strings!  That way lies madness, because not all the world is a VT100/VT220/etc.  Instead, use the 'tput' program to generate the correct code (if one exists) for the user's terminal.  That is much more portable, and doesn't clutter the poor user's screen with lots of escape character clutter when they run your program from a non-terminal environment.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_676316ad2d951c6627a33d87aaee4237" id="comment_676316ad2d951c6627a33d87aaee4237"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2016-06-13T13:21:04Z">2016/06/13 13:21</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Of course it is better to use libs or programs that abstract all the things and make it works with almost any terminals. But it still usefull to know how it works behind :)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_47b26bf1e8c19e23240e45171be94a69" id="comment_47b26bf1e8c19e23240e45171be94a69"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(14).php" class="medialeft photo fn" title="fujisan" alt="fujisan" width="40" height="40"><span class="fn">fujisan</span></span>, <abbr class="published" title="2016-06-14T09:05:03Z">2016/06/14 09:05</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+On a mate terminal with a white background, the bold (echo -e "Default \e[1mDefault") is actually white so impossible to see the characters.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_ce6e35327f5d0f5cb9ad5322ccf3e6d9" id="comment_ce6e35327f5d0f5cb9ad5322ccf3e6d9"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2016-06-14T12:05:51Z">2016/06/14 12:05</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+In GNOME Terminal there is an option to set the color of the bold text (right click → Profiles → Profile Settings → Colors → Bold colors), there should be the same on mate-terminal.<br><br>PS: I translated the menu label from my french gnome-terminal. In yours, it can be slightly deferent.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_68ba0c466208008b23c68716efd33d35" id="comment_68ba0c466208008b23c68716efd33d35"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(15).php" class="medialeft photo fn" title="Aakash Martand" alt="Aakash Martand" width="40" height="40"><span class="fn">Aakash Martand</span></span>, <abbr class="published" title="2016-09-23T08:30:44Z">2016/09/23 08:30</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Nice work.<br><br>would you please explain the control sequence of 8/16 Colors and 88/256 Colors
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_0138126fc1fea233acfc44bd442e1a46" id="comment_0138126fc1fea233acfc44bd442e1a46"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2016-09-26T10:47:23Z">2016/09/26 10:47</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+what do you want I explain ?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_3c06ccc80d55a03d2772c0dbad81984d" id="comment_3c06ccc80d55a03d2772c0dbad81984d"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(15).php" class="medialeft photo fn" title="Aakash Martand" alt="Aakash Martand" width="40" height="40"><span class="fn">Aakash Martand</span></span>, <abbr class="published" title="2016-09-26T13:14:59Z">2016/09/26 13:14</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Like in your example,  \e[30;48;5;82m World  you've used 4 parameters. Is there any specific sequence for that?<br><br><br><br>As I understand,<br><br>30 is for black text.<br><br>48 is for what?<br><br>5 is for blink which is not happening, not even in Xterm.<br><br>82 is background color.<br><br><br><br>please help.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_3ea7c5c069f2329822c80c55d9cd4d8c" id="comment_3ea7c5c069f2329822c80c55d9cd4d8c"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2016-09-26T13:24:33Z">2016/09/26 13:24</abbr>, <abbr class="updated" title="2016-09-26T13:25:22Z">2016/09/26 13:25</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Ah ok,<br><br>In 8/16 color mode:<br><br>"3x" is for foreground color<br>"4x" is for background color<br><br>In 88/256 color mode:<br><br>"38;5" means "the next number is a foreground color in 88/256 color mode"<br>"48;5" means "the next number is a background color in 88/256 color mode"<br><br>so "38;5;XXX" and "48;5;XXX" allow you to select colors in 88/256 color mode.<br><br>In your example ("\e[30;48;5;82m"),<br>"30" is for back foreground (text in black)<br>"48;5;82" is for green background (in 88/256 color mode)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_bdc073fbfd7b113ff6a1a580670dd0ee" id="comment_bdc073fbfd7b113ff6a1a580670dd0ee"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(15).php" class="medialeft photo fn" title="Aakash Martand" alt="Aakash Martand" width="40" height="40"><span class="fn">Aakash Martand</span></span>, <abbr class="published" title="2016-09-26T14:01:37Z">2016/09/26 14:01</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Now I clearly understand.<br><br>Thanx buddy.<br><br><br><br>keep rocking.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_6dbbf8a5f80b5626470f8d1009049310" id="comment_6dbbf8a5f80b5626470f8d1009049310"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(16).php" class="medialeft photo fn" title="Joe" alt="Joe" width="40" height="40"><span class="fn">Joe</span></span>, <abbr class="published" title="2016-10-11T17:13:22Z">2016/10/11 17:13</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+This is an awesome document!  It is well written!  Thanks for making it clear.<br><br>Cheers,<br><br>+ Joe
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_04f9af393240a309f5e92af18355004d" id="comment_04f9af393240a309f5e92af18355004d"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(17).php" class="medialeft photo fn" title="Mark" alt="Mark" width="40" height="40"><span class="fn">Mark</span></span>, <abbr class="published" title="2016-10-20T09:02:37Z">2016/10/20 09:02</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Perfect tips! One more question - how make colored backgroud to whole line?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_ab5d34707937d929fd6be70307fa4c55" id="comment_ab5d34707937d929fd6be70307fa4c55"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2016-10-20T11:48:11Z">2016/10/20 11:48</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+I do not know other solution than filling the line with spaces...
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_d9b8491767983c284f90cd13f19e50a0" id="comment_d9b8491767983c284f90cd13f19e50a0"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(6).php" class="medialeft photo fn" title="egmontkob" alt="egmontkob" width="40" height="40"><span class="fn">egmontkob</span></span>, <abbr class="published" title="2017-10-10T10:40:16Z">2017/10/10 10:40</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+In terminals that support "bce" (background color erase), the "el" (clear to end of line) sequence fills up the line with the current background color. This bce is supported by most graphical terminal emulators, while it's not supported by screen and tmux. An advantage of using this feature is that you don't end up with tons of space characters on copy-paste.<br><br>Example usage might so something like this:<br><br>if tput el; then<br>  tput bce<br>else<br>  # fill up manually with spaces<br>fi
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_fbc65e97e216cbc7985e9fd5e40041f0" id="comment_fbc65e97e216cbc7985e9fd5e40041f0"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(18).php" class="medialeft photo fn" title="Eddie" alt="Eddie" width="40" height="40"><span class="fn">Eddie</span></span>, <abbr class="published" title="2016-11-15T12:48:53Z">2016/11/15 12:48</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hi all, <br><br>In my shell script formating text (bold/colors) all works and the results look correct <br><br>if the output is sent to standard output. (Just calling the script ./myscript.sh <br><br>But, if i redirect the output into a file i only see original text including <br><br>statements such as ESC[90G ESC[1;32 and so on.  <br><br>Any ideas?<br><br><br><br>1. Content of myscript.sh:  <br><br>echo -e "OKAY TO BE PRINTED IN COLUMN 50 OF THIS LINE \e[20G OKAY"<br><br><br><br>2. ./myscript.sh &amp;&gt; output.txt 2&gt;&amp;1 <br><br><br><br>3. Use Notepad++ to open output.txt: I see <br><br>OKAY TO BE PRINTED ON COLUMN 50 OF THIS LINE ESC[20G OKAY<br><br><br><br>If i use cat to show the content i see the correct results. <br><br>However, i want to see the same result in the text file as it is shown on default output.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_9d1c25bdf148feafb4a997b261c3912c" id="comment_9d1c25bdf148feafb4a997b261c3912c"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(19).php" class="medialeft photo fn" title="Eddy" alt="Eddy" width="40" height="40"><span class="fn">Eddy</span></span>, <abbr class="published" title="2016-11-15T12:57:04Z">2016/11/15 12:57</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hi all, <br>do you know how can i make this formating to be kept in the file if i redirect the output of my shell script? <br>1. Content of my shell script "myscript.sh"<br>echo -e "PRINT RED HELLO AT COLUMN POSITION 80 \e[80G \e[91m HELLO" <br>2. ./myscript.sh &amp;&gt; output.txt <br>3. Content of output.txt:<br>PRINT RED HELLO AT COLUMN POSITION 80 ESC[80G ESC[91m HELLO <br><br>Many thanks for your support in advance. <br><br>Regards, Eddy
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_960254141be49d6ce6bc647b497f5c3e" id="comment_960254141be49d6ce6bc647b497f5c3e"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2016-11-17T19:23:34Z">2016/11/17 19:23</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello,<br><br>You cannot see the formating in your text editor, because it is your terminal emulator (XTerm, GNOME Terminal, Konsole,...) that generates colors when there is some special byte sequence in the output. Your text editor will just display the content of the file, it will not interpret it.<br><br>Regards,
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_1ab58102f76a0a9b1e6a9f56f5daa75b" id="comment_1ab58102f76a0a9b1e6a9f56f5daa75b"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(20).php" class="medialeft photo fn" title="babunp114525" alt="babunp114525" width="40" height="40"><span class="fn">babunp114525</span></span>, <abbr class="published" title="2019-05-29T14:40:56Z">2019/05/29 14:40</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hi,<br>Is there any way that I can display the color message on the terminal to the output file?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_5bb40138a9ec589bc0984d7de0b005e3" id="comment_5bb40138a9ec589bc0984d7de0b005e3"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2019-05-29T14:49:08Z">2019/05/29 14:49</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Not, this is not possible
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_7f9542401c86c0059c4d0fa2bc48e965" id="comment_7f9542401c86c0059c4d0fa2bc48e965"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(21).php" class="medialeft photo fn" title="Emeric" alt="Emeric" width="40" height="40"><span class="fn">Emeric</span></span>, <abbr class="published" title="2016-11-24T17:59:35Z">2016/11/24 17:59</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hey guys, here is another script to display 256 colors in a terminal.<br><br>To be honnest it's basically the same but the output is a bit more... readable.<br><br><br><br>for fgbg in 38 48 ; do<br><br>    i=0<br><br>    for color in {0..15} ; do<br><br>        if [ $i -lt 10 ] ; then<br><br>            echo "\x1B[${fgbg};5;${color}m"'   '${color}' '"\x1B[0m" | tr -d '\n'<br><br>        else<br><br>            echo "\x1B[${fgbg};5;${color}m"'  '${color}' '"\x1B[0m" | tr -d '\n'<br><br>        fi<br><br>        i=$(($i+1))<br><br>        if [ $((i % 8)) == 0 ] ; then<br><br>            echo<br><br>        fi<br><br>    done<br><br>    i=0<br><br>    for color in {16..255} ; do<br><br>        if [ $i -lt 84 ] ; then<br><br>            echo "\x1B[${fgbg};5;${color}m"'  '${color}' '"\x1B[0m" | tr -d '\n'<br><br>        else<br><br>            echo "\x1B[${fgbg};5;${color}m"' '${color}' '"\x1B[0m" | tr -d '\n'<br><br>        fi<br><br>        i=$(($i+1))<br><br>        if [ $((i % 6)) == 0 ] ; then<br><br>            echo<br><br>        fi<br><br>    done<br><br>    echo<br><br>    echo<br><br>done<br><br>exit 0<br><br><br><br>(sorry for the horrible indentation, no way to fix this unfortunately)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_ab8801c3fb9c3dab1ec2eba7adc5bee9" id="comment_ab8801c3fb9c3dab1ec2eba7adc5bee9"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(22).php" class="medialeft photo fn" title="ET" alt="ET" width="40" height="40"><span class="fn">ET</span></span>, <abbr class="published" title="2017-05-22T09:09:40Z">2017/05/22 09:09</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Just wanted to say thanks..<br>It is really informative and helpful, and a it's shame there is no formal document about this..<br>Also, just adding 22 as normal attribute code.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_745f28c37e4604c9a5ff8fae43b622eb" id="comment_745f28c37e4604c9a5ff8fae43b622eb"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(23).php" class="medialeft photo fn" title="NeoBeum" alt="NeoBeum" width="40" height="40"><span class="fn">NeoBeum</span></span>, <abbr class="published" title="2017-05-23T11:35:37Z">2017/05/23 11:35</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hi, thanks for that intro to unix terminal. This is for other people trying to memorise the colour sequences...<br>Last year I was bored in class learning the Windows terminal &amp; Visual studio; I worked in hardware before I started studying, I made a chart for my classmates that translated what the code effectively was telling the 'pixels' what to do. So I made a wrapper that just turned 'bitswitches' on and off for each of the primary light colours and told them - 'Rather than trying to remember or have to look up what colour combinations output what, remember it as R.G.B. and a Power Intensity... if you want Bright Red, that's Full power, with Red Only... if you want a purple, it's Red and Blue for Magenta, and half power...If you know what the other two are, yellow and cyan, you won't need to remember 255 colours any more.'<br>The K in the chart represents 'Key' and the others on the HSB are dependent on how the manufacturer programmed in the logic circuit for high+ or low- voltage and the main circuit flag#.<br>http://i.imgur.com/YRNlKoZ.png<br>Soon after, the rest of the class were printing out rainbows for Hello World.<br><br>Text version of the chart: View it in monospace font, no tabs, just spaces.<br>##  HARDWARE REFERENCE<br>DECIMAL    128  64  32  16    8   4   2   1<br>COLOR        + BBF  F-   #    K   B   G   R       <br>BINARY       0   0   1   1    0   1   0   1<br>HEX                      3                5    <br>FOREGROUND       F  F<br>BACKGROUND     BB      <br><br>##  HARDWARE REFERENCE<br>DECIMAL    128  64  32  16    8   4   2   1<br>COLOR        + BBF  F-   #    K   B   G   R       <br>BINARY       1   0   0   1    0   0   0   1<br>HEX                      9                1    <br>FOREGROUND       F  F<br>BACKGROUND     BB
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_211eebc09f8be1dc47afb52bde6fae82" id="comment_211eebc09f8be1dc47afb52bde6fae82"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(24).php" class="medialeft photo fn" title="sumit " alt="sumit " width="40" height="40"><span class="fn">sumit </span></span>, <abbr class="published" title="2017-06-10T10:18:48Z">2017/06/10 10:18</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello,<br><br>My concern is , I have make 1 shell script which output come in colourful. So my requirement is I have save this output in .csv and i want when i fetch this .csv in local desktop output also come in   colourful. Please help
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_5f2a24af63e3a11291b53a8216affada" id="comment_5f2a24af63e3a11291b53a8216affada"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(25).php" class="medialeft photo fn" title="Garry" alt="Garry" width="40" height="40"><span class="fn">Garry</span></span>, <abbr class="published" title="2017-09-15T22:01:15Z">2017/09/15 22:01</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+So the 256 colors - is there anywhere where I can look up what RGB values these match to?<br><br>For example, let's say (background) color 121, it's a light green.  It is pretty close to "Pale Green" i.e. Red=152 Green=251 Blue=152 (or if you prefer hex, 98FB98).  Is there somewhere I can look up the RGB values for 121, etc.?<br><br>So I'm trying to setup something that will use my prompt to change the colors, like this (works in bash, but not ksh):<br><br>PS1="\033[48;5;121m\033[34m\033[7m${LOGNAME}@${HOSTNAME}#\033[27m "<br><br>In my .profile, it will look up some information and set PS1 accordingly.  For example, production servers would get one color of background, development servers another color.  Linux servers get one color of foreground, Solaris another, etc.  So, if I'm logged into a development Linux box, and I login from there into a production Solaris box, my colors will change - giving me a visual cue that I'm on a production server now, etc.<br><br>I have some other things that I want to use matching colors for, and I can define the colors using RGB.  If I use color 121 for development, I'd need to know what RGB value that equates to so that I can use that same color to represent development on other things where I would define the color with RGB.<br><br>So is there are chart that shows these 256 colors and their RGB equivalents?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_e8a4047f77d34636b67b5e5211d2ecf8" id="comment_e8a4047f77d34636b67b5e5211d2ecf8"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2017-09-17T18:24:19Z">2017/09/17 18:24</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello, I do not know where you can find the list of the default palette color. But there is a way to use RGB values in some terminals, I will update this article when I will have some time.<br><br>For the background color, the sequance is "\033[48;2;R;G;Bm" (e.g. "\033[48;2;255;64;0m Hello \033[0m")<br><br>For the foreground color, the sequance is "\033[38;2;R;G;Bm" (e.g. "\033[38;2;255;64;0m Hello \033[0m")
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_56340ea0c3a8a51a8d1469362dab3b18" id="comment_56340ea0c3a8a51a8d1469362dab3b18"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(26).php" class="medialeft photo fn" title="Donald" alt="Donald" width="40" height="40"><span class="fn">Donald</span></span>, <abbr class="published" title="2019-01-17T07:56:03Z">2019/01/17 07:56</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Don't forget to end the sequence with \] (like \033[48;2;R;G;Bm\] ) otherwise it messes up the output when you have a multiple line prompt.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_9588a00d542aaffbc18666bbd8b6d815" id="comment_9588a00d542aaffbc18666bbd8b6d815"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(27).php" class="medialeft photo fn" title="Jan Dolinár" alt="Jan Dolinár" width="40" height="40"><span class="fn">Jan Dolinár</span></span>, <abbr class="published" title="2017-09-27T12:58:19Z">2017/09/27 12:58</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Minor correction:<br><br>In xterm \e[21m does NOT perform reset of bold. According to docs (http://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h2-Functions-using-CSI-_-ordered-by-the-final-character_s_) \e[21m is "doubly underlined". To correctly reset either bold or dim to normal on xterm, one must actually use \e[22m. Which makes it pretty un-intuitive and pretty much the only way to find out is the hard way :-( Other terminals (at least VTE based ones), work just as described on this page.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_5ead7bddbd2e20b142c25c98209412a1" id="comment_5ead7bddbd2e20b142c25c98209412a1"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(28).php" class="medialeft photo fn" title="hello" alt="hello" width="40" height="40"><span class="fn">hello</span></span>, <abbr class="published" title="2017-09-27T14:31:04Z">2017/09/27 14:31</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+i just called to say i love you<br><br>no but seriously this was an insanely useful guide
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_02578ed0ed708809ce9e6d5cb242e6cc" id="comment_02578ed0ed708809ce9e6d5cb242e6cc"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(6).php" class="medialeft photo fn" title="egmontkob" alt="egmontkob" width="40" height="40"><span class="fn">egmontkob</span></span>, <abbr class="published" title="2017-10-10T10:10:31Z">2017/10/10 10:10</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Several terminal emulators now support 16 million colors, a.k.a. truecolors. See https://gist.github.com/XVilka/8346728 for details.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_f1e58ebe25feabdc02f1dda01f33ee74" id="comment_f1e58ebe25feabdc02f1dda01f33ee74"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(29).php" class="medialeft photo fn" title="Matthias Delamare" alt="Matthias Delamare" width="40" height="40"><span class="fn">Matthias Delamare</span></span>, <abbr class="published" title="2017-11-05T12:16:57Z">2017/11/05 12:16</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+For a better presentation, change this line<br>if [ $((($color + 1) % 10)) == 0 ] ; then<br><br>... to the following one :<br> <br>if [ $((($color + 1) % 6)) == 4 ] ; then<br><br>You'll have a better comprehension, and choosing the color will be easier for you.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_52aed79bfe2b5726f458934cac2f71f4" id="comment_52aed79bfe2b5726f458934cac2f71f4"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2017-11-06T08:18:06Z">2017/11/06 08:18</abbr>, <abbr class="updated" title="2017-11-08T08:30:34Z">2017/11/08 08:30</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+You are right, it is more readable like this, I will update later ;)<br><br>Edit: updated! :)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_47caf4d3405c302624168512df19835a" id="comment_47caf4d3405c302624168512df19835a"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(30).php" class="medialeft photo fn" title="Steve" alt="Steve" width="40" height="40"><span class="fn">Steve</span></span>, <abbr class="published" title="2018-04-10T14:28:47Z">2018/04/10 14:28</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Awesome page, saved me a sh** ton of working finding this info, thanks again! :)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_d5f8aa52cc44c449c4e49ab01a6c5c07" id="comment_d5f8aa52cc44c449c4e49ab01a6c5c07"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(31).php" class="medialeft photo fn" title="Jordan" alt="Jordan" width="40" height="40"><span class="fn">Jordan</span></span>, <abbr class="published" title="2018-04-12T12:58:35Z">2018/04/12 12:58</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+256 colors with a blacklist of the hardest colors to see if your background is white or black<br><br>https://gist.github.com/hypergig/ea6a60469ab4075b2310b56fa27bae55
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_9404921cec6c16772f55012209005fbc" id="comment_9404921cec6c16772f55012209005fbc"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(32).php" class="medialeft photo fn" title="zpo" alt="zpo" width="40" height="40"><span class="fn">zpo</span></span>, <abbr class="published" title="2018-07-06T07:16:32Z">2018/07/06 07:16</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Thanks a lot for sharing, you have my best wishes. But now I am working on logs stuff. I tried to output shell scripts'printing to log files but it didn't work when I check the log. Colors and bold styles seem only work in Terms, does it?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_38da4b44c8597b78eb755a234d0a4d7e" id="comment_38da4b44c8597b78eb755a234d0a4d7e"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2018-07-07T14:57:43Z">2018/07/07 14:57</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello, <br><br>yes, this works only when you print text in a terminal
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_c3202ccfcf2ec2ed35e54baaacfb1e09" id="comment_c3202ccfcf2ec2ed35e54baaacfb1e09"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(33).php" class="medialeft photo fn" title="me" alt="me" width="40" height="40"><span class="fn">me</span></span>, <abbr class="published" title="2018-07-26T19:07:05Z">2018/07/26 19:07</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Here's a cool one:<br>PS1="\[\e[91m\]\u\[\e[38;5;208m\]@\[\e[92m\]\h:\[\e[96m\]\$PWD\[\e[35m\]//$(date +"%D-%H:%M" | sed 's/\//-/g')\n\[\e[38;5;21m\][$]~&gt; \[\e[0m\] "
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_b8e7624c4c94945cb2f9178ceed77e76" id="comment_b8e7624c4c94945cb2f9178ceed77e76"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(34).php" class="medialeft photo fn" title="Boo" alt="Boo" width="40" height="40"><span class="fn">Boo</span></span>, <abbr class="published" title="2018-07-31T07:08:46Z">2018/07/31 07:08</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+So… when are you going to finish this page:<br><br>https://misc.flogisoft.com/_detail/bash/ico/tip_cursor_movements.png?id=bash%3Ahome ?<br><br>I need similar bash tips on cursor movement.<br><br>Thank you. :)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_1efb582abd0e28aa0a1f6a0ef6ca0753" id="comment_1efb582abd0e28aa0a1f6a0ef6ca0753"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2018-07-31T07:16:30Z">2018/07/31 07:16</abbr>, <abbr class="updated" title="2018-07-31T07:17:30Z">2018/07/31 07:17</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello, I haven't touched to this wiki for a looong time, I will probably never do it... <br><br>anyway, the main codes for moving the cursor are:<br><br>* echo -e "\e[1;1H" → moves the cursor to (1,1), that's the top left corner of the terminal (you can change the numbers to move somewhere else)<br>* echo -e "\e[2J" → Clear the terminal
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_eb26bc93d6988bd7d2c94f2cbf9a31ce" id="comment_eb26bc93d6988bd7d2c94f2cbf9a31ce"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(35).php" class="medialeft photo fn" title="(hide)" alt="(hide)" width="40" height="40"><span class="fn">(hide)</span></span>, <abbr class="published" title="2018-08-09T09:04:32Z">2018/08/09 09:04</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Blink work in xfce4-terminal 0.8.7.4 (Xfce 4.12). Testined 'echo -e "\e[1;5m Bold+Blink \e[0m"'.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_f4eabc07bf311f656c553c59ee086c37" id="comment_f4eabc07bf311f656c553c59ee086c37"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2018-08-09T09:09:17Z">2018/08/09 09:09</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+You are right, it seems it is now implemented in VTE, so it works in all VTE-based terminals (GNOME Terminal, Tilda, Terminator,...).<br><br>Thanks for the update :)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_8f0a904d426eca32c359414c98615ace" id="comment_8f0a904d426eca32c359414c98615ace"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(36).php" class="medialeft photo fn" title="Shidong Wang" alt="Shidong Wang" width="40" height="40"><span class="fn">Shidong Wang</span></span>, <abbr class="published" title="2018-09-01T04:34:02Z">2018/09/01 04:34</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hi, I have a question about this thread, when I start `ipython` in neovim's job API, I found there is a `^[]0;` at the beginning of first line, anyone know what is it,
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_580a0134a9569c812ee45df99f64afd7" id="comment_580a0134a9569c812ee45df99f64afd7"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(37).php" class="medialeft photo fn" title="Steve Tarver" alt="Steve Tarver" width="40" height="40"><span class="fn">Steve Tarver</span></span>, <abbr class="published" title="2018-09-01T04:52:12Z">2018/09/01 04:52</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+This is such an awesome article! Two small changes to 256_colors.sh allow it to run in the Bourne shell - tested in ash on Alpine Linux.<br>{0..255}              =&gt; $(seq 0 255)<br>$((($color + 1) % 6)) =&gt; $(( ($color + 1) % 6))<br><br>The "fixed" version is:<br><br>#!/bin/sh<br><br># This program is free software. It comes without any warranty, to<br># the extent permitted by applicable law. You can redistribute it<br># and/or modify it under the terms of the Do What The Fuck You Want<br># To Public License, Version 2, as published by Sam Hocevar. See<br># http://sam.zoy.org/wtfpl/COPYING for more details.<br><br>for fgbg in 38 48 ; do # Foreground / Background<br>    for color in $(seq 0 255) ; do # Colors<br>        # Display the color<br>        printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color<br>        # Display 6 colors per lines<br>        if [ $(( ($color + 1) % 6)) == 4 ] ; then<br>            echo # New line<br>        fi<br>    done<br>    echo # New line<br>done<br><br>exit 0
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_97afe0bb57d15e0e90d1c0f4c4c039d9" id="comment_97afe0bb57d15e0e90d1c0f4c4c039d9"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(37).php" class="medialeft photo fn" title="Steve Tarver" alt="Steve Tarver" width="40" height="40"><span class="fn">Steve Tarver</span></span>, <abbr class="published" title="2018-09-01T05:05:05Z">2018/09/01 05:05</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Similarly, I changed the colors_and_formatting.sh to work in Alpine Linux Bourne shell (ash) and also now works on mac.<br><br>#!/bin/sh<br><br># This program is free software. It comes without any warranty, to<br># the extent permitted by applicable law. You can redistribute it<br># and/or modify it under the terms of the Do What The Fuck You Want<br># To Public License, Version 2, as published by Sam Hocevar. See<br># http://sam.zoy.org/wtfpl/COPYING for more details.<br><br>#Background<br>for clbg in $(seq 40 47) $(seq 100 107) 49 ; do<br>	#Foreground<br>	for clfg in $(seq 30 37) $(seq 90 97) 39 ; do<br>		#Formatting<br>		for attr in 0 1 2 4 5 7 ; do<br>			#Print the result<br>			printf "\e[${attr};${clbg};${clfg}m ^[${attr};${clbg};${clfg}m \e[0m"<br>		done<br>		echo #Newline<br>	done<br>done<br><br>exit 0
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_89da248ff55f2b9b6e0507528421c180" id="comment_89da248ff55f2b9b6e0507528421c180"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(38).php" class="medialeft photo fn" title="Ralf" alt="Ralf" width="40" height="40"><span class="fn">Ralf</span></span>, <abbr class="published" title="2018-10-22T13:41:16Z">2018/10/22 13:41</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Very nice article, thumbs up!<br><br>However, I have a question about the 256 color table. I can see that there are colors with numbers from 0 to 256 which means, there actually are 257 colors (more that 8-bit) which made me wonder.<br><br>Then, I read your note:<br>"The colors number 256 is only supported by vte (GNOME Terminal, XFCE4 Terminal, Nautilus Terminal, Terminator,…)."<br><br>Do you mean the color with the number 256 or the amount of colors?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_d8b244b53ba3b7b7173646de8bb2103f" id="comment_d8b244b53ba3b7b7173646de8bb2103f"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2018-10-22T13:44:06Z">2018/10/22 13:44</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello, I mean the color number 256, and I do not know if it is a bug in VTE that allows us to use it or if it is a feature :)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_cdba50f4b773d8d340b96dbfc94e3cf6" id="comment_cdba50f4b773d8d340b96dbfc94e3cf6"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(38).php" class="medialeft photo fn" title="Ralf" alt="Ralf" width="40" height="40"><span class="fn">Ralf</span></span>, <abbr class="published" title="2018-10-22T13:54:47Z">2018/10/22 13:54</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Haha, hilarious! :D<br><br>Thanks for the information and the quick reply!
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_1325b87273191b77ba19c9101f0b5569" id="comment_1325b87273191b77ba19c9101f0b5569"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(39).php" class="medialeft photo fn" title="asky" alt="asky" width="40" height="40"><span class="fn">asky</span></span>, <abbr class="published" title="2018-10-26T04:54:24Z">2018/10/26 04:54</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+how to work this <br>for i in {16..21} {21..16} ; do echo -en "\e[38;5;${i}m#\e[0m" ; done ; echo<br>on fish shell?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_932601943a2a14c0727fb5daf4e2ec35" id="comment_932601943a2a14c0727fb5daf4e2ec35"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2018-10-26T07:19:08Z">2018/10/26 07:19</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+I have no idea, I never used Fish, sorry :(
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_d3a30163c52205af2ea75ed929f0c7be" id="comment_d3a30163c52205af2ea75ed929f0c7be"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(40).php" class="medialeft photo fn" title="Vivek" alt="Vivek" width="40" height="40"><span class="fn">Vivek</span></span>, <abbr class="published" title="2018-12-02T04:48:22Z">2018/12/02 04:48</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Nice article. Have been looking for a comprehensive document since a long time.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_2530f200471cedfadb1df96cf5deb80d" id="comment_2530f200471cedfadb1df96cf5deb80d"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(41).php" class="medialeft photo fn" title="ZaWertun" alt="ZaWertun" width="40" height="40"><span class="fn">ZaWertun</span></span>, <abbr class="published" title="2018-12-05T14:14:50Z">2018/12/05 14:14</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Konsole 18.08.3 supports strikeout with code 9, just checked it.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_967bfd2ec6ea45a4a63c3b01e855a8b1" id="comment_967bfd2ec6ea45a4a63c3b01e855a8b1"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(42).php" class="medialeft photo fn" title="Rafael" alt="Rafael" width="40" height="40"><span class="fn">Rafael</span></span>, <abbr class="published" title="2019-01-06T22:38:29Z">2019/01/06 22:38</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello all. Nice article. Just wanted to say thank you. Also i am just creating a basic PS1 generator using javascript. If anyone wants to give me his opinion feel free -&gt;https://github.com/alator21/z8 and demo here-&gt; http://alator21.github.io/z8
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_a64f377af58904e55729599e655c0f04" id="comment_a64f377af58904e55729599e655c0f04"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2019-01-07T07:57:06Z">2019/01/07 07:57</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Thank you for the sharing, I also made one long time ago, but it is more roots :) → https://misc.flogisoft.com/bash/tip_customize_the_shell_prompt
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_dfb50eaa8f663721a84f8fa74f51ccf8" id="comment_dfb50eaa8f663721a84f8fa74f51ccf8"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(43).php" class="medialeft photo fn" title="Eddy" alt="Eddy" width="40" height="40"><span class="fn">Eddy</span></span>, <abbr class="published" title="2019-03-21T04:29:21Z">2019/03/21 04:29</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Thank you for this! I put the following together to output a r̶a̶i̶n̶b̶o̶o̶o̶w̶ full-saturation spectrum sweep. Posting it here after finding only 2 existing google results for this sequence. This could be enhanced with block shading ░▒▓█▓▒░ to smear adjacent hues and/or cyclic movement.<br><br>for i in 21  27  33  39  45 51  50  49  48  47 46  82  118 154 190 226 220 214 208 202 196 197 198 199 200 201 165 129 93 57 21<br>do echo -en "\e[48;5;${i}m  \e[0m"; done<br><br>Result: https://i.imgur.com/XEfjQN8.png
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_9377cbcfd4b5282188845923e7886437" id="comment_9377cbcfd4b5282188845923e7886437"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(44).php" class="medialeft photo fn" title="Alexander Supertramp" alt="Alexander Supertramp" width="40" height="40"><span class="fn">Alexander Supertramp</span></span>, <abbr class="published" title="2019-03-21T14:57:08Z">2019/03/21 14:57</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+is there a way to echo text that is blinking while a script is running, then stop it once the script has finished? so the output screen is unblinking once the script has run?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_f09a2cb5131998a54c2cf0a376a8c8fc" id="comment_f09a2cb5131998a54c2cf0a376a8c8fc"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(45).php" class="medialeft photo fn" title="Im Ducking Bill Collectors Alimony Prison And Ass Kicking" alt="Im Ducking Bill Collectors Alimony Prison And Ass Kicking" width="40" height="40"><span class="fn">Im Ducking Bill Collectors Alimony Prison And Ass Kicking</span></span>, <abbr class="published" title="2019-05-15T09:25:06Z">2019/05/15 09:25</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Mark asked: One more question - how make colored backgroud to whole line?<br><br>I use:<br>alias r='tput setab 1; tput el; tput cud1; tput sgr0; tput ed'   # red line<br>alias g='tput setab 2; tput el; tput cud1; tput sgr0; tput ed'   # green line<br>(I'm on Debian 9.9.0, gnome-terminal.)<br><br>Your web page is very nice!  Excellent work!  Thank you.
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_123bac465ee381e7c7e6ee2cd2524a40" id="comment_123bac465ee381e7c7e6ee2cd2524a40"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(46).php" class="medialeft photo fn" title="MyName" alt="MyName" width="40" height="40"><span class="fn">MyName</span></span>, <abbr class="published" title="2019-05-26T05:32:27Z">2019/05/26 05:32</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Hello, i would like to join people that use out-of-Date Linux releases..., any websites or irc-channels ?
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_fc6344af77566a87fb65857357b68812" id="comment_fc6344af77566a87fb65857357b68812"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(47).php" class="medialeft photo fn" title="cedric" alt="cedric" width="40" height="40"><span class="fn">cedric</span></span>, <abbr class="published" title="2019-05-27T07:12:02Z">2019/05/27 07:12</abbr>, <abbr class="updated" title="2019-05-27T07:28:46Z">2019/05/27 07:28</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+use something like this is simple for the reader<br><br>bold="\e[1m"<br>inv="\e[7"<br>red="\e[31m"<br>green="\e[32m"<br>yellow="\e[33m"<br>reset="\e[0m"<br><br>echo -ne "${yellow}${bold}Yellow Bold${reset}"<br>echo Normal<br>echo -ne ${red}${bold}Red Bold{reset}<br>echo -ne ${inv}${bold}Inversed{reset}
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_8a12ad994c1910892a60029e6b5ad51d" id="comment_8a12ad994c1910892a60029e6b5ad51d"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(47).php" class="medialeft photo fn" title="Cedric " alt="Cedric " width="40" height="40"><span class="fn">Cedric </span></span>, <abbr class="published" title="2019-05-27T07:26:56Z">2019/05/27 07:26</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Error in my typing :<br><br>change echo by echo -ne
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="comment_replies" style="margin-left: 54px;">
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_691830d580d1234a0f165fd6e27974d6" id="comment_691830d580d1234a0f165fd6e27974d6"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/flozz.png" class="medialeft photo fn" title="Fabien LOISON" alt="Fabien LOISON" width="40" height="40"><span class="fn">Fabien LOISON</span></span>, <abbr class="published" title="2019-05-27T07:29:32Z">2019/05/27 07:29</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Done :)
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_6e6806426f73b210f80518b41ee2aa41" id="comment_6e6806426f73b210f80518b41ee2aa41"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(48).php" class="medialeft photo fn" title="paul" alt="paul" width="40" height="40"><span class="fn">paul</span></span>, <abbr class="published" title="2019-08-18T10:20:59Z">2019/08/18 10:20</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Works in Python or other terminal output.<br><br>  print("\033[032m grass is \033[0m<br><br>Also not limited to colors but works with mouse and keyboard interpretation (click move etc.).
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+    <div class="hentry">
+      <div class="comment_head">
+        <a name="comment_85e983a4b8a264d7bce8949ffd579c33" id="comment_85e983a4b8a264d7bce8949ffd579c33"></a>
+        <span class="vcard author"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/fetch(49).php" class="medialeft photo fn" title="Adam Danischewski" alt="Adam Danischewski" width="40" height="40"><span class="fn">Adam Danischewski</span></span>, <abbr class="published" title="2019-10-07T04:35:46Z">2019/10/07 04:35</abbr>
+      </div>
+      <div class="comment_body entry-content" style="margin-left: 54px;">
+Great overview!! I recently became interested in terminal colors and <br>wrote a lookup from ANSI 256 to RGB (decimal/hex) you may find it <br>interesting. <br><br>Feel free to hack it up and make use of it! <br>http://scriptsandoneliners.blogspot.com/2019/10/print-ansi-colors-in-rgb-hexdecimal.html
+      </div>
+      <div class="comment_buttons">
+      </div>
+    </div>
+            <div class="comment_form">
+                You could leave a comment if you were logged in.            </div>
+              </div>
+</div>
+
+    <!-- wikipage stop -->
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+  
+  <div class="stylefoot">
+
+    <div class="meta">
+      <div class="user">
+              </div>
+      <div class="doc">
+        <bdi>bash/tip_colors_and_formatting.txt</bdi> · Last modified: 2018/08/09 09:14 by <bdi>flozz</bdi>      </div>
+    </div>
+
+   
+    <div class="bar" id="bar__bottom">
+      <div class="bar-left" id="bar__bottomleft">
+                <form class="button btn_revs" method="get" action="https://misc.flogisoft.com/bash/tip_colors_and_formatting"><div class="no"><input type="hidden" name="do" value="revisions"><button type="submit" accesskey="o" title="Old revisions [O]">Old revisions</button></div></form>              </div>
+      <div class="bar-right" id="bar__bottomright">
+                                <form class="button btn_login" method="get" action="https://misc.flogisoft.com/bash/tip_colors_and_formatting"><div class="no"><input type="hidden" name="do" value="login"><input type="hidden" name="sectok" value=""><button type="submit" title="Log In">Log In</button></div></form>        <form class="button btn_index" method="get" action="https://misc.flogisoft.com/bash/tip_colors_and_formatting"><div class="no"><input type="hidden" name="do" value="index"><button type="submit" accesskey="x" title="Sitemap [X]">Sitemap</button></div></form>        <a class="nolink" href="https://misc.flogisoft.com/bash/tip_colors_and_formatting#dokuwiki__top"><input type="button" class="button" value="Back to top" onclick="window.scrollTo(0, 0)" title="Back to top"></a>&nbsp;
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+  </div>
+
+</div>
+<div id="footer">
+
+<div class="footerinc">
+
+	<p>© 2011 Fabien LOISON - <a href="http://www.flogisoft.com/">www.flogisoft.com</a></p>
+
+</div>
+
+<div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" class="urlextern">CC Attribution-Share Alike 4.0 International</a></bdi></div></div>
+
+<div class="no"><img src="./bash_tip_colors_and_formatting - FLOZz&#39; MISC_files/indexer.php" width="2" height="1" alt=""></div>
+
+
+</body><auto-scroll></auto-scroll></html>
