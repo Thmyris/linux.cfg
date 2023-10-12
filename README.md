@@ -30,10 +30,6 @@ This repo contains all the programs I use on a daily basis. The scripts here are
 6. Read [setup.txt](https://github.com/Thmyris/linux.cfg/blob/master/setup.txt)
 7. `./SELF_DESTRUCT` :)
 
-##### To do:
-
-- Create a lite setup for rasp-pi
-
 #### Changelog:
 
 ##### v4(Nov 2020):
