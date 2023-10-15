@@ -30,6 +30,10 @@ This repo contains all the programs I use on a daily basis. The scripts here are
 6. Read [setup.txt](https://github.com/Thmyris/linux.cfg/blob/master/setup.txt)
 7. `./SELF_DESTRUCT` :)
 
+##### To do:
+
+- Automate the setup of mount by UUID. Currently, user has to look UUID up and paste it in the script themselves.
+
 #### Changelog:
 
 ##### v4(Nov 2020):
