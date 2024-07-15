@@ -1,7 +1,7 @@
 #!/bin/bash
 # Name: beforesetup.sh for kali linux 2020.3
 # Author: Thmyris
-# Last update: 17.11.2020
+# Last update: 14.07.2024
 # About: This script is for unarchiving the files that were packaged to bypass github's mib limit. May require internet connection for 7z dependencies.
 #--------------------------------------------
 
@@ -27,7 +27,8 @@ echo "This script will only get the archived files out. This should take a min..
 
 #--------------------------------------------
 echo "Installing 7z to unzip 'bigfiles'. May require internet connection for dependencies."
-sudo apt install ./deb/p7zip_16.02+dfsg-7_amd64.deb
+cp ./deb/p7zip_16.02+dfsg-7_amd64.deb /tmp/.
+sudo apt install /tmp/p7zip_16.02+dfsg-7_amd64.deb
 echo "done"
 
 # assign number of bigfiles to a bash var

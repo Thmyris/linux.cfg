@@ -1,7 +1,7 @@
 #!/bin/bash
 # Name: setup.sh for kali linux 2020.3(last version with bash)
 # Author: Thmyris
-# Last update: 23.12.2020
+# Last update: 14.07.2024
 # About: This script requires sudo on several occasions and does require human intervention. Internet connection is required to install packages & dependencies.
 # Note: see setup.txt for things that need to be done manually.
 
@@ -61,10 +61,11 @@ echo "${bold}${red_bg}Installing Jdownloader2, needs user attention!${normal}"
 echo "${bold}${red_bg}done${normal}"
 
 #deb installs, internet connection required
-#NOTE on local .deb files: these are here for backup purposes. If case kali or debian repos don't have the package dependencies it most likely won't install. If you really wanna install .deb files locally, use:
+#NOTE on the local .deb files: These are here for backup purposes. In case kali or debian repos don't have the package dependencies they most likely won't install. If you really wanna install .deb files locally, use:
 #sudo gdebi FILE.deb
 #or if you are feeling adventurous:
 #yes | sudo gdebi FILE.deb
+#The deb files that HAS to be installed first starts with a. The deb files that need user interaction starts with a2, so we can get rid of them early on. The deb files that should be installed early starts with a3.
 
 echo "${bold}${red_bg}Installing these .deb files:${normal}"
 for f in deb/*.deb ; do echo $f; done
@@ -80,10 +81,10 @@ echo "."
 sleep 0.3
 echo "."
 sleep 0.2
-echo "${bold}${red_bg}No more user attention should be needed anymore. Kick back and enjoy.${normal}"
-sleep 3
-echo "${bold}${red_bg}Speeding up!${normal}"
+echo "${bold}${red_bg}No more user attention should be needed anymore. Kick back and enjoy.${normal}" 
 sleep 1
+echo "${bold}${red_bg}Speeding up!${normal}"
+sleep 3
 fi
 sudo apt install -y ./$f
 done

@@ -1,5 +1,7 @@
 ./files/anki-2.1.28-linux-amd64/bin/libQt5WebEngineCore.so.5
 ./files/SecLists/Passwords/Leaked-Databases/rockyou.txt
-./files/destreamer/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome
 ./files/rockyou_utf8.txt
 ./deb/atom-amd64.deb
+./deb/discord-0.0.59.deb
+./deb/a2.opera-stable_112.0.5197.24_amd64.deb
+./deb/a3.vivaldi-stable_6.8.3381.46-1_amd64.deb

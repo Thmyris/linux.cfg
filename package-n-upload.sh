@@ -1,7 +1,7 @@
 #!/bin/bash
 # Name: package-n-upload.sh
 # Author: Thmyris
-# Last update: 05.11.2020
+# Last update: 15.07.2024
 # About: This script automatically detects big files and packages them for github and optionally pushes all changes to the Thmyris/linux.cfg repository.
 #--------------------------------------------------
 
@@ -50,6 +50,6 @@ fi
 
 git add .
 git status
-read -p "Press enter to commit and upload. If not, please CTRL^C and 'git reset'."
-git commit -m "v4.4"
-git push origin master
+read -p "Press enter to commit and upload. If not, please CTRL^C and 'git reset'. Note that your commit message will be whatever the last comment was in this script."
+git commit -m "2024.2 initial update, more to come"
+git push origin 2024.2

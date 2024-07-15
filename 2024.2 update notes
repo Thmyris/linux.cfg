@@ -1,0 +1,5 @@
+Changelog for 2024.2 Branch:
+1. Installing local .deb files require them to be read by the `_apt` user now. Changed all scripts to copy .deb files to /tmp/. instead and install them from there (everyone can read from there).
+2. Renewed some of the local .deb files with updated versions.
+3. Changed `deb` package installations to use `gdebi` instead of `apt`.
+4. 
